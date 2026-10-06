@@ -1,0 +1,53 @@
+{
+ "I Form - Close": {
+  "POWER O": 1
+ },
+ "Pistol - Trips": {
+  "SNAG": 1
+ },
+ "Shotgun - 5WR Flex Trey": {
+  "DOUBLE SLANT": 1
+ },
+ "Shotgun - Ace Offset": {
+  "MTN HB SLIP SCREEN": 1
+ },
+ "Shotgun - Bunch Open Offset": {
+  "RELOAD Z SHALLOW CROSS": 1
+ },
+ "Shotgun - Bunch Spread": {
+  "LEVELS DIG": 2,
+  "SPEED OPTION": 1
+ },
+ "Shotgun - Doubles": {
+  "CURLS SLOT SHAKE": 1
+ },
+ "Shotgun - Flex Y Off Close": {
+  "TE WHEEL": 2
+ },
+ "Shotgun - Normal Y Off Close": {
+  "SNAG": 3,
+  "RPO ALERT OUT": 2,
+  "DOUBLE SLANT": 1,
+  "RPO PEEK SPOT": 1,
+  "TE WHEEL": 1
+ },
+ "Shotgun - Spread Dbl Flex": {
+  "CROSS H DIVIDE": 1
+ },
+ "Shotgun - Spread Y Slot Wk": {
+  "SNAG": 1
+ },
+ "Shotgun - Spread Y-Flex": {
+  "DRIVE": 1
+ },
+ "Shotgun - Trips Offset": {
+  "RPO ALERT ZONE BUBBLE": 2
+ },
+ "Shotgun - Trips TE": {
+  "HB SLIP SCREEN": 1,
+  "WR SHORT POST": 1
+ },
+ "Shotgun - Trips Y Slot Wk": {
+  "TRIPLE SLANT": 1
+ }
+}
