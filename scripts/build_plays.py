@@ -1,20 +1,20 @@
 """Turn per-second OCR of a CFB 26 game recording into a list of snaps.
 
-Inputs (per video, under $WORK/<video_id>/, produced by extract.sh):
+Inputs (per video, under data/ocr/<video_id>/, gzipped, produced by extract.sh):
   sb.tsv     OCR of the scoreboard strip, one line per second
   full.tsv   OCR of the whole frame (960px), one line per second
   panel.tsv  OCR of the "PREVIOUS PLAY" panel crop, one line per second
 
 Output: data/games/<video_id>.json  (see SCHEMA.md)
 """
-import json, os, re, sys
+import gzip, json, os, re, sys
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(__file__))
 import scoreboard
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WORK = os.environ.get('WORK', os.path.join(ROOT, 'work'))
+OCR = os.path.join(ROOT, 'data', 'ocr')
 
 DEF_SCREEN = re.compile(r'Stunts|D Audibles|Shell -|offense chooses|DEFENSE, ?PICK|DEFENSE AUTO-FLIPPED|COVERAGE ADJUSTMENTS|ZERO BLITZ|SHOW BLITZ', re.I)
 # "Flip Play" also appears in the defensive audible menu, so only count play-art tags and offense-only tabs
@@ -32,7 +32,7 @@ def load(path):
     rows = {}
     if not os.path.exists(path):
         return rows
-    for line in open(path):
+    for line in gzip.open(path, 'rt'):
         f, _, t = line.rstrip('\n').partition('\t')
         rows[int(f[:5]) - 1] = t
     return rows
@@ -89,9 +89,9 @@ def screen(line):
 
 
 def build(vid, meta):
-    sb = load(f"{WORK}/{vid}/sb.tsv")
-    full = load(f"{WORK}/{vid}/full.tsv")
-    pan = load(f"{WORK}/{vid}/panel.tsv")
+    sb = load(f"{OCR}/{vid}/sb.tsv.gz")
+    full = load(f"{OCR}/{vid}/full.tsv.gz")
+    pan = load(f"{OCR}/{vid}/panel.tsv.gz")
     n = max(sb) + 1 if sb else 0
 
     # 1. per-second state, forward-filling quarter / scores
