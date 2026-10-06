@@ -1,10 +1,21 @@
 # Data schema
 
-## data/videos.json
+All files below live in `opponents/<player>-<team>/`, one folder per opponent.
+
+## profile.json
 
 | field | example | meaning |
 |---|---|---|
-| id | `2026-10-04-ou` | short id, used for `work/<id>/` and `data/games/<id>.json` |
+| player | `Jason` | the person you play |
+| teams | `["Stanford"]` | team name(s) they use, as shown on the scoreboard (used to file new videos) |
+| video_dir | `"../jason-standford"` | folder with their recordings, relative to the repo root; `null` = none yet |
+| my_playbook | `3-3-5 Tite` | your defensive playbook against them |
+
+## videos.json
+
+| field | example | meaning |
+|---|---|---|
+| id | `2026-10-04-ou` | short id, used for `ocr/<id>/` and `games/<id>.json` |
 | file | `EA SPORTS™ College Football 26 2026-10-04 18-44-14.mp4` | recording file name |
 | date | `2026-10-04` | game date |
 | user_team | `Oklahoma` | the team you controlled (on defense against the scout) |
@@ -12,7 +23,7 @@
 | scout_side | `1` | scouted team's side of the scoreboard: 0 = left, 1 = right |
 | user_playbook | `3-3-5 Tite` | your defensive playbook |
 
-## data/games/&lt;id&gt;.json
+## games/&lt;id&gt;.json
 
 `{"video": <videos.json entry>, "snaps": [ ... ]}`. Each snap is one pre-snap scoreboard state, for both teams:
 
@@ -34,7 +45,7 @@
 | result | `gain`, `no_gain`, `loss`, `first_down`, `touchdown`, `field_goal`, `penalty?`, `turnover?`, `fourth_down_change`, `end_of_half`, `opponent_score` |
 | special_teams | true for FG / punt snaps |
 
-## data/plays.csv
+## plays.csv
 
 The scouted team's offensive snaps from all games, excluding special teams. It has the columns above, plus:
 
@@ -49,6 +60,6 @@ The scouted team's offensive snaps from all games, excluding special teams. It h
 | def_family_source | `panel` (confirmed) or `on-screen options` (all three plays on screen were the same family) |
 | success | True if the play gained 40% of the distance on 1st down, 60% on 2nd, or all of it on 3rd/4th |
 
-## data/formation_plays.json
+## formation_plays.json
 
 `{ "<formation>": { "<PLAY>": count, ... } }`. These are the plays confirmed by the panel from each formation. They drive the play guesses.

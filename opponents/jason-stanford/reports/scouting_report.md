@@ -1,4 +1,4 @@
-# Stanford offense scouting report
+# Jason (Stanford) — offense scouting report
 
 Source: 4 games, 181 offensive snaps (37 with the play confirmed by the PREVIOUS PLAY panel).
 

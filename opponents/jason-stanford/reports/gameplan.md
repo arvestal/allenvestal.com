@@ -1,4 +1,4 @@
-# Defensive game plan vs. Stanford (3-3-5 Tite)
+# Defensive game plan vs. Jason (Stanford) — 3-3-5 Tite
 
 Built from `scouting_report.md` (4 games, 181 Stanford snaps). Sample sizes per situation are small, so treat
 single-digit rows as hints, not proof. Re-run the pipeline after every game and update this file.

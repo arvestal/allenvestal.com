@@ -1,14 +1,18 @@
 """Enrich snaps (formation names, coverage family, play guesses) and write the scouting outputs.
 
-Reads  data/games/*.json            (from build_plays.py)
-Writes data/plays.csv               one row per scouted-team snap, all games
-       data/formation_plays.json    formation -> plays seen from it (the guess model)
-       reports/scouting_report.md   tendencies + down & distance plan
+Per opponent, under opponents/<opp>/:
+Reads  games/*.json                 (from build_plays.py)
+Writes plays.csv                    one row per scouted-team snap, all games
+       formation_plays.json         formation -> plays seen from it (the guess model)
+       reports/scouting_report.md   tendencies by down & distance, coverage, play, formation
+
+    python3 scripts/analyze.py [--opponent jason]   (default: every opponent)
 """
-import csv, difflib, glob, json, os, re
+import argparse, csv, difflib, glob, json, os, re, sys
 from collections import Counter, defaultdict
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(__file__))
+import opponents
 
 FORMATIONS = [
     'Shotgun - Normal Y Off Close', 'Shotgun - Flex Y Off Close', 'Shotgun - Bunch Spread',
@@ -75,7 +79,18 @@ def success(s):
 
 
 def main():
-    games = [json.load(open(f)) for f in sorted(glob.glob(os.path.join(ROOT, 'data', 'games', '*.json')))]
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--opponent')
+    for opp in opponents.resolve(ap.parse_args().opponent):
+        analyze(opp)
+
+
+def analyze(opp):
+    prof = opponents.profile(opp)
+    games = [json.load(open(f)) for f in sorted(glob.glob(opponents.path(opp, 'games', '*.json')))]
+    if not games:
+        print(f"{opp}: no games yet")
+        return
     rows = []
     for g in games:
         v = g['video']
@@ -124,17 +139,17 @@ def main():
 
     # ---- outputs
     json.dump({f: dict(c.most_common()) for f, c in sorted(form_plays.items())},
-              open(os.path.join(ROOT, 'data', 'formation_plays.json'), 'w'), indent=1)
+              open(opponents.path(opp, 'formation_plays.json'), 'w'), indent=1)
     cols = ['video_id', 'video_file', 'timestamp', 'opponent', 'qtr', 'clock', 'down', 'dist', 'ytg', 'bucket',
             'formation', 'off_personnel', 'off_play', 'play_source', 'off_play_guess', 'guess_basis',
             'def_play', 'def_family', 'def_family_source', 'def_candidates', 'yards', 'result', 'success', 'panel_timestamp']
-    with open(os.path.join(ROOT, 'data', 'plays.csv'), 'w', newline='') as f:
+    with open(opponents.path(opp, 'plays.csv'), 'w', newline='') as f:
         w = csv.writer(f)
         w.writerow(cols)
         for s in rows:
             w.writerow(['; '.join(s[c]) if isinstance(s.get(c), list) else ('' if s.get(c) is None else s[c]) for c in cols])
-    write_report(rows, form_plays)
-    print(len(rows), 'snaps ->', 'data/plays.csv, data/formation_plays.json, reports/scouting_report.md')
+    write_report(opp, prof, rows, form_plays)
+    print(f"{opp}: {len(rows)} snaps -> opponents/{opp}/plays.csv, formation_plays.json, reports/scouting_report.md")
 
 
 def stats(ss):
@@ -160,10 +175,10 @@ BUCKET_ORDER = ['1st & 10+', '1st & short', '2nd & short (1-3)', '2nd & medium (
                 '4th & medium (4-6)', '4th & long (7+)', 'Goal to go / inside 10']
 
 
-def write_report(rows, form_plays):
+def write_report(opp, prof, rows, form_plays):
     L = []
     o = stats(rows)
-    L += ['# Stanford offense scouting report', '',
+    L += [f"# {prof['player']} ({' / '.join(prof['teams'])}) — offense scouting report", '',
           f"Source: {len({s['video_id'] for s in rows})} games, {o['n']} offensive snaps "
           f"({sum(1 for s in rows if s.get('off_play'))} with the play confirmed by the PREVIOUS PLAY panel).", '',
           'Columns: **n** snaps | **avg** yards per play | **succ** success rate (40% of the distance on 1st down, 60% on 2nd, '
@@ -226,7 +241,8 @@ def write_report(rows, form_plays):
         dc = s.get('def_play') or s.get('def_family') or '–'
         L.append(f"| {s['video_id']} | {s['timestamp']} | {s['down']} & {s['dist']} at {s['ytg']} | {s.get('formation') or '–'} | "
                  f"{play.title()} | {dc.title()} | {s['yards']} | {s['result']} |")
-    open(os.path.join(ROOT, 'reports', 'scouting_report.md'), 'w').write('\n'.join(L) + '\n')
+    os.makedirs(opponents.path(opp, 'reports'), exist_ok=True)
+    open(opponents.path(opp, 'reports', 'scouting_report.md'), 'w').write('\n'.join(L) + '\n')
 
 
 if __name__ == '__main__':

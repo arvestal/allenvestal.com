@@ -10,44 +10,58 @@ The pipeline reads the game recordings and pulls out:
 - **Your coverage family** when the panel isn't shown. The three plays on your screen usually come from one concept tab (used only when all three match).
 - **A guess at the opponent's play** when the panel isn't shown, based on what he has run from that formation before.
 
-Current scout: **Stanford** (opponent), seen from the user's North Texas / Oklahoma games running a **3-3-5 Tite** defense.
+**Analysis is isolated per opponent** (a person plus the team they use). Each opponent has their own folder with their
+own games, report and game plan:
+
+| Opponent | Team | Status |
+|---|---|---|
+| `jason-stanford` | Stanford | 4 games, 181 snaps — see `opponents/jason-stanford/reports/` |
+| `mike-iowa` | Iowa | profile only, no usable recordings yet (GoPro footage isn't used) |
 
 ## Layout
 
 ```
-data/
-  config.json            scouted team, video folder, your playbook
-  videos.json            one entry per recording (id, file, teams, which side of the scoreboard the scouted team is on)
-  ocr/<id>/*.tsv.gz      raw per-second OCR of each recording; everything else is rebuilt from this
-  games/<id>.json        every snap from that recording, both teams (output of build_plays.py)
-  plays.csv              scouted team's offensive snaps, all games, flat (output of analyze.py)
+opponents/<player>-<team>/
+  profile.json           player name, team(s) as shown on the scoreboard, video folder, your playbook
+  videos.json            one entry per recording (id, file, teams, which side of the scoreboard they're on)
+  ocr/<video>/*.tsv.gz   raw per-second OCR of each recording; everything else is rebuilt from this
+  games/<video>.json     every snap from that recording, both teams (output of build_plays.py)
+  plays.csv              their offensive snaps, all games, flat (output of analyze.py)
   formation_plays.json   formation -> plays confirmed from it (the guess model)
-reports/
-  scouting_report.md     generated tendencies tables (by down & distance, coverage, play, formation, big plays)
-  gameplan.md            hand-written defensive plan built from the report
+  reports/
+    scouting_report.md   generated tendencies tables (by down & distance, coverage, play, formation, big plays)
+    gameplan.md          hand-written defensive plan built from the report
+unassigned.json          processed videos whose scoreboard matched no opponent (OCR kept in unassigned/)
 scripts/
-  process_new.py         finds new recordings, extracts them, detects teams, registers them, rebuilds
-  extract.sh             video -> 1 fps frames -> OCR (data/ocr/<id>/)
+  opponents.py           opponent registry helpers
+  process_new.py         finds new recordings in every opponent's folder, files them by scoreboard team, rebuilds
+  extract.sh             video -> 1 fps frames -> OCR
   ocr.swift              macOS Vision OCR; prints "midX,midY@text" tokens per frame
   scoreboard.py          parses the scoreboard strip
-  build_plays.py         OCR -> snaps (data/games/*.json)
-  analyze.py             snaps -> plays.csv, formation_plays.json, scouting_report.md
+  build_plays.py         OCR -> snaps                                   [--opponent X]
+  analyze.py             snaps -> plays.csv, formation_plays.json, report [--opponent X]
 SCHEMA.md                field-by-field description of the data files
 ```
 
 Videos and `work/` (temporary frames) are git-ignored. **The videos aren't needed after processing.** The raw OCR in
-`data/ocr/` is enough to rebuild every output, including after parser improvements. What you lose by deleting a video
+`opponents/*/ocr/` is enough to rebuild every output, including after parser improvements. What you lose by deleting a video
 is the ability to look at its frames again or extract something new from the picture (for example, routes).
 
 ## Adding new games
 
-Drop the recordings in the video folder (`video_dir` in `data/config.json`, which defaults to the folder above this repo). Then either:
+Drop console screen captures in the opponent's video folder (`video_dir` in their `profile.json`; Jason's is
+`../jason-standford`). Each video is filed by the team on the scoreboard, so a game in the wrong folder still lands in
+the right place. Then either:
 
-- **In Claude Code**, start it in this repo (`cd cf26-scouting && claude`) and run **`/scout-new-games`**. It processes
-  the videos, checks the results, updates `reports/gameplan.md`, and commits and pushes.
-- **Manually:** run `python3 scripts/process_new.py`. That takes about 10 minutes per hour of 1080p video, and you can add `--dry-run` to just list new files.
+- **In Claude Code**, start it in this repo (`cd cf26-scouting && claude`) and run **`/scout-new-games`**, or
+  `/scout-new-games jason` for one opponent. It processes the videos, checks the results, updates that opponent's
+  `gameplan.md`, and commits and pushes.
+- **Manually:** run `python3 scripts/process_new.py [--opponent jason] [--dry-run]`. That takes about 10 minutes per hour of 1080p video.
 
-To rebuild after changing a parser: `python3 scripts/build_plays.py && python3 scripts/analyze.py`.
+**New opponent:** create `opponents/<player>-<team>/profile.json` (copy Jason's and edit it) plus `videos.json` containing `[]`,
+or just ask Claude to add them.
+
+To rebuild after changing a parser: `python3 scripts/build_plays.py && python3 scripts/analyze.py` (all opponents).
 
 Requirements: macOS (Vision framework for OCR, `swiftc`), `ffmpeg`, Python 3.9+ (standard library only).
 

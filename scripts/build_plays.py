@@ -1,20 +1,21 @@
 """Turn per-second OCR of a CFB 26 game recording into a list of snaps.
 
-Inputs (per video, under data/ocr/<video_id>/, gzipped, produced by extract.sh):
+Inputs (per video, under opponents/<opp>/ocr/<video_id>/, gzipped, produced by extract.sh):
   sb.tsv     OCR of the scoreboard strip, one line per second
   full.tsv   OCR of the whole frame (960px), one line per second
   panel.tsv  OCR of the "PREVIOUS PLAY" panel crop, one line per second
 
-Output: data/games/<video_id>.json  (see SCHEMA.md)
+Output: opponents/<opp>/games/<video_id>.json  (see SCHEMA.md)
+
+    python3 scripts/build_plays.py [--opponent jason]   (default: every opponent)
 """
 import gzip, json, os, re, sys
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(__file__))
 import scoreboard
+import opponents
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OCR = os.path.join(ROOT, 'data', 'ocr')
 
 DEF_SCREEN = re.compile(r'Stunts|D Audibles|Shell -|offense chooses|DEFENSE, ?PICK|DEFENSE AUTO-FLIPPED|COVERAGE ADJUSTMENTS|ZERO BLITZ|SHOW BLITZ', re.I)
 # "Flip Play" also appears in the defensive audible menu, so only count play-art tags and offense-only tabs
@@ -88,10 +89,11 @@ def screen(line):
     return info
 
 
-def build(vid, meta):
-    sb = load(f"{OCR}/{vid}/sb.tsv.gz")
-    full = load(f"{OCR}/{vid}/full.tsv.gz")
-    pan = load(f"{OCR}/{vid}/panel.tsv.gz")
+def build(opp, vid, meta):
+    ocr = opponents.path(opp, 'ocr', vid)
+    sb = load(f"{ocr}/sb.tsv.gz")
+    full = load(f"{ocr}/full.tsv.gz")
+    pan = load(f"{ocr}/panel.tsv.gz")
     n = max(sb) + 1 if sb else 0
 
     # 1. per-second state, forward-filling quarter / scores
@@ -263,12 +265,15 @@ def build(vid, meta):
 
 
 def main():
-    videos = json.load(open(os.path.join(ROOT, 'data', 'videos.json')))
-    os.makedirs(os.path.join(ROOT, 'data', 'games'), exist_ok=True)
-    for v in videos:
-        snaps = build(v['id'], v)
-        json.dump({'video': v, 'snaps': snaps}, open(os.path.join(ROOT, 'data', 'games', f"{v['id']}.json"), 'w'), indent=1)
-        print(v['id'], len(snaps), 'snaps')
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--opponent')
+    for opp in opponents.resolve(ap.parse_args().opponent):
+        os.makedirs(opponents.path(opp, 'games'), exist_ok=True)
+        for v in opponents.videos(opp):
+            snaps = build(opp, v['id'], v)
+            json.dump({'video': v, 'snaps': snaps}, open(opponents.path(opp, 'games', f"{v['id']}.json"), 'w'), indent=1)
+            print(opp, v['id'], len(snaps), 'snaps')
 
 
 if __name__ == '__main__':

@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # Extract 1 fps frames from a CFB 26 recording and OCR them.
-#   usage: scripts/extract.sh <video_id> "<path to video.mp4>"
-# Writes data/ocr/<video_id>/{sb,full,panel}.tsv.gz for build_plays.py.
-# Frames go to work/<video_id>/ and are deleted afterwards unless KEEP_FRAMES=1.
+#   usage: scripts/extract.sh <output dir> "<path to video.mp4>"
+# Writes <output dir>/{sb,full,panel}.tsv.gz for build_plays.py (normally opponents/<opp>/ocr/<video_id>).
+# Frames go to work/<name of output dir>/ and are deleted afterwards unless KEEP_FRAMES=1.
 # Needs ffmpeg (brew install ffmpeg) and macOS (Vision OCR via swiftc).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-ID="$1"; VIDEO="$2"
-W="$ROOT/work/$ID"; OUT="$ROOT/data/ocr/$ID"
+OUT="$1"; VIDEO="$2"
+W="$ROOT/work/$(basename "$OUT")"
 mkdir -p "$W"/{sb,full,panel} "$OUT" "$ROOT/bin"
 
 [ -x "$ROOT/bin/ocr" ] || swiftc -O "$ROOT/scripts/ocr.swift" -o "$ROOT/bin/ocr"
