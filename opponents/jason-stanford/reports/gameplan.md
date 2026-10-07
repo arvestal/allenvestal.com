@@ -50,6 +50,12 @@ Notes:
 - Most "Results vs. your calls" cells are 1–4 plays. Weigh them alongside the overall coverage numbers above.
 - Cover 2 Man isn't in 3-3-5 Mint; it showed up on your screen under **Nickel 3-3 Over**, **Nickel 2-4 Load** and **Dime Rush**.
 
+## Coach adjustments (all plays)
+
+- Zone Drops – Hooks: about 8–10 yards. Zone Drops – Curl Flats: about 7–8 yards. Safety Width: narrower.
+- Safety Midpoint: shift toward the field (he attacks the wide side).
+- Tackling: Conservative. Much of his yardage comes after the catch on short throws.
+
 ## Calls by down & distance
 
 | Situation | His numbers | Call (3-3-5 Tite) | Avoid |
@@ -62,9 +68,3 @@ Notes:
 | **3rd & medium (4-6)** | converts 5/5, 18.0 avg | Cover 2 Man press + **Sticks** coverage adjustment | Cover 3 (Snag went for 41) |
 | **3rd & long (7+)** | 15.3 avg, 67% success | Cover 6 / Cover 2 Man, rush 3, **Sticks** adjustment, user the middle LB | Tampa 2 (Drive 34), Double Bracket (Snag 20) |
 | **Red zone / goal to go** | 3.0 avg, 12 TDs on 25 snaps | Cover 2 Man press / Cover 1 Hole press — the short field takes away the deep shots | Cover 6/9 (4 TDs on 6) |
-
-## Coach adjustments (all plays)
-
-- Zone Drops – Hooks: about 8–10 yards. Zone Drops – Curl Flats: about 7–8 yards. Safety Width: narrower.
-- Safety Midpoint: shift toward the field (he attacks the wide side).
-- Tackling: Conservative. Much of his yardage comes after the catch on short throws.

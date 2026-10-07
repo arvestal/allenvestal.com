@@ -37,6 +37,12 @@ play in the **Call** column. Play names are from your playbook as they appeared 
 | **Singleback - Ace** | 1 RB, 2 TE, 2 WR | **Nickel Double Mug: Cover 3 Seam** — no Cover 1 here | Prevent 3 Deep: Cover 3 on 3rd & long | – (guess: TE Option) | 5% | 53-yard TD | Cover 1: 53-yard TD |
 | **No banner (hurry-up)** | – | **Nickel Double Mug: Cover 3 Seam** as your default audible | – | – | 65% of snaps | – | – |
 
+## Coach adjustments
+
+- Zone Drops – Hooks: deeper than default (about 8–10 yards), so hook defenders sit in the TE seam and stick windows.
+- Tackling: Conservative. His explosive plays came after the catch on TE routes.
+- No field/boundary tendency is known yet. Revisit after more games.
+
 ## Calls by down & distance
 
 | Situation | His numbers | Call | Avoid |
@@ -47,12 +53,6 @@ play in the **Call** column. Play names are from your playbook as they appeared 
 | **3rd & short** | 9.5 avg | Nickel 3-3 Over: Cover 2 Man, press | – |
 | **3rd & medium / long** | 32.0 and 7.3 avg | **Cover 3 Seam** or **Prevent 3 Deep: Cover 3** on 3rd & 10+ | Cover 1 (53-yard TD on 3rd & 6), Mid Blitz 0 (15 on 3rd & 15) |
 | **Red zone / goal to go** | 2.2 avg, 25% success | Keep doing what you did: Cover 3 / pressure was fine here | – |
-
-## Coach adjustments
-
-- Zone Drops – Hooks: deeper than default (about 8–10 yards), so hook defenders sit in the TE seam and stick windows.
-- Tackling: Conservative. His explosive plays came after the catch on TE routes.
-- No field/boundary tendency is known yet. Revisit after more games.
 
 ## Open questions (fill in as more games come in)
 
