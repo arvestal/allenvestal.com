@@ -6,7 +6,7 @@ opponent whose team is on the scoreboard, and rebuild that opponent's data and r
 Videos whose scoreboard shows no known opponent team are listed in unassigned.json (so they aren't
 re-extracted every run) and their OCR is kept under unassigned/<name>/ in case a profile is added later.
 """
-import argparse, gzip, json, os, re, shutil, subprocess, sys
+import argparse, difflib, gzip, json, os, re, shutil, subprocess, sys
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -32,16 +32,41 @@ def team_names(sb_gz):
     return (left.most_common(1)[0][0] if left else None, right.most_common(1)[0][0] if right else None)
 
 
+def same_team(team, name):
+    """Scoreboard name vs profile team. Tolerates a one-letter OCR slip ("TOWA" = IOWA) but not a different
+    team that contains the name ("NORTH TEXAS" is not TEXAS)."""
+    a, b = team.upper(), (name or '').strip().upper()
+    return a == b or (len(a) == len(b) and difflib.SequenceMatcher(None, a, b).ratio() >= 0.75)
+
+
 def match(left, right, ids, preferred=None):
     """Which opponent profile has a team on this scoreboard? -> (opp, side of the opponent's team)."""
     hits = []
     for opp in ids:
         for team in opponents.profile(opp)['teams']:
-            for side, name in ((0, left or ''), (1, right or '')):
-                if team.upper() == name.strip():  # exact, so "Texas" doesn't claim "North Texas"
+            for side, name in ((0, left), (1, right)):
+                if same_team(team, name):
                     hits.append((opp, side))
     hits.sort(key=lambda h: h[0] != preferred)  # the folder the video was found in wins ties
     return hits[0] if hits else (None, None)
+
+
+def register(opp, side, left, right, f, date, ocr_dir):
+    """Move a processed recording's OCR under the opponent and add it to their videos.json."""
+    prof = opponents.profile(opp)
+    vids = opponents.videos(opp)
+    my_team = ((right if side == 0 else left) or 'unknown').title()
+    vid = f"{date}-{slug(my_team)}"
+    while any(v['id'] == vid for v in vids):
+        vid += '-2'
+    dest = opponents.path(opp, 'ocr', vid)
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    os.rename(ocr_dir, dest)
+    team = prof['teams'][0] if any(same_team(t, left if side == 0 else right) for t in prof['teams']) else (left if side == 0 else right).title()
+    vids.append({'id': vid, 'file': f, 'date': date, 'user_team': my_team, 'scout_team': team,
+                 'scout_side': side, 'user_playbook': prof.get('my_playbook', '')})
+    opponents.save_videos(opp, vids)
+    print(f'   -> {opp}/{vid}: you ({my_team}) vs {prof["player"]} ({team})')
 
 
 def slug(s):
@@ -56,6 +81,24 @@ def main():
 
     ids = opponents.all_ids()
     unassigned = json.load(open(UNASSIGNED)) if os.path.exists(UNASSIGNED) else []
+    touched = set()
+
+    # earlier recordings that matched nobody: file them now if a profile matches (no re-extraction)
+    still = []
+    for u in unassigned:
+        opp, side = match(*u['teams'], ids)
+        if opp and not args.dry_run:
+            print(f"== {u['file']} (previously unassigned: {u['teams'][0]} vs {u['teams'][1]})")
+            m = re.search(r'(\d{4}-\d{2}-\d{2})', u['file'])
+            register(opp, side, *u['teams'], u['file'], m[1] if m else 'unknown-date', os.path.join(ROOT, u['ocr']))
+            touched.add(opp)
+        else:
+            if opp:
+                print(f"  [{opp}] {u['file']} (previously unassigned, will be filed)")
+            still.append(u)
+    if len(still) != len(unassigned):
+        unassigned = still
+        json.dump(unassigned, open(UNASSIGNED, 'w'), indent=1, ensure_ascii=False)
     known = {v['file'] for o in ids for v in opponents.videos(o)} | {u['file'] for u in unassigned}
 
     todo, seen = [], set()  # (folder owner, folder, file)
@@ -71,7 +114,7 @@ def main():
             if f.lower().endswith(VIDEO_EXT) and f not in known and (d, f) not in seen:
                 seen.add((d, f))
                 todo.append((opp, d, f))
-    if not todo:
+    if not todo and not touched:
         print('No new videos.')
         return
     print('New videos:')
@@ -79,10 +122,9 @@ def main():
         print(f'  [{opp}] {f}')
     if args.dry_run:
         return
-    if not shutil.which('ffmpeg'):
+    if todo and not shutil.which('ffmpeg'):
         sys.exit('ffmpeg not found: brew install ffmpeg')
 
-    touched = set()
     for folder_opp, d, f in todo:
         m = re.search(r'(\d{4}-\d{2}-\d{2}) (\d{2})-(\d{2})', f)
         date = m[1] if m else 'unknown-date'
@@ -104,25 +146,14 @@ def main():
             continue
         if opp != folder_opp:
             print(f"   note: found in {folder_opp}'s folder but the scoreboard says {opp}")
-        prof = opponents.profile(opp)
-        vids = opponents.videos(opp)
-        my_team = ((right if side == 0 else left) or 'unknown').title()
-        vid = f"{date}-{slug(my_team)}"
-        while any(v['id'] == vid for v in vids):
-            vid += '-2'
-        dest = opponents.path(opp, 'ocr', vid)
-        os.makedirs(os.path.dirname(dest), exist_ok=True)
-        os.rename(tmp, dest)
-        vids.append({'id': vid, 'file': f, 'date': date, 'user_team': my_team,
-                     'scout_team': (left if side == 0 else right).title(), 'scout_side': side,
-                     'user_playbook': prof.get('my_playbook', '')})
-        opponents.save_videos(opp, vids)
+        register(opp, side, left, right, f, date, tmp)
         touched.add(opp)
-        print(f'   -> {opp}/{vid}: you ({my_team}) vs {prof["player"]} ({vids[-1]["scout_team"]})')
 
     for opp in sorted(touched):
         for script in ('build_plays.py', 'analyze.py'):
             subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', script), '--opponent', opp], check=True)
+    if touched:
+        subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'render_html.py')], check=True)
 
 
 if __name__ == '__main__':

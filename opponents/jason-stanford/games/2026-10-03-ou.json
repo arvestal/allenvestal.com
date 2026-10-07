@@ -321,6 +321,7 @@
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Flex YOff Close",
+   "off_personnel": "1RB 1TE 3WR",
    "def_candidates": [
     "SLANT: RS"
    ],
@@ -502,6 +503,7 @@
    ],
    "screen": "DEF",
    "off_formation": "hotgun - Irips",
+   "off_personnel": "1RB 1TE 3WR",
    "def_candidates": [
     "3-5 MIN: 1 DOUBLE WR1"
    ],
@@ -985,6 +987,7 @@
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Bunch Spread",
+   "off_personnel": "1RB 1TE 3WR",
    "def_candidates": [
     "SHOW 3: RS"
    ],
@@ -1718,6 +1721,7 @@
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Nom",
+   "off_personnel": "1RB 1TE 3WR",
    "def_candidates": [
     "3-5 MINT: COVER 9",
     "13-5 MINT: COVER 6 WILLIE"

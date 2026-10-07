@@ -6,6 +6,39 @@ Columns: **n** snaps | **avg** yards per play | **succ** success rate (40% of th
 
 **Overall:** n 181 · 10.3 yds/play · 70% success · 28% explosive · 26 TD
 
+## Pre-snap read (from the "DEFENSE, PICK A PLAY!" banner)
+
+What he does from each formation, and how each of your coverages did against it (n / avg yards allowed).
+
+| Formation (banner) | Personnel | Share | n | avg | succ | expl | TD | His plays from it (confirmed) | Your coverage vs it |
+|---|---|---|---|---|---|---|---|---|---|
+| Shotgun - Normal Y Off Close | 1RB 1TE 3WR | 19% | 18 | 11.6 | 72% | 39% | 4 | Snag (3), Rpo Alert Out (2), Double Slant (1), Rpo Peek Spot (1), Te Wheel (1) | Cover 6/9: 2 / 0.0, Cover 2 Man: 2 / 8.5, Blitz/Pressure: 1 / 9.0, Double/Bracket: 1 / 20.0, Cover 4: 1 / 22.0, Cover 3: 3 / 27.7 |
+| Shotgun - Bunch Spread | 1RB 1TE 3WR | 11% | 11 | 7.4 | 60% | 20% | 0 | Levels Dig (2), Speed Option (1) | Cover 4: 4 / 2.5, Cover 2 Zone: 1 / 8.0, Blitz/Pressure: 1 / 17.0 |
+| Shotgun - Flex Y Off Close | 1RB 2TE 2WR | 8% | 8 | 3.9 | 62% | 12% | 2 | Te Wheel (2) | Cover 2 Zone: 2 / -1.0, Blitz/Pressure: 1 / 13.0 |
+| Shotgun - Spread Dbl Flex | 1RB 1TE 3WR | 7% | 7 | 12.7 | 71% | 43% | 1 | Cross H Divide (1) | Cover 6/9: 1 / 1.0, Cover 1: 1 / 20.0 |
+| Shotgun - Trips Offset | 1RB 0TE 4WR | 6% | 6 | 13.2 | 100% | 50% | 0 | Rpo Alert Zone Bubble (2) | Cover 3: 2 / 9.0 |
+| I Form - Close | 2RB 1TE 2WR | 5% | 5 | 8.4 | 80% | 20% | 1 | Power O (1) | Cover 4: 1 / 6.0, Cover 2 Man: 1 / 8.0 |
+| Shotgun - 5WR | 1RB 1TE 3WR | 5% | 5 | 24.4 | 80% | 40% | 2 | – | Cover 4: 1 / 75.0 |
+| Shotgun - Spread Y-Flex | 1RB 2TE 2WR | 4% | 4 | 18.0 | 100% | 50% | 1 | Drive (1) | Tampa 2: 1 / 34.0 |
+| Shotgun - Trips Y Slot Wk | 2RB 1TE 2WR | 4% | 4 | 9.2 | 50% | 50% | 0 | Triple Slant (1) | Cover 3: 1 / 0.0 |
+| Shotgun - Bunch Open Offset | 1RB 1TE 3WR | 4% | 4 | 9.3 | 67% | 33% | 0 | Reload Z Shallow Cross (1) | Cover 3: 1 / 4.0, Cover 2 Man: 1 / 5.0 |
+| Shotgun - Doubles HB Wk | 1RB 2TE 2WR | 3% | 3 | -0.3 | 33% | 0% | 0 | – | – |
+| Shotgun - Trio Rt Open | 1RB 2TE 2WR | 3% | 3 | 5.0 | 50% | 0% | 1 | – | – |
+| Shotgun - Trips TE | 1RB 1TE 3WR | 3% | 3 | 15.7 | 100% | 33% | 1 | Hb Slip Screen (1), Wr Short Post (1) | Cover 2 Zone: 1 / 12.0, Cover 3: 2 / 17.5 |
+| Shotgun - Bunch Str Offset | 1RB 2TE 2WR | 2% | 2 | 3.0 | 50% | 0% | 0 | – | Cover 3: 1 / 0.0 |
+| Shotgun - Spread Y Slot Wk | – | 2% | 2 | 15.0 | 100% | 50% | 0 | Snag (1) | Cover 2 Man: 1 / 11.0 |
+| Shotgun - Doubles | 1RB 2TE 2WR | 2% | 2 | 22.0 | 100% | 100% | 0 | Curls Slot Shake (1) | Cover 2 Man: 1 / 21.0, Cover 3: 1 / 23.0 |
+| Shotgun - Ace Offset | 1RB 2TE 2WR | 2% | 2 | 6.5 | 50% | 0% | 0 | Mtn Hb Slip Screen (1) | Cover 4: 1 / 13.0 |
+| I Form - Pro | – | 1% | 1 | 8.0 | 100% | 0% | 0 | – | – |
+| Goal Line Offense - Normal | 1RB 3TE 0WR | 1% | 1 | 4.0 | 100% | 0% | 0 | – | – |
+| Shotgun - Y Off Trips Wk | – | 1% | 1 | 62.0 | 100% | 100% | 1 | – | – |
+| Shotgun - Bunch TE | – | 1% | 1 | 0.0 | 0% | 0% | 0 | – | – |
+| Shotgun - 5WR Flex Trey | – | 1% | 1 | 6.0 | 0% | 0% | 0 | Double Slant (1) | Cover 3: 1 / 6.0 |
+| Shotgun - Box | 1RB 1TE 3WR | 1% | 1 | 12.0 | 100% | 0% | 1 | – | Cover 6/9: 1 / 12.0 |
+| Pistol - Trips | 1RB 2TE 2WR | 1% | 1 | 1.0 | 0% | 0% | 0 | Snag (1) | Cover 2 Man: 1 / 1.0 |
+
+96 of 181 snaps had the banner on screen (the rest were hurry-up or you skipped the screen).
+
 ## By down & distance
 
 | Situation | n | avg | succ | expl | TD | His top calls (confirmed) | His top formations |

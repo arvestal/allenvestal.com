@@ -1,7 +1,8 @@
 {
  "player": "Mike",
- "teams": ["Iowa"],
- "video_dir": null,
- "my_playbook": "3-3-5 Tite",
- "notes": "No usable recordings yet. The files in ../mike-iowa are GoPro footage of the TV and are not used. Set video_dir once there are console screen captures."
+ "teams": [
+  "Iowa"
+ ],
+ "video_dir": "../mike-iowa",
+ "my_playbook": "3-3-5 Tite"
 }

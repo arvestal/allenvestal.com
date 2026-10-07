@@ -22,6 +22,9 @@ FORMATIONS = [
     'Shotgun - Trio Rt Open', 'Shotgun - Ace Offset', 'Shotgun - Doubles', 'Shotgun - Doubles HB Wk',
     'Shotgun - 5WR', 'Shotgun - 5WR Flex Trey', 'Shotgun - Box', 'Pistol - Trips',
     'I Form - Close', 'I Form - Pro', 'Goal Line Offense - Normal', 'Field Goal', 'Punt',
+    'Singleback - Ace', 'Singleback - Ace Close', 'Singleback - Deuce Close', 'Singleback - Wing Tight',
+    'Singleback - Wing Pair', 'Singleback - Doubles', 'Singleback - Trips', 'Singleback - Bunch',
+    'Gun - Ace Slot', 'Pistol - Ace', 'Pistol - Strong',
 ]
 _norm = lambda s: re.sub(r'[^a-z0-9]', '', s.lower())
 _FN = {_norm(f): f for f in FORMATIONS}
@@ -35,11 +38,18 @@ def canon_formation(raw):
         return None
     n = _norm(raw)
     best = max(_FN, key=lambda k: difflib.SequenceMatcher(None, n, k).ratio())
-    if difflib.SequenceMatcher(None, n, best).ratio() >= 0.6:
+    if difflib.SequenceMatcher(None, n, best).ratio() >= 0.75:
         return _FN[best]
     # truncated prefix, e.g. "Form - Clos" -> "I Form - Close"
     hits = [k for k in _FN if n and n[:6] in k]
-    return _FN[hits[0]] if len(hits) == 1 else None
+    if len(hits) == 1:
+        return _FN[hits[0]]
+    if difflib.SequenceMatcher(None, n, best).ratio() >= 0.6:
+        return _FN[best]
+    # unknown formation: keep the banner text (cleaned) rather than dropping it; add it to FORMATIONS when seen
+    if '-' in raw and re.match(r'^[A-Z][a-z]+ - [A-Za-z]', raw.strip()):
+        return re.sub(r'\s+', ' ', raw.strip())
+    return None
 
 
 def coverage_family(name):
@@ -184,6 +194,26 @@ def write_report(opp, prof, rows, form_plays):
           'Columns: **n** snaps | **avg** yards per play | **succ** success rate (40% of the distance on 1st down, 60% on 2nd, '
           'all of it on 3rd/4th) | **expl** share of plays gaining 15+ | **TD** touchdowns.', '',
           f"**Overall:** n {o['n']} · {o['avg']:.1f} yds/play · {o['succ']:.0%} success · {o['expl']:.0%} explosive · {o['td']} TD", '']
+
+    # pre-snap read: what the DEFENSE, PICK A PLAY! banner tells you
+    L += ['## Pre-snap read (from the "DEFENSE, PICK A PLAY!" banner)', '',
+          'What he does from each formation, and how each of your coverages did against it (n / avg yards allowed).', '',
+          '| Formation (banner) | Personnel | Share | n | avg | succ | expl | TD | His plays from it (confirmed) | Your coverage vs it |',
+          '|---|---|---|---|---|---|---|---|---|---|']
+    with_form = [s for s in rows if s.get('formation')]
+    by_f = defaultdict(list)
+    for s in with_form:
+        by_f[s['formation']].append(s)
+    for f, ss in sorted(by_f.items(), key=lambda kv: -len(kv[1])):
+        pers = Counter(s['off_personnel'] for s in ss if s.get('off_personnel')).most_common(1)
+        plays = ', '.join(f'{p.title()} ({n})' for p, n in form_plays.get(f, Counter()).most_common()) or '–'
+        cov = defaultdict(list)
+        for s in ss:
+            if s.get('def_family') and s.get('yards') is not None:
+                cov[s['def_family']].append(s['yards'])
+        cov_s = ', '.join(f'{c}: {len(y)} / {sum(y) / len(y):.1f}' for c, y in sorted(cov.items(), key=lambda kv: sum(kv[1]) / len(kv[1]))) or '–'
+        L.append(f"| {f} | {pers[0][0] if pers else '–'} | {len(ss) / len(with_form):.0%} | {fmt(stats(ss))} | {plays} | {cov_s} |")
+    L += ['', f"{len(with_form)} of {len(rows)} snaps had the banner on screen (the rest were hurry-up or you skipped the screen).", '']
 
     L += ['## By down & distance', '', '| Situation | n | avg | succ | expl | TD | His top calls (confirmed) | His top formations |',
           '|---|---|---|---|---|---|---|---|']

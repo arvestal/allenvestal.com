@@ -245,6 +245,7 @@
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Normal YOH",
+   "off_personnel": "1RB 1TE 3WR",
    "def_candidates": [
     "3-5 MINT: COVER 9",
     "13-5 MINT: COVER 6 WILLIE"
@@ -814,6 +815,7 @@
    ],
    "screen": "DEF",
    "off_formation": "hotgun - W",
+   "off_personnel": "1RB 2TE 2WR",
    "def_candidates": [
     "SLANT: RIGHT"
    ],
@@ -1162,6 +1164,7 @@
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Neemal YOff Close",
+   "off_personnel": "1RB 1TE 3WR",
    "def_candidates": [
     "SHOW 3: RS"
    ],

@@ -2,19 +2,20 @@
 # Extract 1 fps frames from a CFB 26 recording and OCR them.
 #   usage: scripts/extract.sh <output dir> "<path to video.mp4>"
 # Writes <output dir>/{sb,full,panel}.tsv.gz for build_plays.py (normally opponents/<opp>/ocr/<video_id>).
-# Frames go to work/<name of output dir>/ and are deleted afterwards unless KEEP_FRAMES=1.
+# Frames go to work/frames-<name of output dir>/ and are deleted afterwards unless KEEP_FRAMES=1.
 # Needs ffmpeg (brew install ffmpeg) and macOS (Vision OCR via swiftc).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 OUT="$1"; VIDEO="$2"
-W="$ROOT/work/$(basename "$OUT")"
+W="$ROOT/work/frames-$(basename "$OUT")"  # must differ from OUT: it is deleted afterwards
 mkdir -p "$W"/{sb,full,panel} "$OUT" "$ROOT/bin"
 
 [ -x "$ROOT/bin/ocr" ] || swiftc -O "$ROOT/scripts/ocr.swift" -o "$ROOT/bin/ocr"
 
-# scoreboard strip (full res), whole frame (960px), PREVIOUS PLAY panel (upper right) — 1080p source assumed
+# scoreboard strip, whole frame (960px), PREVIOUS PLAY panel (upper right). Every source is scaled to 1080p first
+# so the crop positions work for 720p and 1080p (any 16:9) captures.
 ffmpeg -loglevel error -hwaccel videotoolbox -i "$VIDEO" -filter_complex \
-  "[0:v]fps=1,split=3[a][b][c];[a]crop=1180:110:370:915[sb];[b]scale=960:-1[full];[c]crop=820:400:1020:40[panel]" \
+  "[0:v]fps=1,scale=1920:1080,split=3[a][b][c];[a]crop=1180:110:370:915[sb];[b]scale=960:-1[full];[c]crop=820:400:1020:40[panel]" \
   -map "[sb]" -q:v 2 "$W/sb/%05d.jpg" \
   -map "[full]" -q:v 4 "$W/full/%05d.jpg" \
   -map "[panel]" -q:v 3 "$W/panel/%05d.jpg"

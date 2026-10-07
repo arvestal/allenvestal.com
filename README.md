@@ -1,78 +1,108 @@
 # cf26-scouting
 
-Scouting an opponent's play calls in **EA SPORTS College Football 26** from recorded games.
+Scouting the people I play in **EA SPORTS College Football 26**, from recordings of our games.
 
-The pipeline reads the game recordings and pulls out:
+For each opponent (a person plus the team they use), the recordings are turned into a play-by-play of their offense:
+every snap's down, distance, field position and yards gained, their formation, their play call when the game shows it,
+and my coverage. That feeds a scouting report and a defensive game plan for the next game against them.
 
-- **Every snap**: quarter, clock, down & distance, field position, who has the ball, and the yards gained, all read off the scoreboard.
-- **The opponent's formation and personnel**, from the "DEFENSE, PICK A PLAY!" banner on your play-call screen.
-- **The exact offense vs. defense calls** whenever the game shows the **PREVIOUS PLAY** panel (upper right of the play-call screen).
-- **Your coverage family** when the panel isn't shown. The three plays on your screen usually come from one concept tab (used only when all three match).
-- **A guess at the opponent's play** when the panel isn't shown, based on what he has run from that formation before.
+## Deliverables — what to read before a game
 
-**Analysis is isolated per opponent** (a person plus the team they use). Each opponent has their own folder with their
-own games, report and game plan:
+Open **`index.html`** at the root of the repo in a browser. It links every opponent's pages. Each opponent's pages are in
+`opponents/<player>-<team>/reports/`:
 
-| Opponent | Team | Status |
+| Page | What it is | Made by |
 |---|---|---|
-| `jason-stanford` | Stanford | 4 games, 181 snaps — see `opponents/jason-stanford/reports/` |
-| `mike-iowa` | Iowa | profile only, no usable recordings yet (GoPro footage isn't used) |
+| **`gameplan.html`** | **The deliverable.** A pre-snap table (the formation on the "DEFENSE, PICK A PLAY!" banner → what they run from it → the exact play to call from my playbook), what to call by down & distance, formation tells (formation → their likely play → my answer), coverages that work and fail, pre-snap and coach adjustments. | Claude, during `/scout-new-games` |
+| `scouting_report.html` | The evidence behind the plan: tables by down & distance, my coverage vs. their offense, their plays, their formations, and every 15+ yard play allowed with timestamps. | `analyze.py` (automatic) |
 
-## Layout
+Tables are sortable: click a column header. Red shading means the number is good for the offense. The `.md` files next to
+the pages are their source; edit those, not the HTML. GitHub shows HTML files as source code, so open the pages locally
+(or from a clone).
+
+To check a specific play, `plays.csv` in the opponent folder has every snap with its video file and timestamp. It opens in Excel or Numbers.
+
+## Opponents
+
+| Opponent | Team | Data |
+|---|---|---|
+| [`jason-stanford`](opponents/jason-stanford/reports/) | Stanford | 4 games, 181 offensive snaps |
+| [`mike-iowa`](opponents/mike-iowa/reports/) | Iowa | 1 game, 60 offensive snaps |
+
+Each opponent is fully isolated. Their games, tendencies, report and plan are built only from games against them.
+
+## Adding games
+
+1. **Save the console recording** (screen capture, 720p or 1080p) in the opponent's video folder, set in their
+   `profile.json`. For example, Jason's games go in `../jason-standford` and Mike's in `../mike-iowa`.
+   - Don't use GoPro or phone footage of the TV.
+   - A video in the wrong folder still gets filed correctly, because the opponent is identified by the team on the scoreboard.
+2. **Process it.** Start Claude Code in this repo and run the command:
+   ```
+   cd /Users/allenv/Documents/media/cf26/cf26-scouting
+   claude
+   /scout-new-games            # every opponent
+   /scout-new-games mike       # one opponent (id, player, or team)
+   ```
+   It extracts and reads the video (about 10 minutes per hour of footage), rebuilds that opponent's data and
+   `scouting_report.md`, sanity-checks the numbers, updates their `gameplan.md`, and commits and pushes to GitHub.
+3. **Open `gameplan.html`** (or `index.html`). There's one plan per opponent, covering all their games, and each new game updates it.
+
+Without Claude, `python3 scripts/process_new.py [--opponent mike] [--dry-run]` does everything except update the game plan.
+
+**New opponent:** ask Claude to add them, or create `opponents/<player>-<team>/profile.json` (copy an existing one)
+and a `videos.json` containing `[]`.
+
+**Deleting videos:** once a game is processed, its recording isn't needed. The raw text read from every frame is kept in
+the repo (`ocr/`), and every output can be rebuilt from it. Deleting means you can't re-watch the game or extract
+something new from the picture later, such as routes.
+
+## What gets built, per opponent
 
 ```
 opponents/<player>-<team>/
-  profile.json           player name, team(s) as shown on the scoreboard, video folder, your playbook
-  videos.json            one entry per recording (id, file, teams, which side of the scoreboard they're on)
-  ocr/<video>/*.tsv.gz   raw per-second OCR of each recording; everything else is rebuilt from this
-  games/<video>.json     every snap from that recording, both teams (output of build_plays.py)
-  plays.csv              their offensive snaps, all games, flat (output of analyze.py)
-  formation_plays.json   formation -> plays confirmed from it (the guess model)
+  profile.json           player, team(s) as shown on the scoreboard, video folder, my playbook   (you write)
+  videos.json            one entry per processed recording                                        (process_new.py)
+  ocr/<video>/*.tsv.gz   raw per-second OCR of the scoreboard, full frame, and PREVIOUS PLAY panel (extract.sh)
+  games/<video>.json     every snap of that game, both teams                                      (build_plays.py)
+  plays.csv              their offensive snaps from all games, one row each                       (analyze.py)
+  formation_plays.json   formation -> plays confirmed from it (used to guess unconfirmed plays)   (analyze.py)
   reports/
-    scouting_report.md   generated tendencies tables (by down & distance, coverage, play, formation, big plays)
-    gameplan.md          hand-written defensive plan built from the report
-unassigned.json          processed videos whose scoreboard matched no opponent (OCR kept in unassigned/)
-scripts/
-  opponents.py           opponent registry helpers
-  process_new.py         finds new recordings in every opponent's folder, files them by scoreboard team, rebuilds
-  extract.sh             video -> 1 fps frames -> OCR
-  ocr.swift              macOS Vision OCR; prints "midX,midY@text" tokens per frame
-  scoreboard.py          parses the scoreboard strip
-  build_plays.py         OCR -> snaps                                   [--opponent X]
-  analyze.py             snaps -> plays.csv, formation_plays.json, report [--opponent X]
-SCHEMA.md                field-by-field description of the data files
+    scouting_report.md   generated tables                                                         (analyze.py)
+    gameplan.md          the plan, cumulative over all games                                      (Claude)
+    *.html               the two pages above, styled, sortable tables                             (render_html.py)
 ```
 
-Videos and `work/` (temporary frames) are git-ignored. **The videos aren't needed after processing.** The raw OCR in
-`opponents/*/ocr/` is enough to rebuild every output, including after parser improvements. What you lose by deleting a video
-is the ability to look at its frames again or extract something new from the picture (for example, routes).
+Shared files:
 
-## Adding new games
+```
+scripts/
+  process_new.py   finds new recordings in every opponent's folder, files them by scoreboard team, runs the rest
+  extract.sh       video -> 1 frame per second -> OCR
+  ocr.swift        macOS Vision OCR (compiled to bin/ on first run)
+  scoreboard.py    reads the scoreboard strip
+  build_plays.py   OCR -> snaps                                       [--opponent X]
+  analyze.py       snaps -> plays.csv, formation_plays.json, report   [--opponent X]
+  render_html.py   reports/*.md -> .html for every opponent, plus index.html
+  opponents.py     opponent registry helpers
+unassigned.json    processed recordings whose scoreboard matched no opponent (OCR kept in unassigned/)
+.claude/skills/scout-new-games/   the /scout-new-games command
+SCHEMA.md          every field in every data file
+```
 
-Drop console screen captures in the opponent's video folder (`video_dir` in their `profile.json`; Jason's is
-`../jason-standford`). Each video is filed by the team on the scoreboard, so a game in the wrong folder still lands in
-the right place. Then either:
+To rebuild everything after changing a parser: `python3 scripts/build_plays.py && python3 scripts/analyze.py && python3 scripts/render_html.py`.
 
-- **In Claude Code**, start it in this repo (`cd cf26-scouting && claude`) and run **`/scout-new-games`**, or
-  `/scout-new-games jason` for one opponent. It processes the videos, checks the results, updates that opponent's
-  `gameplan.md`, and commits and pushes.
-- **Manually:** run `python3 scripts/process_new.py [--opponent jason] [--dry-run]`. That takes about 10 minutes per hour of 1080p video.
-
-**New opponent:** create `opponents/<player>-<team>/profile.json` (copy Jason's and edit it) plus `videos.json` containing `[]`,
-or just ask Claude to add them.
-
-To rebuild after changing a parser: `python3 scripts/build_plays.py && python3 scripts/analyze.py` (all opponents).
-
-Requirements: macOS (Vision framework for OCR, `swiftc`), `ffmpeg`, Python 3.9+ (standard library only).
+Requirements: macOS (Vision framework for OCR, `swiftc`), `ffmpeg` (`brew install ffmpeg`), Python 3.9+ (standard library only).
 
 ## How it reads the screen
 
-- **Scoreboard.** The ball-spot box sits on the side of the team that has the ball. ▼ means the offense's own half and ▲ means the opponent's half. Yards gained = the change in yards-to-goal between one snap and the next.
-- **PREVIOUS PLAY panel.** The left card is the defensive call and the right card is the offensive call. The panel shown during snap *k* describes snap *k − 1*.
-- **Picking a defense.** You choose with X / A / Y, so nothing on screen marks which of the three plays was picked. The exact call is only known when the next screen's panel shows it.
+- **Scoreboard.** The ball-spot box sits on the side of the team with the ball. ▼ means the offense's own half and ▲ means the opponent's half. Yards gained = the change in yards-to-goal between snaps.
+- **Their formation** comes from the "DEFENSE, PICK A PLAY!" banner on my play-call screen.
+- **PREVIOUS PLAY panel** (upper right of the play-call screen): the left card is the defense and the right card is the offense. The panel during snap *k* describes snap *k − 1*.
+- **My call.** I pick with X / A / Y, so nothing on screen marks which of the three plays I chose. It's confirmed only when the next screen's panel shows it. Otherwise only the coverage family is recorded, and only when all three on-screen options share one.
 
 ## Known limits
 
-- The panel only appears on some play-call screens, so about 20% of snaps have a confirmed play. Everything else is a guess, marked `play_source` empty and listed in `off_play_guess`.
-- Text recognition misreads are filtered, but occasionally a yardage is off by a yard or a penalty shows up as `penalty?`.
-- `turnover?` means the ball changed hands before 4th down without a score. It's usually an interception or fumble, but not verified.
+- The panel shows on only some play-call screens, so roughly 20% of plays are confirmed. The rest are guesses, flagged in `off_play_guess` with the reason in `guess_basis`.
+- Yardage can be off by a yard because the scoreboard rounds the ball spot. `penalty?` and `turnover?` results are inferred, not verified.
+- Sample sizes per situation are small until there are several games against an opponent.

@@ -1,0 +1,2037 @@
+{
+ "video": {
+  "id": "2026-08-01-notre-dame",
+  "file": "EA SPORTS\u2122 College Football 26 2026-08-01 10-07-24.mp4",
+  "date": "2026-08-01",
+  "user_team": "Notre Dame",
+  "scout_team": "Iowa",
+  "scout_side": 1,
+  "user_playbook": "3-3-5 Tite"
+ },
+ "snaps": [
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 91,
+   "timestamp": "1:31",
+   "qtr": "1ST",
+   "clock": 300,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    0,
+    null
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 123,
+   "timestamp": "2:03",
+   "qtr": "1ST",
+   "clock": 294,
+   "down": 2,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    0,
+    null
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 22
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 140,
+   "timestamp": "2:20",
+   "qtr": "1ST",
+   "clock": 289,
+   "down": 1,
+   "dist": 10,
+   "ytg": 53,
+   "score": [
+    0,
+    null
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "gain",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 155,
+   "timestamp": "2:35",
+   "qtr": "1ST",
+   "clock": 279,
+   "down": 2,
+   "dist": 9,
+   "ytg": 52,
+   "score": [
+    0,
+    null
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "gain",
+   "yards": 9,
+   "off_play": "HB SLIP SCREEN",
+   "def_play": "COVER 6",
+   "play_source": "panel",
+   "panel_timestamp": "2:54"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 173,
+   "timestamp": "2:53",
+   "qtr": "1ST",
+   "clock": 262,
+   "down": 3,
+   "dist": 1,
+   "ytg": 43,
+   "score": [
+    0,
+    null
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 241,
+   "timestamp": "4:01",
+   "qtr": "1ST",
+   "clock": 241,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    7,
+    null
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Deuce Close",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "DIME LOAD WEA!: SIM PRESSURE 3",
+    "EVENT 3 DEEP: COVER 3"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0,
+   "off_play": "FLOOD TRAIL",
+   "def_play": "COVER 3 SKY",
+   "play_source": "panel",
+   "panel_timestamp": "4:36"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 273,
+   "timestamp": "4:33",
+   "qtr": "1ST",
+   "clock": 237,
+   "down": 2,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    7,
+    null
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SHOW2: SHOW 3"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 20,
+   "off_play": "TE OPTION",
+   "def_play": "PINCH ZONE 4",
+   "play_source": "panel",
+   "panel_timestamp": "5:05"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 299,
+   "timestamp": "4:59",
+   "qtr": "1ST",
+   "clock": 233,
+   "down": 1,
+   "dist": 10,
+   "ytg": 55,
+   "score": [
+    7,
+    null
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wir",
+   "def_candidates": [
+    "KEL 3-3 0V: COVER 4 PALMS"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -1,
+   "off_play": "HB STRETCH",
+   "def_play": "COVER 2 MAN",
+   "play_source": "panel",
+   "panel_timestamp": "5:27"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 322,
+   "timestamp": "5:22",
+   "qtr": "1ST",
+   "clock": 218,
+   "down": 2,
+   "dist": 11,
+   "ytg": 56,
+   "score": [
+    7,
+    null
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wit",
+   "def_candidates": [
+    "CKEL: COVER 2 MAN"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 14,
+   "off_play": "TE SHAKE",
+   "def_play": "COVER 2 MAN",
+   "play_source": "panel",
+   "panel_timestamp": "5:48"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 344,
+   "timestamp": "5:44",
+   "qtr": "1ST",
+   "clock": 202,
+   "down": 1,
+   "dist": 10,
+   "ytg": 42,
+   "score": [
+    7,
+    null
+   ],
+   "screen": "DEF",
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 31
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 384,
+   "timestamp": "6:24",
+   "qtr": "1ST",
+   "clock": 165,
+   "down": 1,
+   "dist": 10,
+   "ytg": 11,
+   "score": [
+    7,
+    null
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "3 OVER: 1 ROBBER PRESS"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 409,
+   "timestamp": "6:49",
+   "qtr": "1ST",
+   "clock": 150,
+   "down": 2,
+   "dist": 10,
+   "ytg": 11,
+   "score": [
+    7,
+    null
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "I-3 OVER: T ROBBER PRESSTI"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0,
+   "off_play": "Y STICK",
+   "def_play": "1 HOLE PRESS",
+   "play_source": "panel",
+   "panel_timestamp": "7:41"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 432,
+   "timestamp": "7:12",
+   "qtr": "1ST",
+   "clock": 130,
+   "down": 3,
+   "dist": 10,
+   "ytg": 11,
+   "score": [
+    7,
+    null
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "I-3 OVEN: 1 ROBBER PRESS",
+    "L3OVER: COVER 1 CONTAIN"
+   ],
+   "offense": "Iowa",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 491,
+   "timestamp": "8:11",
+   "qtr": "1ST",
+   "clock": 127,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    7,
+    17
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "opponent_score"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 508,
+   "timestamp": "8:28",
+   "qtr": "1ST",
+   "clock": 121,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    7,
+    7
+   ],
+   "screen": null,
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 39
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 512,
+   "timestamp": "8:32",
+   "qtr": "1ST",
+   "clock": 119,
+   "down": 1,
+   "dist": 10,
+   "ytg": 36,
+   "score": [
+    7,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "OVER: OLB FIRE MAN",
+    "OVER: LB STING 1"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 25
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 542,
+   "timestamp": "9:02",
+   "qtr": "1ST",
+   "clock": 114,
+   "down": 1,
+   "dist": 10,
+   "ytg": 11,
+   "score": [
+    7,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "LOVER: OLB FIRE MAN",
+    "3 OVER: LB STING 1"
+   ],
+   "offense": "Iowa",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 561,
+   "timestamp": "9:21",
+   "qtr": "1ST",
+   "clock": 97,
+   "down": 2,
+   "dist": 6,
+   "ytg": 53,
+   "score": [
+    7,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "3OVER: DBL SAFETY BLITZ"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 578,
+   "timestamp": "9:38",
+   "qtr": "1ST",
+   "clock": 83,
+   "down": 3,
+   "dist": 6,
+   "ytg": 53,
+   "score": [
+    7,
+    7
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Ace",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "-3 OVER: 1 ROBBER PRESS"
+   ],
+   "offense": "Iowa",
+   "result": "touchdown",
+   "yards": 53
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 634,
+   "timestamp": "10:34",
+   "qtr": "1ST",
+   "clock": 80,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    7,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 652,
+   "timestamp": "10:52",
+   "qtr": "1ST",
+   "clock": 73,
+   "down": 2,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    7,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 12
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 668,
+   "timestamp": "11:08",
+   "qtr": "1ST",
+   "clock": 67,
+   "down": 1,
+   "dist": 10,
+   "ytg": 63,
+   "score": [
+    7,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 687,
+   "timestamp": "11:27",
+   "qtr": "1ST",
+   "clock": 54,
+   "down": 2,
+   "dist": 10,
+   "ytg": 63,
+   "score": [
+    7,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 24
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 708,
+   "timestamp": "11:48",
+   "qtr": "1ST",
+   "clock": 49,
+   "down": 1,
+   "dist": 10,
+   "ytg": 39,
+   "score": [
+    7,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 10
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 729,
+   "timestamp": "12:09",
+   "qtr": "1ST",
+   "clock": 32,
+   "down": 1,
+   "dist": 10,
+   "ytg": 29,
+   "score": [
+    7,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 11,
+   "off_play": "HB SLIP SCREEN",
+   "def_play": "COVER 2 INVERT",
+   "play_source": "panel",
+   "panel_timestamp": "12:51"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 752,
+   "timestamp": "12:32",
+   "qtr": "1ST",
+   "clock": 11,
+   "down": 1,
+   "dist": 10,
+   "ytg": 18,
+   "score": [
+    7,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "touchdown",
+   "yards": 18
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 820,
+   "timestamp": "13:40",
+   "qtr": "2ND",
+   "clock": 296,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wit",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "SELECT DEFENDER: \u00a9 E. VILDOR"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 25
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 841,
+   "timestamp": "14:01",
+   "qtr": "2ND",
+   "clock": 290,
+   "down": 1,
+   "dist": 10,
+   "ytg": 50,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "-3 OVER: LB STING 1"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 14
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 858,
+   "timestamp": "14:18",
+   "qtr": "2ND",
+   "clock": 280,
+   "down": 1,
+   "dist": 10,
+   "ytg": 36,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "QUISIDE: LS"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 879,
+   "timestamp": "14:39",
+   "qtr": "2ND",
+   "clock": 260,
+   "down": 2,
+   "dist": 5,
+   "ytg": 31,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "3 OVER: 1 ROBBER PRESS"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 901,
+   "timestamp": "15:01",
+   "qtr": "2ND",
+   "clock": 243,
+   "down": 3,
+   "dist": 4,
+   "ytg": 30,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "ingleback - Wing light",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "13 OVER: 1 ROBBER PRESS"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 918,
+   "timestamp": "15:18",
+   "qtr": "2ND",
+   "clock": 229,
+   "down": 1,
+   "dist": 10,
+   "ytg": 19,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "I3 OVER: 1 ROBBER PRESSI"
+   ],
+   "offense": "Iowa",
+   "result": "touchdown",
+   "yards": 19
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 965,
+   "timestamp": "16:05",
+   "qtr": "2ND",
+   "clock": 213,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 988,
+   "timestamp": "16:28",
+   "qtr": "2ND",
+   "clock": 209,
+   "down": 2,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1007,
+   "timestamp": "16:47",
+   "qtr": "2ND",
+   "clock": 202,
+   "down": 1,
+   "dist": 10,
+   "ytg": 64,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "gain",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1027,
+   "timestamp": "17:07",
+   "qtr": "2ND",
+   "clock": 184,
+   "down": 2,
+   "dist": 6,
+   "ytg": 59,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 8,
+   "off_play": "DIG RETURN",
+   "def_play": "COVER 3 MATCH",
+   "play_source": "panel",
+   "panel_timestamp": "17:26"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1043,
+   "timestamp": "17:23",
+   "qtr": "2ND",
+   "clock": 171,
+   "down": 1,
+   "dist": 10,
+   "ytg": 51,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "loss",
+   "yards": -5
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1064,
+   "timestamp": "17:44",
+   "qtr": "2ND",
+   "clock": 153,
+   "down": 2,
+   "dist": 16,
+   "ytg": 56,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 29
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1090,
+   "timestamp": "18:10",
+   "qtr": "2ND",
+   "clock": 134,
+   "down": 1,
+   "dist": 10,
+   "ytg": 27,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "gain",
+   "yards": 4
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1132,
+   "timestamp": "18:52",
+   "qtr": "2ND",
+   "clock": 114,
+   "down": 2,
+   "dist": 6,
+   "ytg": 23,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 13
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1164,
+   "timestamp": "19:24",
+   "qtr": "2ND",
+   "clock": 97,
+   "down": 1,
+   "dist": 10,
+   "ytg": 10,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "gain",
+   "yards": 2,
+   "off_play": "23 ZONE OPEN",
+   "def_play": "COVER 4 PALMS",
+   "play_source": "panel",
+   "panel_timestamp": "20:21"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1213,
+   "timestamp": "20:13",
+   "qtr": "2ND",
+   "clock": 59,
+   "down": 2,
+   "dist": 8,
+   "ytg": 8,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1257,
+   "timestamp": "20:57",
+   "qtr": "2ND",
+   "clock": 51,
+   "down": 1,
+   "dist": "G",
+   "ytg": 1,
+   "score": [
+    14,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "touchdown",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1328,
+   "timestamp": "22:08",
+   "qtr": "2ND",
+   "clock": 46,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    21,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wit",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "QUTSIDE: RS"
+   ],
+   "offense": "Iowa",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1355,
+   "timestamp": "22:35",
+   "qtr": "2ND",
+   "clock": 41,
+   "down": 1,
+   "dist": 10,
+   "ytg": 73,
+   "score": [
+    21,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 34,
+   "off_play": "SLOT OUTS",
+   "def_play": "COVER 2 MAN",
+   "play_source": "panel",
+   "panel_timestamp": "23:15"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1394,
+   "timestamp": "23:14",
+   "qtr": "2ND",
+   "clock": 31,
+   "down": 1,
+   "dist": 10,
+   "ytg": 39,
+   "score": [
+    21,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 21,
+   "off_play": "DOUBLE INS",
+   "def_play": "DBL SAFETY BLITZ",
+   "play_source": "panel",
+   "panel_timestamp": "24:40"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1417,
+   "timestamp": "23:37",
+   "qtr": "2ND",
+   "clock": 26,
+   "down": 1,
+   "dist": 10,
+   "ytg": 18,
+   "score": [
+    21,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "touchdown",
+   "yards": 18
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1509,
+   "timestamp": "25:09",
+   "qtr": "2ND",
+   "clock": 9,
+   "down": 1,
+   "dist": 10,
+   "ytg": 81,
+   "score": [
+    28,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Gun - Ace Slot",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "REVENT 3 DEEP: COVER 3"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1540,
+   "timestamp": "25:40",
+   "qtr": "2ND",
+   "clock": 5,
+   "down": 2,
+   "dist": 10,
+   "ytg": 81,
+   "score": [
+    28,
+    21
+   ],
+   "screen": "DEF",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "DEEP: MAN 3 DEEP",
+    "EVENT 3 DEEP: COVER 3"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 28
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1559,
+   "timestamp": "25:59",
+   "qtr": "2ND",
+   "clock": 0,
+   "down": 1,
+   "dist": 10,
+   "ytg": 53,
+   "score": [
+    28,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Iowa",
+   "result": "end_of_half"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1594,
+   "timestamp": "26:34",
+   "qtr": "3RD",
+   "clock": 300,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    28,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Ingleback - Win",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "U3:504: OVER 4 QUARTEF"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 13
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1617,
+   "timestamp": "26:57",
+   "qtr": "3RD",
+   "clock": 295,
+   "down": 1,
+   "dist": 10,
+   "ytg": 62,
+   "score": [
+    28,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "CKEL 3: EDGE BLITZ C"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1636,
+   "timestamp": "27:16",
+   "qtr": "3RD",
+   "clock": 283,
+   "down": 2,
+   "dist": 3,
+   "ytg": 55,
+   "score": [
+    28,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "TTRBI3TE7TWR :15",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "E MUG: COVER 1 HOLE",
+    "MUG: MID BLITZ 0",
+    "CKEL DOUBLE MUG: COVER 3 SKY"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1658,
+   "timestamp": "27:38",
+   "qtr": "3RD",
+   "clock": 266,
+   "down": 1,
+   "dist": 10,
+   "ytg": 48,
+   "score": [
+    28,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wir",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "SELECT DEFENDER: \u00a9 N. BATTLE"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -1
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1679,
+   "timestamp": "27:59",
+   "qtr": "3RD",
+   "clock": 249,
+   "down": 2,
+   "dist": 11,
+   "ytg": 49,
+   "score": [
+    28,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "LEM: ICKEL OVERLOAD",
+    "DOUBLE MUG: LB BLITZ 3"
+   ],
+   "offense": "Iowa",
+   "result": "opponent_score"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1749,
+   "timestamp": "29:09",
+   "qtr": "3RD",
+   "clock": 219,
+   "down": 1,
+   "dist": 10,
+   "ytg": 79,
+   "score": [
+    35,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Gun \u2022 Ace Slot",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "CEL DOUB): MID BLITZ O",
+    "CKEL DOUBLE MUG: COVER 3 SKY"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1775,
+   "timestamp": "29:35",
+   "qtr": "3RD",
+   "clock": 215,
+   "down": 2,
+   "dist": 10,
+   "ytg": 79,
+   "score": [
+    35,
+    21
+   ],
+   "screen": "DEF",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "CKEL DOUBLE MUC: COVER 3 SEAM"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 38
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1796,
+   "timestamp": "29:56",
+   "qtr": "3RD",
+   "clock": 209,
+   "down": 1,
+   "dist": 10,
+   "ytg": 41,
+   "score": [
+    35,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wit",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "LDOUBLEM: NICKEL OVERLOAD 3",
+    "EMUG: LB BLITZ 3"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1813,
+   "timestamp": "30:13",
+   "qtr": "3RD",
+   "clock": 201,
+   "down": 2,
+   "dist": 10,
+   "ytg": 41,
+   "score": [
+    35,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "EL DOUBLE MUG: SS BLITZ 3",
+    "DOUBLE MUG: TAMPA 2"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -4
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1837,
+   "timestamp": "30:37",
+   "qtr": "3RD",
+   "clock": 198,
+   "down": 3,
+   "dist": 14,
+   "ytg": 45,
+   "score": [
+    35,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wit",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "L DOUBLE MUG: SS BLITZ 3",
+    "KEL DOUB: NICKEL DOG 3 BUZZ",
+    "DOUBLE MUG: TAMPA 2"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1863,
+   "timestamp": "31:03",
+   "qtr": "3RD",
+   "clock": 181,
+   "down": 4,
+   "dist": 14,
+   "ytg": 45,
+   "score": [
+    35,
+    21
+   ],
+   "screen": "DEF",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "CKEL DOUBLE MU: COVER 3 SEAM"
+   ],
+   "offense": "Iowa",
+   "result": "fourth_down_change"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1900,
+   "timestamp": "31:40",
+   "qtr": "3RD",
+   "clock": 177,
+   "down": 1,
+   "dist": 10,
+   "ytg": 55,
+   "score": [
+    35,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "touchdown",
+   "yards": 55
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1971,
+   "timestamp": "32:51",
+   "qtr": "3RD",
+   "clock": 167,
+   "down": 1,
+   "dist": 10,
+   "ytg": 76,
+   "score": [
+    42,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wir",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "SELECT DEFENDER: \u00ae R OWUMFOUR"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -1
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 1990,
+   "timestamp": "33:10",
+   "qtr": "3RD",
+   "clock": 164,
+   "down": 2,
+   "dist": 11,
+   "ytg": 77,
+   "score": [
+    42,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "MUG: CEL DOU",
+    "CKEL DOUBLE MUG: COVER 3 SKY"
+   ],
+   "offense": "Iowa",
+   "result": "penalty?",
+   "yards": -10
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2031,
+   "timestamp": "33:51",
+   "qtr": "3RD",
+   "clock": 135,
+   "down": 2,
+   "dist": 21,
+   "ytg": 87,
+   "score": [
+    42,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "singleback - Wit",
+   "def_candidates": [
+    "L DOUBLE MUG: SS BLITZ 3",
+    "DOUBLE MUG: TAMPA 2"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 6
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2050,
+   "timestamp": "34:10",
+   "qtr": "3RD",
+   "clock": 124,
+   "down": 3,
+   "dist": 15,
+   "ytg": 81,
+   "score": [
+    42,
+    21
+   ],
+   "screen": "DEF",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "KEL DOUBLE MUG: COVER 3 SKY"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 15,
+   "off_play": "TE OPTION",
+   "def_play": "MID BLITZ O",
+   "play_source": "panel",
+   "panel_timestamp": "34:33"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2069,
+   "timestamp": "34:29",
+   "qtr": "3RD",
+   "clock": 108,
+   "down": 1,
+   "dist": 10,
+   "ytg": 66,
+   "score": [
+    42,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Gun - Ace Slot",
+   "def_candidates": [
+    "CKEL DOUBLE: COVER 3 SEAM"
+   ],
+   "offense": "Iowa",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2088,
+   "timestamp": "34:48",
+   "qtr": "3RD",
+   "clock": 93,
+   "down": 1,
+   "dist": 10,
+   "ytg": 66,
+   "score": [
+    42,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "touchdown",
+   "yards": 66
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2138,
+   "timestamp": "35:38",
+   "qtr": "3RD",
+   "clock": 86,
+   "down": 1,
+   "dist": 10,
+   "ytg": 81,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SELECT DEFENDER: \u2022 N. BATTLE"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2155,
+   "timestamp": "35:55",
+   "qtr": "3RD",
+   "clock": 82,
+   "down": 2,
+   "dist": 9,
+   "ytg": 80,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "singleback - Win",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "SELECT DEFENDER: \u2022 N. BATTLE"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 2
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2172,
+   "timestamp": "36:12",
+   "qtr": "3RD",
+   "clock": 67,
+   "down": 3,
+   "dist": 8,
+   "ytg": 78,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SELECT DEFENDER: \u2022 N. BATTLE"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2210,
+   "timestamp": "36:50",
+   "qtr": "3RD",
+   "clock": 34,
+   "down": 1,
+   "dist": 10,
+   "ytg": 71,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 15
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2243,
+   "timestamp": "37:23",
+   "qtr": "3RD",
+   "clock": 13,
+   "down": 1,
+   "dist": 10,
+   "ytg": 56,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "MUG: CKEL DOL"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -2
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2258,
+   "timestamp": "37:38",
+   "qtr": "3RD",
+   "clock": 5,
+   "down": 2,
+   "dist": 12,
+   "ytg": 58,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SELECT DEFENDER: \u2022 N. BATTLE"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 22,
+   "off_play": "TE ATTACK",
+   "def_play": "NICKEL 2 TRAP",
+   "play_source": "panel",
+   "panel_timestamp": "38:23"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2279,
+   "timestamp": "37:59",
+   "qtr": "3RD",
+   "clock": 0,
+   "down": 1,
+   "dist": 10,
+   "ytg": 36,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wi",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "QUISIDE: RS"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2316,
+   "timestamp": "38:36",
+   "qtr": "4TH",
+   "clock": 296,
+   "down": 2,
+   "dist": 3,
+   "ytg": 29,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "CKEL DOUBLE MUG: LB BLITZ 3",
+    "ICKEL DOUE: 2 INVERT HARD FLAT"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2333,
+   "timestamp": "38:53",
+   "qtr": "4TH",
+   "clock": 283,
+   "down": 3,
+   "dist": 2,
+   "ytg": 28,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "RS: OB SPY"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 19
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2357,
+   "timestamp": "39:17",
+   "qtr": "4TH",
+   "clock": 274,
+   "down": 1,
+   "dist": "G",
+   "ytg": 9,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wir",
+   "off_personnel": "1RB 2TE 1WR",
+   "def_candidates": [
+    "CKEL DOUBLE MUG: COVER 3 SKY"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2372,
+   "timestamp": "39:32",
+   "qtr": "4TH",
+   "clock": 265,
+   "down": 2,
+   "dist": "G",
+   "ytg": 9,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Deuce Close",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "MUG: MID BLITZ O"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -4
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2395,
+   "timestamp": "39:55",
+   "qtr": "4TH",
+   "clock": 261,
+   "down": 3,
+   "dist": "G",
+   "ytg": 13,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Deuce Close",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "NICKEL DOUBLE MU: COVER 3 SEAM"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 8,
+   "off_play": "Y STICK",
+   "def_play": "COVER 3 SEAM",
+   "play_source": "panel",
+   "panel_timestamp": "40:48"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2417,
+   "timestamp": "40:17",
+   "qtr": "4TH",
+   "clock": 244,
+   "down": 4,
+   "dist": "G",
+   "ytg": 5,
+   "score": [
+    49,
+    21
+   ],
+   "screen": "DEF",
+   "off_formation": "Ingleback - Win",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "OUTSIDE: RS"
+   ],
+   "offense": "Iowa",
+   "result": "touchdown",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2489,
+   "timestamp": "41:29",
+   "qtr": "4TH",
+   "clock": 240,
+   "down": 1,
+   "dist": 10,
+   "ytg": 37,
+   "score": [
+    49,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "gain",
+   "yards": 8
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2505,
+   "timestamp": "41:45",
+   "qtr": "4TH",
+   "clock": 234,
+   "down": 2,
+   "dist": 2,
+   "ytg": 29,
+   "score": [
+    49,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 3
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2551,
+   "timestamp": "42:31",
+   "qtr": "4TH",
+   "clock": 194,
+   "down": 1,
+   "dist": 10,
+   "ytg": 26,
+   "score": [
+    49,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "first_down",
+   "yards": 16
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2572,
+   "timestamp": "42:52",
+   "qtr": "4TH",
+   "clock": 189,
+   "down": 1,
+   "dist": 10,
+   "ytg": 10,
+   "score": [
+    49,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "loss",
+   "yards": -2
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2610,
+   "timestamp": "43:30",
+   "qtr": "4TH",
+   "clock": 158,
+   "down": 2,
+   "dist": 12,
+   "ytg": 12,
+   "score": [
+    49,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "loss",
+   "yards": -3
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2669,
+   "timestamp": "44:29",
+   "qtr": "4TH",
+   "clock": 118,
+   "down": 3,
+   "dist": 15,
+   "ytg": 15,
+   "score": [
+    49,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "touchdown",
+   "yards": 15
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2748,
+   "timestamp": "45:48",
+   "qtr": "4TH",
+   "clock": 74,
+   "down": 1,
+   "dist": 10,
+   "ytg": 81,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Wi",
+   "off_personnel": "1RB 3TE 1WR",
+   "def_candidates": [
+    "QUISIDE: RS"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2770,
+   "timestamp": "46:10",
+   "qtr": "4TH",
+   "clock": 69,
+   "down": 2,
+   "dist": 5,
+   "ytg": 76,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SELECT DEFENDER: \u00a9 N. BATTLE"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 3
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2787,
+   "timestamp": "46:27",
+   "qtr": "4TH",
+   "clock": 53,
+   "down": 3,
+   "dist": 2,
+   "ytg": 73,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "MUG: MID BLITZ O"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2801,
+   "timestamp": "46:41",
+   "qtr": "4TH",
+   "clock": 41,
+   "down": 4,
+   "dist": 2,
+   "ytg": 73,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SELECT DEFENDER: J. ESTEP"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 13
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2824,
+   "timestamp": "47:04",
+   "qtr": "4TH",
+   "clock": 35,
+   "down": 1,
+   "dist": 10,
+   "ytg": 60,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SELECT DEFENDER: \u2022 N. BRTTLE"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 16
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2843,
+   "timestamp": "47:23",
+   "qtr": "4TH",
+   "clock": 28,
+   "down": 1,
+   "dist": 10,
+   "ytg": 44,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "CKEL DOUBLE MU: COVER 3 SEAM"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2862,
+   "timestamp": "47:42",
+   "qtr": "4TH",
+   "clock": 18,
+   "down": 2,
+   "dist": 10,
+   "ytg": 44,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "DEF",
+   "off_formation": "STAB/3TE/TWR :15",
+   "def_candidates": [
+    "EMUG: LB BLITZ 3"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 14
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2887,
+   "timestamp": "48:07",
+   "qtr": "4TH",
+   "clock": 15,
+   "down": 1,
+   "dist": 10,
+   "ytg": 30,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "RS: OB SPU"
+   ],
+   "offense": "Iowa",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2926,
+   "timestamp": "48:46",
+   "qtr": "4TH",
+   "clock": 1,
+   "down": 1,
+   "dist": 10,
+   "ytg": 60,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-08-01-notre-dame",
+   "t": 2944,
+   "timestamp": "49:04",
+   "qtr": "4TH",
+   "clock": 0,
+   "down": 2,
+   "dist": 10,
+   "ytg": 60,
+   "score": [
+    56,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Notre Dame",
+   "result": null
+  }
+ ]
+}

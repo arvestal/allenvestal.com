@@ -22,7 +22,9 @@ DEF_SCREEN = re.compile(r'Stunts|D Audibles|Shell -|offense chooses|DEFENSE, ?PI
 OFF_SCREEN = re.compile(r'\bPASS\b|\bRUN\b|Personnel|OFFENSE, ?PICK|HOT ROUTE', re.I)
 SPECIAL = re.compile(r'Field Goal|Punt|Kickoff|Kick Return|PAT', re.I)
 BANNER = re.compile(r'DEFENSE, ?PICK', re.I)
-PERSONNEL = re.compile(r'(\d)\s*RB\s*\W*\s*(\d)\s*TE\s*\W*\s*(\d)\s*W', re.I)
+# "1 RB | 3 TE | 1 WR" — the 1s often OCR as T / I / l and the separators as junk letters
+PERSONNEL = re.compile(r'([0-9TIl|])\s*RB\D*?([0-9TIl])\s*TE\D*?([0-9TIl])\s*W', re.I)
+_one = lambda c: '1' if c in 'TIl|' else c
 
 
 def tok(line):
@@ -75,7 +77,7 @@ def screen(line):
         if form:
             info['formation'] = re.sub(r'\s*-\s*', ' - ', form[0]).strip()
         if (m := PERSONNEL.search(txt.replace('|', ' ').replace('T', 'T'))):
-            info['personnel'] = f"{m[1]}RB {m[2]}TE {m[3]}WR"
+            info['personnel'] = f"{_one(m[1])}RB {_one(m[2])}TE {_one(m[3])}WR"
     if info.get('screen') == 'DEF':
         # the three play tiles: small formation label above an upper-case play name
         tiles = []

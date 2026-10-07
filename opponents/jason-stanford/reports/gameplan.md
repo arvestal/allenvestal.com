@@ -1,6 +1,6 @@
 # Defensive game plan vs. Jason (Stanford) — 3-3-5 Tite
 
-Built from `scouting_report.md` (4 games, 181 Stanford snaps). Sample sizes per situation are small, so treat
+Built from the [scouting report](scouting_report.md) (4 games, 181 Stanford snaps). Sample sizes per situation are small, so treat
 single-digit rows as hints, not proof. Re-run the pipeline after every game and update this file.
 
 ## What the data says
@@ -17,20 +17,31 @@ single-digit rows as hints, not proof. Re-run the pipeline after every game and 
 - **Blitzing doesn't work:** 83% success for him, 11.3 yds per play. He throws before the pressure arrives.
 - **Red zone:** 12 TDs on 25 snaps. Cover 6/9 gave up 4 TDs on 6 goal-to-go snaps.
 
-## His formations tell you the play
+## Pre-snap read → your call
 
-| He lines up in | He's run from it | Answer |
-|---|---|---|
-| Shotgun Normal Y Off Close (his #1, 11.6 avg) | Snag, Double Slant, RPO Alert Out, RPO Peek Spot, TE Wheel | Cover 2 Man, press + inside shade; user the hook defender in the slant window |
-| Shotgun Bunch Spread | Levels Dig, Speed Option | Cover 2 Man or Cover 1 Robber; keep a hook defender deep for the dig |
-| Shotgun Trips Offset (100% success, 13.2 avg) | RPO Alert Zone Bubble | Cover 6 with quarters to the trips side, or Cover 2 Man; flat defender plays the bubble |
-| Shotgun Trips Y Slot Wk | Triple Slant | Cover 2 Man press inside, or Cover 1 Robber |
-| Shotgun Flex Y Off Close (3.9 avg — you handle it) | TE Wheel | Keep doing what you're doing: Cover 2 Invert / man with a LB on the RB |
-| Shotgun Spread Y-Flex (18.0 avg) | Drive | Two-deep (Cover 2 Man / Cover 6) — Drive beat Tampa 2 for 34 |
-| Shotgun Doubles (22.0 avg) | Curls Slot Shake | Cover 2 Man; deeper curl-flat drops if in zone |
-| Shotgun Trips TE (15.7 avg) | HB Slip Screen, WR Short Post | Don't blitz; spy the RB with a LB |
-| I Form Close | Power O | Base Tite front — this is what the Tite is built for |
-| Shotgun 5WR (24.4 avg) | (no confirmed calls yet) | Dime-type look if your playbook has it; two-deep, rush 3 |
+When he picks his play, the **"DEFENSE, PICK A PLAY!"** banner shows his formation and personnel. Find it here and
+call the play in the **Call** column. Play names are from your playbook as they appeared on your screen
+(formation: play). The **Results vs. your calls** column shows yards allowed per play.
+
+| Banner shows | Personnel | How often | His results | He's run from it (confirmed) | Results vs. your calls | **Call** | Backup |
+|---|---|---|---|---|---|---|---|
+| **Shotgun - Normal Y Off Close** | 1 RB, 1 TE, 3 WR | 19% (his #1) | 11.6 avg, 39% explosive, 4 TD | Snag (3), RPO Alert Out (2), Double Slant, RPO Peek Spot, TE Wheel | Cover 3: 27.7 over 3 · Cover 4: 22 · Cover 2 Man: 8.5 · Cover 6/9: 0.0 over 2 | **Nickel 3-3 Over: Cover 2 Man** — press, inside shade | 3-3-5 Mint: Cover 6 Willie |
+| **Shotgun - Bunch Spread** | 1 RB, 1 TE, 3 WR | 11% | 7.4 avg | Levels Dig (2), Speed Option | **Cover 4: 2.5 over 4** · Blitz: 17 | **3-3-5 Mint: Cover 4 Quarters** — one of the few spots Cover 4 works | Nickel 3-3 Over: Cover 2 Man |
+| **Shotgun - Flex Y Off Close** | 1 RB, 2 TE, 2 WR | 8% | 3.9 avg (you handle it) | TE Wheel (2) | Cover 2 Zone/Invert: -1.0 over 2 · Blitz: 13 | **Cover 2 Invert** (what you've been calling) | Nickel 2-4 Load: Cover 2 Man |
+| **Shotgun - Spread Dbl Flex** | 1 RB, 1 TE, 3 WR | 7% | 12.7 avg, 43% explosive | Cross H Divide | Cover 6/9: 1 · Cover 1: 20 | **3-3-5 Mint: Cover 6 Willie** | Nickel 3-3 Over: Cover 2 Man |
+| **Shotgun - Trips Offset** | 1 RB, 0 TE, 4 WR | 6% | 13.2 avg, 100% success | RPO Alert Zone Bubble (2) | Cover 3: 9.0 over 2 | **3-3-5 Mint: Cover 6 Willie** — quarters to the trips side, flat defender takes the bubble | Nickel 2-4 Load: Cover 2 Man |
+| **I Form - Close** | 2 RB, 1 TE, 2 WR | 5% | 8.4 avg | Power O | Cover 4: 6 · Cover 2 Man: 8 | **3-4 Tite: Cover 1 Hole** — run front, 8 in the box | 3-3-5 Penny: Cover 3 Match |
+| **Shotgun - 5WR** | empty backfield | 5% | 24.4 avg | – | Cover 4: 75-yard TD | **Dime 2-3 Odd: Double Bracket** — rush 3, bracket his top WR | Dime Rush: Cover 2 Man |
+| **Shotgun - Spread Y-Flex** | 1 RB, 2 TE, 2 WR | 4% | 18.0 avg | Drive | Tampa 2: 34 | **Nickel 3-3 Over: Cover 2 Man** | 3-3-5 Mint: Cover 6 Willie |
+| **Shotgun - Trips Y Slot Wk** | 1 RB, 1 TE, 3 WR | 4% | 9.2 avg, 50% explosive | Triple Slant | Cover 3: 0 | **Nickel 3-3 Over: Cover 2 Man** — press, inside shade | Nickel 3-3 Over: Cover 1 Robber Press |
+| **Shotgun - Bunch Open Offset** | 1 RB, 1 TE, 3 WR | 4% | 9.3 avg | Reload Z Shallow Cross | Cover 3: 4 · Cover 2 Man: 5 | **Nickel 3-3 Over: Cover 2 Man** | 3-3-5 Mint: Cover 4 Quarters |
+| **Shotgun - Doubles** | 1 RB, 2 TE, 2 WR | 2% | 22.0 avg | Curls Slot Shake | Cover 2 Man: 21 · Cover 3: 23 | **Nickel 3-3 Over: Double Bracket** | 3-3-5 Mint: Cover 6 Willie |
+| **Shotgun - Trips TE** | 1 RB, 1 TE, 3 WR | 3% | 15.7 avg | HB Slip Screen, WR Short Post | Cover 3: 17.5 over 2 · Cover 2 Zone: 12 | **Nickel 3-3 Over: Cover 2 Man** — LB on the RB for the screen, no blitz | 3-3-5 Mint: Cover 6 Willie |
+| **No banner (hurry-up)** | – | 47% of snaps | – | – | – | **Nickel 3-3 Over: Cover 2 Man** as your default audible | – |
+
+Notes:
+- Most "Results vs. your calls" cells are 1–4 plays. Weigh them alongside the overall coverage numbers above.
+- Cover 2 Man isn't in 3-3-5 Mint; it showed up on your screen under **Nickel 3-3 Over**, **Nickel 2-4 Load** and **Dime Rush**.
 
 ## Calls by down & distance
 

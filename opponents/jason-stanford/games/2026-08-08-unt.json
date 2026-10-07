@@ -1856,6 +1856,7 @@
    ],
    "screen": "OFF",
    "off_formation": "Shotgun - Bunch Spread",
+   "off_personnel": "1RB 1TE 3WR",
    "def_candidates": [
     ":2300: OVER 3 LOCI",
     "ME2:3_ODD: EDGE BLITZ 1",
