@@ -1,0 +1,1857 @@
+{
+ "video": {
+  "id": "2026-10-04-ou",
+  "file": "EA SPORTS\u2122 College Football 26 2026-10-04 18-44-14.mp4",
+  "date": "2026-10-04",
+  "user_team": "Oklahoma",
+  "scout_team": "Stanford",
+  "scout_side": 1,
+  "user_playbook": "3-3-5 Tite"
+ },
+ "snaps": [
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 14,
+   "timestamp": "0:14",
+   "qtr": "1ST",
+   "clock": 300,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 35,
+   "timestamp": "0:35",
+   "qtr": "1ST",
+   "clock": 298,
+   "down": 2,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 17
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 68,
+   "timestamp": "1:08",
+   "qtr": "1ST",
+   "clock": 282,
+   "down": 1,
+   "dist": 10,
+   "ytg": 58,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 8
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 100,
+   "timestamp": "1:40",
+   "qtr": "1ST",
+   "clock": 261,
+   "down": 2,
+   "dist": 1,
+   "ytg": 50,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 120,
+   "timestamp": "2:00",
+   "qtr": "1ST",
+   "clock": 249,
+   "down": 3,
+   "dist": 1,
+   "ytg": 50,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 137,
+   "timestamp": "2:17",
+   "qtr": "1ST",
+   "clock": 246,
+   "down": 4,
+   "dist": 2,
+   "ytg": 50,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 167,
+   "timestamp": "2:47",
+   "qtr": "1ST",
+   "clock": 231,
+   "down": 1,
+   "dist": 10,
+   "ytg": 43,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 10
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 194,
+   "timestamp": "3:14",
+   "qtr": "1ST",
+   "clock": 212,
+   "down": 1,
+   "dist": 10,
+   "ytg": 33,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 14
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 215,
+   "timestamp": "3:35",
+   "qtr": "1ST",
+   "clock": 192,
+   "down": 1,
+   "dist": 10,
+   "ytg": 19,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "touchdown",
+   "yards": 19
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 284,
+   "timestamp": "4:44",
+   "qtr": "1ST",
+   "clock": 184,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Trips YSlot Wk",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "-5 OVER FLEX: OVER 3 STING",
+    "3-5 SPLIT: COVER 1 SS BLITZ",
+    "3-5 OVER FLEX: COVER TLR BLIZ"
+   ],
+   "offense": "Stanford",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 318,
+   "timestamp": "5:18",
+   "qtr": "1ST",
+   "clock": 181,
+   "down": 2,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Fex YOff Close",
+   "def_candidates": [
+    "CKEL 3-3 OVER: TAMPA 2"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 3,
+   "off_play": "TE WHEEL",
+   "def_play": "COVER 2 INVERT",
+   "play_source": "panel",
+   "panel_timestamp": "5:51"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 349,
+   "timestamp": "5:49",
+   "qtr": "1ST",
+   "clock": 174,
+   "down": 3,
+   "dist": 6,
+   "ytg": 72,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Bunch Spread",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 10,
+   "off_play": "LEVELS DIG",
+   "def_play": "COVER 4 QUARTERS",
+   "play_source": "panel",
+   "panel_timestamp": "6:16"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 374,
+   "timestamp": "6:14",
+   "qtr": "1ST",
+   "clock": 155,
+   "down": 1,
+   "dist": 10,
+   "ytg": 62,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Trips Olfset",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "SLNT: RIGHT"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 11,
+   "off_play": "RPO ALERT ZONE BUBBLE",
+   "def_play": "COVER 3 MATCH",
+   "play_source": "panel",
+   "panel_timestamp": "6:39"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 396,
+   "timestamp": "6:36",
+   "qtr": "1ST",
+   "clock": 136,
+   "down": 1,
+   "dist": 10,
+   "ytg": 51,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Spread Dbl Flex",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "SLANT: RIGHT"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 12
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 424,
+   "timestamp": "7:04",
+   "qtr": "1ST",
+   "clock": 112,
+   "down": 1,
+   "dist": 10,
+   "ytg": 39,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "33-5 MINT: COVER 3 SKY",
+    "3-3-5 MINT: COVER 3 CLOUD"
+   ],
+   "offense": "Stanford",
+   "result": "no_gain",
+   "yards": 0,
+   "off_play": "MTN H STICK",
+   "def_play": "COVER 3 SKY",
+   "play_source": "panel",
+   "panel_timestamp": "7:26"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 444,
+   "timestamp": "7:24",
+   "qtr": "1ST",
+   "clock": 95,
+   "down": 2,
+   "dist": 10,
+   "ytg": 39,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Trips TE",
+   "def_candidates": [
+    "3-5 MIL: :OVER 3 BUZ:",
+    "3-5 PENNY: COVER 3 SKY"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 8,
+   "off_play": "WR SHORT POST",
+   "def_play": "COVER 3 BUZZ",
+   "play_source": "panel",
+   "panel_timestamp": "7:50"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 469,
+   "timestamp": "7:49",
+   "qtr": "1ST",
+   "clock": 89,
+   "down": 3,
+   "dist": 3,
+   "ytg": 31,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "- Ace Olfset",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "SLANT: RIGHT"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 13,
+   "off_play": "MTN HB SLIP SCREEN",
+   "def_play": "COVER 4 QUARTERS",
+   "play_source": "panel",
+   "panel_timestamp": "8:16"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 493,
+   "timestamp": "8:13",
+   "qtr": "1ST",
+   "clock": 69,
+   "down": 1,
+   "dist": 10,
+   "ytg": 18,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Pistol - Trip:",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "3-5 MINT: COVER 4 PALMS",
+    "3-5 MIN: OVER 4 QUARTER!",
+    "13-5 MINT: COVER 4 DROP"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 1,
+   "off_play": "SNAG",
+   "def_play": "COVER 2 MAN",
+   "play_source": "panel",
+   "panel_timestamp": "9:13"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 515,
+   "timestamp": "8:35",
+   "qtr": "1ST",
+   "clock": 58,
+   "down": 2,
+   "dist": 10,
+   "ytg": 17,
+   "score": [
+    6,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Normal YOH",
+   "def_candidates": [
+    "3-5 MINT: COVER 2 MAN",
+    "LICKEL 3-3 OVEI: OVER 2 MAN"
+   ],
+   "offense": "Stanford",
+   "result": "touchdown",
+   "yards": 17
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 587,
+   "timestamp": "9:47",
+   "qtr": "1ST",
+   "clock": 33,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    6,
+    7
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 21
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 616,
+   "timestamp": "10:16",
+   "qtr": "1ST",
+   "clock": 26,
+   "down": 1,
+   "dist": 10,
+   "ytg": 54,
+   "score": [
+    6,
+    7
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "loss",
+   "yards": -10
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 634,
+   "timestamp": "10:34",
+   "qtr": "1ST",
+   "clock": 14,
+   "down": 2,
+   "dist": 19,
+   "ytg": 64,
+   "score": [
+    6,
+    7
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 4
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 653,
+   "timestamp": "10:53",
+   "qtr": "1ST",
+   "clock": 1,
+   "down": 3,
+   "dist": 15,
+   "ytg": 60,
+   "score": [
+    6,
+    7
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 25
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 694,
+   "timestamp": "11:34",
+   "qtr": "2ND",
+   "clock": 290,
+   "down": 1,
+   "dist": 10,
+   "ytg": 35,
+   "score": [
+    6,
+    7
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 19
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 708,
+   "timestamp": "11:48",
+   "qtr": "2ND",
+   "clock": 278,
+   "down": 1,
+   "dist": 10,
+   "ytg": 16,
+   "score": [
+    6,
+    7
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 729,
+   "timestamp": "12:09",
+   "qtr": "2ND",
+   "clock": 258,
+   "down": 2,
+   "dist": 5,
+   "ytg": 11,
+   "score": [
+    6,
+    7
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 749,
+   "timestamp": "12:29",
+   "qtr": "2ND",
+   "clock": 242,
+   "down": 1,
+   "dist": "G",
+   "ytg": 6,
+   "score": [
+    6,
+    7
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "touchdown",
+   "yards": 6
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 828,
+   "timestamp": "13:48",
+   "qtr": "2ND",
+   "clock": 221,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    12,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "-3-5 MINT: LB CROSS 0"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 22
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 850,
+   "timestamp": "14:10",
+   "qtr": "2ND",
+   "clock": 215,
+   "down": 1,
+   "dist": 10,
+   "ytg": 53,
+   "score": [
+    12,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SLANT: RIGHT"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 12
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 871,
+   "timestamp": "14:31",
+   "qtr": "2ND",
+   "clock": 206,
+   "down": 1,
+   "dist": 10,
+   "ytg": 41,
+   "score": [
+    12,
+    7
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun \u2022 Doebles",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "ICKEL 3-3 OVEI: COVER 2 MAN",
+    "LICKEL 2-4 LOAD: COVER 2 MAN"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 21
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 892,
+   "timestamp": "14:52",
+   "qtr": "2ND",
+   "clock": 202,
+   "down": 1,
+   "dist": 10,
+   "ytg": 20,
+   "score": [
+    12,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "3-3-5 MINT: TAMPA 2"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 5,
+   "off_play": "CURLS SLOT SHAKE",
+   "def_play": "TAMPA 2",
+   "play_source": "panel",
+   "panel_timestamp": "15:20"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 915,
+   "timestamp": "15:15",
+   "qtr": "2ND",
+   "clock": 187,
+   "down": 2,
+   "dist": 6,
+   "ytg": 15,
+   "score": [
+    12,
+    7
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Normal YOff Close",
+   "def_candidates": [
+    "NICKEL 3-3 OVER: COVER 2 MAN"
+   ],
+   "offense": "Stanford",
+   "result": "no_gain",
+   "yards": 0,
+   "off_play": "TE WHEEL",
+   "def_play": "COVER 2 MAN",
+   "play_source": "panel",
+   "panel_timestamp": "16:10"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 942,
+   "timestamp": "15:42",
+   "qtr": "2ND",
+   "clock": 176,
+   "down": 3,
+   "dist": 6,
+   "ytg": 15,
+   "score": [
+    12,
+    7
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - FexYOff Close",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "RS: INSIDE"
+   ],
+   "offense": "Stanford",
+   "result": "touchdown",
+   "yards": 15
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1009,
+   "timestamp": "16:49",
+   "qtr": "2ND",
+   "clock": 171,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    12,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 8
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1035,
+   "timestamp": "17:15",
+   "qtr": "2ND",
+   "clock": 164,
+   "down": 2,
+   "dist": 2,
+   "ytg": 67,
+   "score": [
+    12,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 8
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1056,
+   "timestamp": "17:36",
+   "qtr": "2ND",
+   "clock": 145,
+   "down": 1,
+   "dist": 10,
+   "ytg": 59,
+   "score": [
+    12,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1091,
+   "timestamp": "18:11",
+   "qtr": "2ND",
+   "clock": 116,
+   "down": 2,
+   "dist": 10,
+   "ytg": 59,
+   "score": [
+    12,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 20
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1109,
+   "timestamp": "18:29",
+   "qtr": "2ND",
+   "clock": 111,
+   "down": 1,
+   "dist": 10,
+   "ytg": 39,
+   "score": [
+    12,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 17
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1133,
+   "timestamp": "18:53",
+   "qtr": "2ND",
+   "clock": 100,
+   "down": 1,
+   "dist": 10,
+   "ytg": 22,
+   "score": [
+    12,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 3
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1176,
+   "timestamp": "19:36",
+   "qtr": "2ND",
+   "clock": 69,
+   "down": 2,
+   "dist": 7,
+   "ytg": 19,
+   "score": [
+    12,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 14
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1215,
+   "timestamp": "20:15",
+   "qtr": "2ND",
+   "clock": 62,
+   "down": 1,
+   "dist": "G",
+   "ytg": 5,
+   "score": [
+    12,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 2
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1234,
+   "timestamp": "20:34",
+   "qtr": "2ND",
+   "clock": 58,
+   "down": 2,
+   "dist": "G",
+   "ytg": 3,
+   "score": [
+    12,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "touchdown",
+   "yards": 3
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1313,
+   "timestamp": "21:53",
+   "qtr": "2ND",
+   "clock": 55,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Spread Dbl Flex",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 13
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1339,
+   "timestamp": "22:19",
+   "qtr": "2ND",
+   "clock": 49,
+   "down": 1,
+   "dist": 10,
+   "ytg": 62,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 40
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1357,
+   "timestamp": "22:37",
+   "qtr": "2ND",
+   "clock": 39,
+   "down": 1,
+   "dist": 10,
+   "ytg": 22,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 10
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1379,
+   "timestamp": "22:59",
+   "qtr": "2ND",
+   "clock": 29,
+   "down": 2,
+   "dist": 1,
+   "ytg": 12,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "DIME 2-3 0DD: RESET PLAY"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 4
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1400,
+   "timestamp": "23:20",
+   "qtr": "2ND",
+   "clock": 10,
+   "down": 1,
+   "dist": "G",
+   "ytg": 8,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "DIME 2-3 00D: X COVER 2 MAN"
+   ],
+   "offense": "Stanford",
+   "result": "loss",
+   "yards": -5
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1413,
+   "timestamp": "23:33",
+   "qtr": "2ND",
+   "clock": 1,
+   "down": 2,
+   "dist": "G",
+   "ytg": 13,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Stanford",
+   "result": "end_of_half"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1459,
+   "timestamp": "24:19",
+   "qtr": "3RD",
+   "clock": 297,
+   "down": 1,
+   "dist": 10,
+   "ytg": 67,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Form - Clos",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 2
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1484,
+   "timestamp": "24:44",
+   "qtr": "3RD",
+   "clock": 292,
+   "down": 2,
+   "dist": 8,
+   "ytg": 65,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "hotgun - Bunch Open Oftse",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "SLANT: RIGHT"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 4,
+   "off_play": "RELOAD Z SHALLOW CROSS",
+   "def_play": "COVER 3 MATCH",
+   "play_source": "panel",
+   "panel_timestamp": "25:22"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1520,
+   "timestamp": "25:20",
+   "qtr": "3RD",
+   "clock": 260,
+   "down": 3,
+   "dist": 4,
+   "ytg": 61,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Noemal YOH",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "-3-5 MINT: COVER 3 CLOUD"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 41,
+   "off_play": "SNAG",
+   "def_play": "COVER 3 CLOUD",
+   "play_source": "panel",
+   "panel_timestamp": "25:58"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1553,
+   "timestamp": "25:53",
+   "qtr": "3RD",
+   "clock": 250,
+   "down": 1,
+   "dist": 10,
+   "ytg": 20,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Trips YSlot Wk",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "Y LEFT EXIT & MAN: RESET STUNT"
+   ],
+   "offense": "Stanford",
+   "result": "no_gain",
+   "yards": 0,
+   "off_play": "TRIPLE SLANT",
+   "def_play": "COVER 3 SKY",
+   "play_source": "panel",
+   "panel_timestamp": "26:20"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1577,
+   "timestamp": "26:17",
+   "qtr": "3RD",
+   "clock": 233,
+   "down": 2,
+   "dist": 10,
+   "ytg": 20,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Bunch Spread",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 8,
+   "off_play": "SPEED OPTION",
+   "def_play": "2 INVERT HARD FLAT",
+   "play_source": "panel",
+   "panel_timestamp": "27:08"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1599,
+   "timestamp": "26:39",
+   "qtr": "3RD",
+   "clock": 227,
+   "down": 3,
+   "dist": 2,
+   "ytg": 12,
+   "score": [
+    20,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Trips TE",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "NICKEL 3-3 DBL: COVER 2 INVERT"
+   ],
+   "offense": "Stanford",
+   "result": "touchdown",
+   "yards": 12
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1658,
+   "timestamp": "27:38",
+   "qtr": "3RD",
+   "clock": 211,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    20,
+    20
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1676,
+   "timestamp": "27:56",
+   "qtr": "3RD",
+   "clock": 207,
+   "down": 1,
+   "dist": 10,
+   "ytg": 64,
+   "score": [
+    20,
+    20
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 18
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1696,
+   "timestamp": "28:16",
+   "qtr": "3RD",
+   "clock": 188,
+   "down": 1,
+   "dist": 10,
+   "ytg": 46,
+   "score": [
+    20,
+    20
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 16
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1715,
+   "timestamp": "28:35",
+   "qtr": "3RD",
+   "clock": 173,
+   "down": 1,
+   "dist": 10,
+   "ytg": 30,
+   "score": [
+    20,
+    20
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "loss",
+   "yards": -4
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1731,
+   "timestamp": "28:51",
+   "qtr": "3RD",
+   "clock": 158,
+   "down": 2,
+   "dist": 14,
+   "ytg": 34,
+   "score": [
+    20,
+    20
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 30
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1748,
+   "timestamp": "29:08",
+   "qtr": "3RD",
+   "clock": 143,
+   "down": 1,
+   "dist": "G",
+   "ytg": 4,
+   "score": [
+    20,
+    20
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "touchdown",
+   "yards": 4,
+   "off_play": "INSIDE ZONE",
+   "def_play": "COVER 4 QUARTERS",
+   "play_source": "panel",
+   "panel_timestamp": "31:14"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1839,
+   "timestamp": "30:39",
+   "qtr": "3RD",
+   "clock": 130,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    26,
+    20
+   ],
+   "screen": "DEF",
+   "off_formation": "shotgu:",
+   "def_candidates": [
+    "33-5 MINT: COVER 4 QUARTERS",
+    "3:5 MINT: COVER 4 DROP"
+   ],
+   "offense": "Stanford",
+   "result": "touchdown",
+   "yards": 75
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1908,
+   "timestamp": "31:48",
+   "qtr": "3RD",
+   "clock": 120,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    26,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 18
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1960,
+   "timestamp": "32:40",
+   "qtr": "3RD",
+   "clock": 98,
+   "down": 1,
+   "dist": 10,
+   "ytg": 57,
+   "score": [
+    26,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 6
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 1978,
+   "timestamp": "32:58",
+   "qtr": "3RD",
+   "clock": 81,
+   "down": 2,
+   "dist": 4,
+   "ytg": 51,
+   "score": [
+    26,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 8
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2002,
+   "timestamp": "33:22",
+   "qtr": "3RD",
+   "clock": 63,
+   "down": 1,
+   "dist": 10,
+   "ytg": 43,
+   "score": [
+    26,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 9
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2019,
+   "timestamp": "33:39",
+   "qtr": "3RD",
+   "clock": 48,
+   "down": 2,
+   "dist": 1,
+   "ytg": 34,
+   "score": [
+    26,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2034,
+   "timestamp": "33:54",
+   "qtr": "3RD",
+   "clock": 35,
+   "down": 1,
+   "dist": 10,
+   "ytg": 27,
+   "score": [
+    26,
+    27
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2056,
+   "timestamp": "34:16",
+   "qtr": "3RD",
+   "clock": 20,
+   "down": 1,
+   "dist": 10,
+   "ytg": 27,
+   "score": [
+    26,
+    27
+   ],
+   "screen": null,
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 9
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2065,
+   "timestamp": "34:25",
+   "qtr": "3RD",
+   "clock": 12,
+   "down": 1,
+   "dist": 10,
+   "ytg": 18,
+   "score": [
+    26,
+    27
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Flex YOff Close",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "NICKEL 3:3 DBL: COVER 2 INVERT",
+    "LICKEL 33 D8L MUC: 2 INVERT HARD FLAT"
+   ],
+   "offense": "Stanford",
+   "result": "penalty?",
+   "yards": -5
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2107,
+   "timestamp": "35:07",
+   "qtr": "3RD",
+   "clock": 12,
+   "down": 1,
+   "dist": 15,
+   "ytg": 23,
+   "score": [
+    26,
+    27
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Spread YSice Wk",
+   "def_candidates": [
+    "LOAD MUG: CKEL 2-4",
+    "XME 23: COVER 2 MAN",
+    "IME RUSH: COVER 2 MAN"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 11,
+   "off_play": "SNAG",
+   "def_play": "COVER 2 MAN",
+   "play_source": "panel",
+   "panel_timestamp": "36:41"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2139,
+   "timestamp": "35:39",
+   "qtr": "3RD",
+   "clock": 5,
+   "down": 2,
+   "dist": 4,
+   "ytg": 12,
+   "score": [
+    26,
+    27
+   ],
+   "screen": "OFF",
+   "def_candidates": [
+    "3-3-5 MINT: COVER 2 MAN",
+    "NICKEL 3-3 OVER: COVER 2 MAN",
+    "NICKEL 2-4 LOAD: COVER 2 MAN"
+   ],
+   "offense": "Stanford",
+   "result": "touchdown",
+   "yards": 12
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2238,
+   "timestamp": "37:18",
+   "qtr": "4TH",
+   "clock": 295,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    26,
+    34
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 30
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2261,
+   "timestamp": "37:41",
+   "qtr": "4TH",
+   "clock": 287,
+   "down": 1,
+   "dist": 10,
+   "ytg": 45,
+   "score": [
+    26,
+    34
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 14
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2282,
+   "timestamp": "38:02",
+   "qtr": "4TH",
+   "clock": 282,
+   "down": 1,
+   "dist": 10,
+   "ytg": 31,
+   "score": [
+    26,
+    34
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2301,
+   "timestamp": "38:21",
+   "qtr": "4TH",
+   "clock": 264,
+   "down": 1,
+   "dist": 10,
+   "ytg": 20,
+   "score": [
+    26,
+    34
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "touchdown",
+   "yards": 20
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2367,
+   "timestamp": "39:27",
+   "qtr": "4TH",
+   "clock": 248,
+   "down": 1,
+   "dist": 10,
+   "ytg": 36,
+   "score": [
+    34,
+    34
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "3.3-5 MINT: COVER 3 SKY",
+    "3-5 MINT: COVER 3 CLOUD"
+   ],
+   "offense": "Stanford",
+   "result": "first_down",
+   "yards": 21,
+   "off_play": "TRIPLE SLANT",
+   "def_play": "COVER 3 MATCH",
+   "play_source": "panel",
+   "panel_timestamp": "40:03"
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2394,
+   "timestamp": "39:54",
+   "qtr": "4TH",
+   "clock": 240,
+   "down": 1,
+   "dist": 10,
+   "ytg": 15,
+   "score": [
+    34,
+    34
+   ],
+   "screen": "DEF",
+   "off_formation": "Shotgun - Doubles HB Wk",
+   "def_candidates": [
+    "SLANT: RS"
+   ],
+   "offense": "Stanford",
+   "result": "gain",
+   "yards": 8
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2432,
+   "timestamp": "40:32",
+   "qtr": "4TH",
+   "clock": 197,
+   "down": 2,
+   "dist": 1,
+   "ytg": 7,
+   "score": [
+    34,
+    34
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "-3-5 MINT: COVER 9",
+    "13-5 MINT: COVER 6 WILLIE"
+   ],
+   "offense": "Stanford",
+   "result": "touchdown",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2518,
+   "timestamp": "41:58",
+   "qtr": "4TH",
+   "clock": 159,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    34,
+    42
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2551,
+   "timestamp": "42:31",
+   "qtr": "4TH",
+   "clock": 154,
+   "down": 2,
+   "dist": 9,
+   "ytg": 74,
+   "score": [
+    34,
+    42
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 21
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2571,
+   "timestamp": "42:51",
+   "qtr": "4TH",
+   "clock": 137,
+   "down": 1,
+   "dist": 10,
+   "ytg": 53,
+   "score": [
+    34,
+    42
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 12
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2617,
+   "timestamp": "43:37",
+   "qtr": "4TH",
+   "clock": 115,
+   "down": 1,
+   "dist": 10,
+   "ytg": 41,
+   "score": [
+    34,
+    42
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 13
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2656,
+   "timestamp": "44:16",
+   "qtr": "4TH",
+   "clock": 83,
+   "down": 1,
+   "dist": 10,
+   "ytg": 28,
+   "score": [
+    34,
+    42
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "loss",
+   "yards": -1
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2688,
+   "timestamp": "44:48",
+   "qtr": "4TH",
+   "clock": 62,
+   "down": 2,
+   "dist": 11,
+   "ytg": 29,
+   "score": [
+    34,
+    42
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 16
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2719,
+   "timestamp": "45:19",
+   "qtr": "4TH",
+   "clock": 54,
+   "down": 1,
+   "dist": 10,
+   "ytg": 13,
+   "score": [
+    34,
+    42
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2757,
+   "timestamp": "45:57",
+   "qtr": "4TH",
+   "clock": 27,
+   "down": 2,
+   "dist": 9,
+   "ytg": 12,
+   "score": [
+    34,
+    42
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "touchdown",
+   "yards": 12
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2832,
+   "timestamp": "47:12",
+   "qtr": "4TH",
+   "clock": 7,
+   "down": 1,
+   "dist": 10,
+   "ytg": 40,
+   "score": [
+    40,
+    42
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "13-5 MINT: COVER 6 WILLIE"
+   ],
+   "offense": "Stanford",
+   "result": "loss",
+   "yards": -1
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2857,
+   "timestamp": "47:37",
+   "qtr": "4TH",
+   "clock": 5,
+   "down": 2,
+   "dist": 11,
+   "ytg": 41,
+   "score": [
+    40,
+    42
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "13-5 MINT: COVER 6 WILLIE"
+   ],
+   "offense": "Stanford",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2871,
+   "timestamp": "47:51",
+   "qtr": "4TH",
+   "clock": 4,
+   "down": 3,
+   "dist": 11,
+   "ytg": 41,
+   "score": [
+    40,
+    42
+   ],
+   "screen": "DEF",
+   "offense": "Stanford",
+   "result": "loss",
+   "yards": -4
+  },
+  {
+   "video_id": "2026-10-04-ou",
+   "t": 2895,
+   "timestamp": "48:15",
+   "qtr": "4TH",
+   "clock": 0,
+   "down": 4,
+   "dist": 15,
+   "ytg": 45,
+   "score": [
+    40,
+    42
+   ],
+   "screen": "OFF",
+   "offense": "Stanford",
+   "result": null
+  }
+ ]
+}
