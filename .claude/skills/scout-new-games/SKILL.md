@@ -37,11 +37,12 @@ The scouting pipeline lives in `cf26/` inside the allenvestal.com repo. Run ever
    - Flag tendencies that changed, such as a new favorite play, a coverage that now works or fails, or a new formation.
    - If the opponent has no `gameplan.md` yet, write one using `cf26/opponents/jason-stanford/reports/gameplan.md` as the template. Use only that opponent's data.
    - Be explicit about small sample sizes.
-   - Keep the sections in this order: "What the data says", "Pre-snap adjustments", "Coach adjustments", "Pre-snap read → your call", "Calls by down & distance" (plus "Open questions" at the end while the sample is small).
+   - Keep the sections in this order: "What the data says", "Pre-snap adjustments", "Coach adjustments", "Pre-snap read → your call", "Play rotation (6-play freeze)", "Calls by down & distance" (plus "Open questions" at the end while the sample is small).
    - Keep the **"Pre-snap read → your call"** table current, with one row per formation from the report's "Pre-snap read" section. Keep the columns in this order: Banner shows | Personnel | **Call** | Backup | He's run from it (confirmed) | How often | His results | Results vs. your calls. Also keep a row for "No banner (hurry-up)" with a default call.
      - Calls must be exact plays from the user's playbook, written `Formation: Play` (e.g. `Nickel 3-3 Over: Cover 2 Man`). Take names from `def_candidates` in that opponent's `games/*.json`; the OCR is messy, so clean the names. Never invent a play the user hasn't had on screen.
+   - The game has a **6-play freeze** (a called play can't be re-called for 6 snaps). Keep a "Play rotation (6-play freeze)" section with at least 12 distinct calls grouped by job (each from the user's playbook), plus a sample 7-call cycle. Spread the pre-snap table's Call/Backup across different plays, so no single play covers most formations.
    - There is **one cumulative plan per opponent**, covering all their games. Update it; don't start a new plan per video.
-   - Write it in the Markdown subset `render_html.py` handles: `#` headings, paragraphs, `-` bullets, pipe tables, `**bold**`, `` `code` ``, `[links](x.md)`.
+   - Write it in the Markdown subset `render_html.py` handles: `#` headings, paragraphs, `-` bullets, `1.` numbered lists, pipe tables, `**bold**`, `` `code` ``, `[links](x.md)`.
    - Then run `python3 cf26/scripts/render_html.py` to regenerate `gameplan.html`, `scouting_report.html` and `cf26/index.html`.
 
 5. **Commit and push (this deploys).** This repo commits straight to `main` (no branches or PRs), and its quality bar still applies:

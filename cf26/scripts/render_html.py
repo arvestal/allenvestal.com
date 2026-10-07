@@ -3,7 +3,7 @@
     python3 scripts/render_html.py
 
 The Markdown files stay the source (easy to edit and diff); the HTML is what you open. Handles the Markdown subset
-the reports use: headings, paragraphs, bullet lists, tables, **bold**, *italic*, `code`, [links](url).
+the reports use: headings, paragraphs, bullet and numbered lists, tables, **bold**, *italic*, `code`, [links](url).
 Tables are sortable (click a header). Percent / yards columns get a red tint: redder = better for the offense.
 """
 import glob, html, os, re, sys
@@ -132,9 +132,14 @@ def md_to_html(md):
                 h.append('</ul></li>')
             h.append('</ul>')
             out.append(''.join(h)); continue
+        elif re.match(r'^\d+\. ', l):
+            items = []
+            while i < len(lines) and re.match(r'^\d+\. ', lines[i]):
+                items.append(re.sub(r'^\d+\. ', '', lines[i])); i += 1
+            out.append('<ol>' + ''.join(f'<li>{inline(x)}</li>' for x in items) + '</ol>'); continue
         elif l.strip():
             para = [l]
-            while i + 1 < len(lines) and lines[i + 1].strip() and not re.match(r'^(#|\||\s*[-*] )', lines[i + 1]):
+            while i + 1 < len(lines) and lines[i + 1].strip() and not re.match(r'^(#|\||\s*[-*] |\d+\. )', lines[i + 1]):
                 i += 1; para.append(lines[i])
             out.append(f'<p>{inline(" ".join(para))}</p>')
         i += 1
