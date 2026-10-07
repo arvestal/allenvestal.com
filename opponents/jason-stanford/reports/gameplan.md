@@ -24,6 +24,12 @@ single-digit rows as hints, not proof. Re-run the pipeline after every game and 
 - **Sticks** on 3rd and medium or long: zone defenders drop to the first-down marker.
 - **Show 2** before the snap, then rotate after the snap. He reads one-high looks.
 
+## Coach adjustments (all plays)
+
+- Zone Drops – Hooks: about 8–10 yards. Zone Drops – Curl Flats: about 7–8 yards. Safety Width: narrower.
+- Safety Midpoint: shift toward the field (he attacks the wide side).
+- Tackling: Conservative. Much of his yardage comes after the catch on short throws.
+
 ## Pre-snap read → your call
 
 When he picks his play, the **"DEFENSE, PICK A PLAY!"** banner shows his formation and personnel. Find it here and
@@ -49,12 +55,6 @@ call the play in the **Call** column. Play names are from your playbook as they 
 Notes:
 - Most "Results vs. your calls" cells are 1–4 plays. Weigh them alongside the overall coverage numbers above.
 - Cover 2 Man isn't in 3-3-5 Mint; it showed up on your screen under **Nickel 3-3 Over**, **Nickel 2-4 Load** and **Dime Rush**.
-
-## Coach adjustments (all plays)
-
-- Zone Drops – Hooks: about 8–10 yards. Zone Drops – Curl Flats: about 7–8 yards. Safety Width: narrower.
-- Safety Midpoint: shift toward the field (he attacks the wide side).
-- Tackling: Conservative. Much of his yardage comes after the catch on short throws.
 
 ## Calls by down & distance
 

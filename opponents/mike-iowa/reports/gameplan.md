@@ -23,6 +23,12 @@ confirmed**. One game is a small sample. Treat everything here as a first read a
 - **Sticks** on 3rd and medium or long, so zone defenders drop to the first-down marker.
 - Against **3-TE sets**, stay in a base front for the run, but play zone behind it.
 
+## Coach adjustments
+
+- Zone Drops – Hooks: deeper than default (about 8–10 yards), so hook defenders sit in the TE seam and stick windows.
+- Tackling: Conservative. His explosive plays came after the catch on TE routes.
+- No field/boundary tendency is known yet. Revisit after more games.
+
 ## Pre-snap read → your call
 
 When he picks his play, the **"DEFENSE, PICK A PLAY!"** banner shows his formation and personnel. Find it here and call the
@@ -36,12 +42,6 @@ play in the **Call** column. Play names are from your playbook as they appeared 
 | **Gun - Ace Slot** | 1 RB, 2 TE, 2 WR | **Nickel Double Mug: Cover 3 Sky** | Nickel 3-3 Over: Cover 4 Palms | – | 14% | 0.0 avg | Cover 3: 0 |
 | **Singleback - Ace** | 1 RB, 2 TE, 2 WR | **Nickel Double Mug: Cover 3 Seam** — no Cover 1 here | Prevent 3 Deep: Cover 3 on 3rd & long | – (guess: TE Option) | 5% | 53-yard TD | Cover 1: 53-yard TD |
 | **No banner (hurry-up)** | – | **Nickel Double Mug: Cover 3 Seam** as your default audible | – | – | 65% of snaps | – | – |
-
-## Coach adjustments
-
-- Zone Drops – Hooks: deeper than default (about 8–10 yards), so hook defenders sit in the TE seam and stick windows.
-- Tackling: Conservative. His explosive plays came after the catch on TE routes.
-- No field/boundary tendency is known yet. Revisit after more games.
 
 ## Calls by down & distance
 
