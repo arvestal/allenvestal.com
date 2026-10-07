@@ -3,6 +3,34 @@
 Built from the [scouting report](scouting_report.md) (4 games, 181 Stanford snaps). Sample sizes per situation are small, so treat
 single-digit rows as hints, not proof. Re-run the pipeline after every game and update this file.
 
+## In-game call sheet (by personnel)
+
+**When the banner shows his personnel, go left to right and call the first play that isn't frozen.** Every play here is
+on the Favorites checklist below. Rows are ordered by how often he uses each personnel group. The choices are ordered by
+how they've done against him, and spread out so the 6-play freeze doesn't leave you stuck.
+
+| Personnel | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
+|---|---|---|---|---|---|---|---|
+| **1 RB, 1 TE, 3 WR** | **Nickel 3-3 Over: Cover 2 Man** | 3-3-5 Mint: Cover 6 Willie | Nickel 3-3 Over: Double Bracket | 3-3-5 Mint: Cover 2 Man | 3-3-5 Mint: 1 Double WR1 | 3-3-5 Mint: Cover 9 | 3-3-5 Penny: Double Bracket |
+| **1 RB, 2 TE, 2 WR** | **Nickel 3-3 Dbl Mug: Cover 2 Invert** | Nickel 2-4 Load: Cover 2 Man | 3-3-5 Over Flex: Double Bracket | 3-3-5 Over Flex: Cover 6 Willie | 3-3-5 Mint: Double Bracket | Dime Rush: Cover 2 Man | Dime 2-3 Odd: Cover 2 Man |
+| **1 RB, 0 TE, 4 WR** | **3-3-5 Over Flex: Cover 6 Willie** | Dime 2-3 Odd: Cover 2 Man | Dime 2-3 Odd: Double Bracket | 3-3-5 Mint: Cover 6 Willie | Dime Rush: Cover 2 Man | 3-3-5 Mint: 1 Double WR2 | – |
+| **Empty / 5 WR** | **Dime 2-3 Odd: Double Bracket** | Dime Rush: Cover 2 Man | Dime 2-3 Odd: Cover 2 Man | 3-3-5 Mint: Cover 9 | 3-3-5 Mint: 1 Double WR1 | 3-3-5 Over Flex: Cover 6 Willie | – |
+| **2 RB, 1 TE, 2 WR** | **3-4 Tite: Cover 1 Hole** | 3-3-5 Penny: Cover 1 Hole | Nickel 2-4 Load: Cover 2 Man | 3-3-5 Penny: Cover 4 Quarters | Nickel 3-3 Over: Cover 1 Robber Press | 3-3-5 Penny: Double Bracket | – |
+| **1 RB, 3 TE** | **3-4 Tite: Cover 1 Hole** | 3-3-5 Penny: Cover 1 Hole | Nickel 2-4 Load: Cover 2 Man | – | – | – | – |
+| **No banner** | Use the **1 RB, 1 TE, 3 WR** row | | | | | | |
+
+**What each personnel group means:**
+
+| Personnel | How often | What he runs from it | Avoid |
+|---|---|---|---|
+| **1 RB, 1 TE, 3 WR** | 53% · 12.0 avg · 37% explosive | Snag, RPO Alert Out, Levels Dig, Double Slant. If it's **Bunch Spread**, call 3-3-5 Mint: Cover 4 Quarters first | Any Cover 3 (17.4 avg) |
+| **1 RB, 2 TE, 2 WR** | 27% · 7.0 avg | TE Wheel, Drive, Curls Slot Shake, Mtn HB Slip Screen | Tampa 2 (Drive went for 34) |
+| **1 RB, 0 TE, 4 WR** | 6% · 13.2 avg · 100% success | RPO Alert Zone Bubble (Trips Offset) | Cover 3 (bubble beat it) |
+| **Empty / 5 WR** | 6% · 21.3 avg | Double Slant | Cover 4 (75-yard TD) |
+| **2 RB, 1 TE, 2 WR** | 6% · 8.3 avg | Power O (I Form) | Light boxes (Dime) |
+| **1 RB, 3 TE** | 1% | Goal line; 1 snap so far | Dime |
+| **No banner** | hurry-up: 47% of snaps | His most common group is 1 RB, 1 TE, 3 WR | – |
+
 ## What the data says
 
 - **He's averaging 10.3 yards per play with a 70% success rate.** He moves the ball on almost every down.
@@ -42,7 +70,7 @@ call the play in the **Call** column. Play names are from your playbook as they 
 | **Shotgun - Bunch Spread** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 4 Quarters** — one of the few spots Cover 4 works | 3-3-5 Mint: Cover 2 Man | Levels Dig (2), Speed Option | 11% | 7.4 avg | **Cover 4: 2.5 over 4** · Blitz: 17 |
 | **Shotgun - Flex Y Off Close** | 1 RB, 2 TE, 2 WR | **Nickel 3-3 Dbl Mug: Cover 2 Invert** (what you've been calling) | Nickel 2-4 Load: Cover 2 Man | TE Wheel (2) | 8% | 3.9 avg (you handle it) | Cover 2 Zone/Invert: -1.0 over 2 · Blitz: 13 |
 | **Shotgun - Spread Dbl Flex** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 6 Willie** | 3-3-5 Mint: Double Bracket | Cross H Divide | 7% | 12.7 avg, 43% explosive | Cover 6/9: 1 · Cover 1: 20 |
-| **Shotgun - Trips Offset** | 1 RB, 0 TE, 4 WR | **3-3-5 Over Flex: Cover 6 Willie** — quarters to the trips side, flat defender takes the bubble | Nickel 2-4 Load: Cover 2 Man | RPO Alert Zone Bubble (2) | 6% | 13.2 avg, 100% success | Cover 3: 9.0 over 2 |
+| **Shotgun - Trips Offset** | 1 RB, 0 TE, 4 WR | **3-3-5 Over Flex: Cover 6 Willie** — quarters to the trips side, flat defender takes the bubble | Dime 2-3 Odd: Cover 2 Man | RPO Alert Zone Bubble (2) | 6% | 13.2 avg, 100% success | Cover 3: 9.0 over 2 |
 | **I Form - Close** | 2 RB, 1 TE, 2 WR | **3-4 Tite: Cover 1 Hole** — run front, 8 in the box | 3-3-5 Penny: Cover 1 Hole | Power O | 5% | 8.4 avg | Cover 4: 6 · Cover 2 Man: 8 |
 | **Shotgun - 5WR** | empty backfield | **Dime 2-3 Odd: Double Bracket** — rush 3, bracket his top WR | Dime Rush: Cover 2 Man | – | 5% | 24.4 avg | Cover 4: 75-yard TD |
 | **Shotgun - Spread Y-Flex** | 1 RB, 2 TE, 2 WR | **Dime Rush: Cover 2 Man** | 3-3-5 Mint: Cover 9 | Drive | 4% | 18.0 avg | Tampa 2: 34 |

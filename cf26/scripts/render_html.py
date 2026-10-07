@@ -18,7 +18,7 @@ CSS = """
 @media (prefers-color-scheme:dark){:root{--bg:#14171c;--card:#1c2027;--ink:#e6e8eb;--muted:#9aa3b2;--line:#2c323c;--accent:#e0656a;--head:#232831;--heat:230,80,80}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-main{max-width:1180px;margin:0 auto;padding:24px 20px 64px}
+main{max-width:1600px;margin:0 auto;padding:24px 20px 64px}
 nav{font-size:13px;color:var(--muted);margin-bottom:8px}
 nav a{color:var(--muted)}
 h1{font-size:26px;margin:4px 0 16px;letter-spacing:-.01em}
@@ -37,6 +37,9 @@ tr:last-child td{border-bottom:none}
 tbody tr:hover td{background:rgba(127,127,127,.06)}
 td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td.nowrap{white-space:nowrap}
+td.choice{white-space:nowrap;padding:7px 8px;font-size:13px}
+td.choice .f{display:block;font-size:11px;color:var(--muted)}
+td.choice .p{display:block;font-weight:600}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
 .card h3{margin:0 0 4px}.card p{margin:4px 0;color:var(--muted);font-size:13.5px}
@@ -59,6 +62,9 @@ document.querySelectorAll('table').forEach(t=>{
 
 # columns whose cells should never wrap
 NOWRAP = re.compile(r'^\**(personnel)\**$', re.I)
+# call-sheet choice columns (1st, 2nd, ...): "Formation: Play" shown as two lines, formation small above the play
+CHOICE = re.compile(r'^\**(\d+(st|nd|rd|th))\**$', re.I)
+
 # columns that stay left-aligned even when a cell is just a number (mixed "11%" / "19% (his #1)" cells)
 LEFT = re.compile(r'^\**(how often)\**$', re.I)
 
@@ -95,6 +101,12 @@ def table(lines):
             col = head[i] if i < len(head) else ''
             num = re.match(r'^-?[\d.]+%?$|^–$', c.strip()) and not LEFT.match(col.strip())
             cls = ' class="num"' if num else ' class="nowrap"' if NOWRAP.match(col.strip()) else ''
+            m = re.match(r'^(\**)([^:*]+): (.+?)(\**)$', c.strip()) if CHOICE.match(col.strip()) else None
+            if m:
+                cells.append(f'<td class="choice"><span class="f">{inline(m[2])}</span><span class="p">{inline(m[3])}</span></td>')
+                continue
+            if CHOICE.match(col.strip()):
+                cls = ''
             cells.append(f'<td{cls}{heat(head[i] if i < len(head) else "", c)}>{inline(c)}</td>')
         out.append('<tr>' + ''.join(cells) + '</tr>')
     out.append('</tbody></table></div>')
