@@ -43,7 +43,7 @@ call the play in the **Call** column. Play names are from your playbook as they 
 | **Shotgun - Flex Y Off Close** | 1 RB, 2 TE, 2 WR | **Nickel 3-3 Dbl Mug: Cover 2 Invert** (what you've been calling) | Nickel 2-4 Load: Cover 2 Man | TE Wheel (2) | 8% | 3.9 avg (you handle it) | Cover 2 Zone/Invert: -1.0 over 2 · Blitz: 13 |
 | **Shotgun - Spread Dbl Flex** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 6 Willie** | 3-3-5 Mint: Double Bracket | Cross H Divide | 7% | 12.7 avg, 43% explosive | Cover 6/9: 1 · Cover 1: 20 |
 | **Shotgun - Trips Offset** | 1 RB, 0 TE, 4 WR | **3-3-5 Over Flex: Cover 6 Willie** — quarters to the trips side, flat defender takes the bubble | Nickel 2-4 Load: Cover 2 Man | RPO Alert Zone Bubble (2) | 6% | 13.2 avg, 100% success | Cover 3: 9.0 over 2 |
-| **I Form - Close** | 2 RB, 1 TE, 2 WR | **3-4 Tite: Cover 1 Hole** — run front, 8 in the box | 3-3-5 Penny: Cover 3 Match | Power O | 5% | 8.4 avg | Cover 4: 6 · Cover 2 Man: 8 |
+| **I Form - Close** | 2 RB, 1 TE, 2 WR | **3-4 Tite: Cover 1 Hole** — run front, 8 in the box | 3-3-5 Penny: Cover 1 Hole | Power O | 5% | 8.4 avg | Cover 4: 6 · Cover 2 Man: 8 |
 | **Shotgun - 5WR** | empty backfield | **Dime 2-3 Odd: Double Bracket** — rush 3, bracket his top WR | Dime Rush: Cover 2 Man | – | 5% | 24.4 avg | Cover 4: 75-yard TD |
 | **Shotgun - Spread Y-Flex** | 1 RB, 2 TE, 2 WR | **Dime Rush: Cover 2 Man** | 3-3-5 Mint: Cover 9 | Drive | 4% | 18.0 avg | Tampa 2: 34 |
 | **Shotgun - Trips Y Slot Wk** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: 1 Double WR1** — press, inside shade | Nickel 3-3 Over: Cover 1 Robber Press | Triple Slant | 4% | 9.2 avg, 50% explosive | Cover 3: 0 |
@@ -115,6 +115,25 @@ downs) · Nickel 3-3 Over: Cover 1 Robber Press (sparingly; Cover 1 gave up 15+ 
 
 **Don't put these in the rotation:** any Cover 3 (Buzz Match, Cloud, Match, Hard Flat: 16.5 yds per play, 41% explosive), Tampa 2 on 3rd &
 long (Drive went for 34), and blitzes (83% success for him).
+
+## Favorites checklist
+
+Every play this plan calls for (21), grouped by formation so you can favorite them formation by formation in the
+playbook. The number is its place in **Play rotation**; *sit.* = situational, *pre* = pre-snap table only.
+
+| Formation | Plays to favorite | Count |
+|---|---|---|
+| **Nickel 3-3 Over** | Cover 2 Man (1) · Double Bracket (6) · Cover 1 Robber Press (*sit.*) | 3 |
+| **Nickel 2-4 Load** | Cover 2 Man (2) | 1 |
+| **Nickel 3-3 Dbl Mug** | Cover 2 Invert (16) | 1 |
+| **Dime Rush** | Cover 2 Man (4) | 1 |
+| **Dime 2-3 Odd** | Cover 2 Man (5) · Double Bracket (10) | 2 |
+| **3-3-5 Mint** | Cover 2 Man (3) · Double Bracket (7) · 1 Double WR1 (11) · 1 Double WR2 (12) · Cover 6 Willie (13) · Cover 9 (15) · Cover 4 Quarters (*sit.*) | 7 |
+| **3-3-5 Penny** | Double Bracket (8) · Cover 4 Quarters (*pre*) · Cover 1 Hole (*pre*) | 3 |
+| **3-3-5 Over Flex** | Double Bracket (9) · Cover 6 Willie (14) | 2 |
+| **3-4 Tite** | Cover 1 Hole (*sit.*) | 1 |
+
+If your Favorites list has a limit, favorite rotation plays 1–16 first. They cover every formation he uses.
 
 ## Calls by down & distance
 
