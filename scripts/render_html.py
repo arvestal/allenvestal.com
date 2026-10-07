@@ -36,6 +36,7 @@ th.asc::after{content:" ▲";font-size:10px}th.desc::after{content:" ▼";font-s
 tr:last-child td{border-bottom:none}
 tbody tr:hover td{background:rgba(127,127,127,.06)}
 td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.nowrap{white-space:nowrap}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
 .card h3{margin:0 0 4px}.card p{margin:4px 0;color:var(--muted);font-size:13.5px}
@@ -55,6 +56,9 @@ document.querySelectorAll('table').forEach(t=>{
   }));
 });
 """
+
+# columns whose cells should never wrap
+NOWRAP = re.compile(r'^\**(personnel)\**$', re.I)
 
 # columns where a higher number is better for the offense (worse for me) -> tint
 HEAT = re.compile(r'^(avg|avg allowed|succ|his success|expl|explosive|yards)$', re.I)
@@ -87,7 +91,8 @@ def table(lines):
         cells = []
         for i, c in enumerate(r):
             num = re.match(r'^-?[\d.]+%?$|^–$', c.strip())
-            cls = ' class="num"' if num else ''
+            col = head[i] if i < len(head) else ''
+            cls = ' class="num"' if num else ' class="nowrap"' if NOWRAP.match(col.strip()) else ''
             cells.append(f'<td{cls}{heat(head[i] if i < len(head) else "", c)}>{inline(c)}</td>')
         out.append('<tr>' + ''.join(cells) + '</tr>')
     out.append('</tbody></table></div>')

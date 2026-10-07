@@ -21,6 +21,7 @@ th.asc::after{content:" ▲";font-size:10px}th.desc::after{content:" ▼";font-s
 tr:last-child td{border-bottom:none}
 tbody tr:hover td{background:rgba(127,127,127,.06)}
 td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.nowrap{white-space:nowrap}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
 .card h3{margin:0 0 4px}.card p{margin:4px 0;color:var(--muted);font-size:13.5px}
@@ -34,11 +35,11 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 <h2>Pre-snap read → your call</h2>
 <p>When he picks his play, the <strong>"DEFENSE, PICK A PLAY!"</strong> banner shows his formation and personnel. Find it here and call the play in the <strong>Call</strong> column. Play names are from your playbook as they appeared on your screen.</p>
 <div class="tbl"><table><thead><tr><th>Banner shows</th><th>Personnel</th><th><strong>Call</strong></th><th>Backup</th><th>He's run from it (confirmed)</th><th>How often</th><th>His results</th><th>Results vs. your calls</th></tr></thead><tbody>
-<tr><td><strong>Singleback - Wing Pair</strong></td><td>1 RB, 3 TE, 1 WR</td><td><strong>Nickel Double Mug: Cover 3 Sky</strong> — keep the run fits</td><td>Nickel 3-3 Over: Cover 2 Man</td><td>HB Stretch</td><td class="num">33%</td><td>2.4 avg, 29% success (you handle it)</td><td>Cover 2 Man: -1 · Cover 3: 0</td></tr>
-<tr><td><strong>Singleback - Wing Tight</strong></td><td>1 RB, 3 TE, 1 WR</td><td><strong>Nickel Double Mug: Cover 3 Seam</strong> — seam defenders carry the TEs</td><td>Nickel Double Mug: Cover 3 Sky</td><td>TE Shake</td><td class="num">33%</td><td>9.3 avg</td><td>Blitz: 0 · Cover 1: 11 · Cover 2 Man: 14</td></tr>
-<tr><td><strong>Singleback - Deuce Close</strong></td><td>1 RB, 2 TE, 2 WR</td><td><strong>Nickel Double Mug: Cover 3 Sky</strong></td><td>Nickel 3-3 Over: Cover 4 Palms</td><td>Flood Trail, Y Stick</td><td class="num">14%</td><td>1.3 avg</td><td>Cover 3: 4.0 over 2 · Blitz: -4</td></tr>
-<tr><td><strong>Gun - Ace Slot</strong></td><td>1 RB, 2 TE, 2 WR</td><td><strong>Nickel Double Mug: Cover 3 Sky</strong></td><td>Nickel 3-3 Over: Cover 4 Palms</td><td class="num">–</td><td class="num">14%</td><td>0.0 avg</td><td>Cover 3: 0</td></tr>
-<tr><td><strong>Singleback - Ace</strong></td><td>1 RB, 2 TE, 2 WR</td><td><strong>Nickel Double Mug: Cover 3 Seam</strong> — no Cover 1 here</td><td>Prevent 3 Deep: Cover 3 on 3rd &amp; long</td><td>– (guess: TE Option)</td><td class="num">5%</td><td>53-yard TD</td><td>Cover 1: 53-yard TD</td></tr>
+<tr><td><strong>Singleback - Wing Pair</strong></td><td class="nowrap">1 RB, 3 TE, 1 WR</td><td><strong>Nickel Double Mug: Cover 3 Sky</strong> — keep the run fits</td><td>Nickel 3-3 Over: Cover 2 Man</td><td>HB Stretch</td><td class="num">33%</td><td>2.4 avg, 29% success (you handle it)</td><td>Cover 2 Man: -1 · Cover 3: 0</td></tr>
+<tr><td><strong>Singleback - Wing Tight</strong></td><td class="nowrap">1 RB, 3 TE, 1 WR</td><td><strong>Nickel Double Mug: Cover 3 Seam</strong> — seam defenders carry the TEs</td><td>Nickel Double Mug: Cover 3 Sky</td><td>TE Shake</td><td class="num">33%</td><td>9.3 avg</td><td>Blitz: 0 · Cover 1: 11 · Cover 2 Man: 14</td></tr>
+<tr><td><strong>Singleback - Deuce Close</strong></td><td class="nowrap">1 RB, 2 TE, 2 WR</td><td><strong>Nickel Double Mug: Cover 3 Sky</strong></td><td>Nickel 3-3 Over: Cover 4 Palms</td><td>Flood Trail, Y Stick</td><td class="num">14%</td><td>1.3 avg</td><td>Cover 3: 4.0 over 2 · Blitz: -4</td></tr>
+<tr><td><strong>Gun - Ace Slot</strong></td><td class="nowrap">1 RB, 2 TE, 2 WR</td><td><strong>Nickel Double Mug: Cover 3 Sky</strong></td><td>Nickel 3-3 Over: Cover 4 Palms</td><td class="num">–</td><td class="num">14%</td><td>0.0 avg</td><td>Cover 3: 0</td></tr>
+<tr><td><strong>Singleback - Ace</strong></td><td class="nowrap">1 RB, 2 TE, 2 WR</td><td><strong>Nickel Double Mug: Cover 3 Seam</strong> — no Cover 1 here</td><td>Prevent 3 Deep: Cover 3 on 3rd &amp; long</td><td>– (guess: TE Option)</td><td class="num">5%</td><td>53-yard TD</td><td>Cover 1: 53-yard TD</td></tr>
 <tr><td><strong>No banner (hurry-up)</strong></td><td class="num">–</td><td><strong>Nickel Double Mug: Cover 3 Seam</strong> as your default audible</td><td class="num">–</td><td class="num">–</td><td>65% of snaps</td><td class="num">–</td><td class="num">–</td></tr>
 </tbody></table></div>
 <h2>Calls by down &amp; distance</h2>
