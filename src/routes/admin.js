@@ -4,8 +4,9 @@ const multer = require('multer');
 const { OAuth2Client } = require('google-auth-library');
 
 const {
-  createAdminToken, verifyAdminToken, TOKEN_COOKIE, STATE_COOKIE, STATE_TTL_MS,
+  createAdminToken, safeNextPath, TOKEN_COOKIE, STATE_COOKIE, NEXT_COOKIE, STATE_TTL_MS,
 } = require('../lib/admin-auth');
+const { requireAdmin } = require('../lib/require-admin');
 const {
   resolveDataDir, listPhotos, addPhoto, updatePhotoAlt, deletePhoto,
 } = require('../lib/gallery-store');
@@ -28,27 +29,13 @@ function oauthClient() {
   });
 }
 
-function requireAdmin(req, res, next) {
-  const adminEmail = process.env.ADMIN_EMAIL;
-  if (!adminEmail) {
-    return res.status(500).render('error', {
-      pageTitle: 'Admin Not Configured',
-      message: 'ADMIN_EMAIL is not set for this deployment.',
-      noIndex: true,
-    });
-  }
-
-  const payload = verifyAdminToken(req.cookies[TOKEN_COOKIE], process.env.ADMIN_JWT_SECRET, adminEmail);
-  if (!payload) {
-    return res.redirect('/admin/login');
-  }
-
-  req.adminEmail = payload.email;
-  return next();
-}
-
 router.get('/login', (req, res) => {
-  res.render('admin/login', { pageTitle: 'Admin Login', noIndex: true });
+  const next = safeNextPath(req.query.next);
+  res.render('admin/login', {
+    pageTitle: 'Admin Login',
+    noIndex: true,
+    nextParam: next ? encodeURIComponent(next) : null,
+  });
 });
 
 router.get('/auth/google', (req, res) => {
@@ -57,6 +44,14 @@ router.get('/auth/google', (req, res) => {
     httpOnly: true, secure: secureCookies(), sameSite: 'lax', maxAge: STATE_TTL_MS,
   });
 
+  // Remember where to go after login (e.g. a /cf26 page), for the length of the OAuth round trip.
+  const next = safeNextPath(req.query.next);
+  if (next) {
+    res.cookie(NEXT_COOKIE, next, {
+      httpOnly: true, secure: secureCookies(), sameSite: 'lax', maxAge: STATE_TTL_MS,
+    });
+  }
+
   const url = oauthClient().generateAuthUrl({ scope: ['email'], state });
   res.redirect(url);
 });
@@ -64,7 +59,9 @@ router.get('/auth/google', (req, res) => {
 router.get('/auth/google/callback', async (req, res) => {
   const { code, state } = req.query;
   const cookieState = req.cookies[STATE_COOKIE];
+  const next = safeNextPath(req.cookies[NEXT_COOKIE]);
   res.clearCookie(STATE_COOKIE);
+  res.clearCookie(NEXT_COOKIE);
 
   if (!state || !cookieState || state !== cookieState) {
     return res.status(403).render('error', {
@@ -93,7 +90,7 @@ router.get('/auth/google/callback', async (req, res) => {
     res.cookie(TOKEN_COOKIE, token, {
       httpOnly: true, secure: secureCookies(), sameSite: 'lax', maxAge: TOKEN_COOKIE_MAX_AGE_MS,
     });
-    return res.redirect('/admin');
+    return res.redirect(next || '/admin');
   } catch {
     return res.status(403).render('error', {
       pageTitle: 'Login Failed',
@@ -108,7 +105,7 @@ router.get('/logout', (req, res) => {
   res.redirect('/');
 });
 
-router.use(requireAdmin);
+router.use(requireAdmin());
 
 router.get('/', (req, res) => {
   const photos = listPhotos(resolveDataDir()).map((p) => ({

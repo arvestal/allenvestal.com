@@ -100,6 +100,46 @@ describe('GET /admin/auth/google/callback', () => {
   });
 });
 
+describe('returning to the requested page after login (?next=)', () => {
+  it('carries a safe ?next= through the login page link', async () => {
+    const res = await request(app).get('/admin/login?next=%2Fcf26%2F');
+    expect(res.status).toBe(200);
+    expect(res.text).toContain('href="/admin/auth/google?next=%2Fcf26%2F"');
+  });
+
+  it('drops an unsafe ?next= on the login page', async () => {
+    const res = await request(app).get('/admin/login?next=%2F%2Fevil.com');
+    expect(res.text).toContain('href="/admin/auth/google"');
+    expect(res.text).not.toContain('evil.com');
+  });
+
+  it('remembers a safe ?next= in a short-lived cookie during the Google round trip', async () => {
+    mockGenerateAuthUrl.mockReturnValue('https://accounts.google.com/o/oauth2/mock');
+    const res = await request(app).get('/admin/auth/google?next=%2Fcf26%2F');
+    expect(res.headers['set-cookie'].some((c) => c.startsWith('admin_next=%2Fcf26%2F'))).toBe(true);
+  });
+
+  it('does not set the cookie for an unsafe ?next=', async () => {
+    mockGenerateAuthUrl.mockReturnValue('https://accounts.google.com/o/oauth2/mock');
+    const res = await request(app).get('/admin/auth/google?next=https%3A%2F%2Fevil.com');
+    expect(res.headers['set-cookie'].some((c) => c.startsWith('admin_next='))).toBe(false);
+  });
+
+  it('redirects to the remembered page after a successful login', async () => {
+    process.env.ADMIN_EMAIL = ADMIN_EMAIL;
+    process.env.ADMIN_JWT_SECRET = JWT_SECRET;
+    mockGetToken.mockResolvedValue({ tokens: { id_token: 'fake-id-token' } });
+    mockVerifyIdToken.mockResolvedValue({ getPayload: () => ({ email: ADMIN_EMAIL }) });
+
+    const res = await request(app)
+      .get('/admin/auth/google/callback?code=abc&state=match')
+      .set('Cookie', ['oauth_state=match', 'admin_next=%2Fcf26%2Fopponents%2Fmike-iowa%2Freports%2Fgameplan.html']);
+
+    expect(res.status).toBe(302);
+    expect(res.headers.location).toBe('/cf26/opponents/mike-iowa/reports/gameplan.html');
+  });
+});
+
 describe('GET /admin/logout', () => {
   it('clears the admin_token cookie and redirects home', async () => {
     const res = await request(app).get('/admin/logout');

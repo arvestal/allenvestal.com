@@ -1,6 +1,7 @@
-# cf26-scouting
+# cf26 — CFB 26 opponent scouting
 
-Scouting the people I play in **EA SPORTS College Football 26**, from recordings of our games.
+Lives in `cf26/` inside the allenvestal.com repo (it was a separate `cf26-scouting` repo until 2026-10-07; its history
+was merged in). Scouting the people I play in **EA SPORTS College Football 26**, from recordings of our games.
 
 For each opponent (a person plus the team they use), the recordings are turned into a play-by-play of their offense:
 every snap's down, distance, field position and yards gained, their formation, their play call when the game shows it,
@@ -8,8 +9,14 @@ and my coverage. That feeds a scouting report and a defensive game plan for the 
 
 ## Deliverables — what to read before a game
 
-Open **`index.html`** at the root of the repo in a browser. It links every opponent's pages. Each opponent's pages are in
-`opponents/<player>-<team>/reports/`:
+**Live (behind my Google login, same as `/admin`): https://allenvestal.com/cf26/**. It links every opponent's pages:
+
+| Opponent | Game plan | Scouting report |
+|---|---|---|
+| Jason (Stanford) | https://allenvestal.com/cf26/opponents/jason-stanford/reports/gameplan.html | https://allenvestal.com/cf26/opponents/jason-stanford/reports/scouting_report.html |
+| Mike (Iowa) | https://allenvestal.com/cf26/opponents/mike-iowa/reports/gameplan.html | https://allenvestal.com/cf26/opponents/mike-iowa/reports/scouting_report.html |
+
+Locally, open `cf26/index.html` in a browser. Each opponent's pages are in `cf26/opponents/<player>-<team>/reports/`:
 
 | Page | What it is | Made by |
 |---|---|---|
@@ -17,8 +24,9 @@ Open **`index.html`** at the root of the repo in a browser. It links every oppon
 | `scouting_report.html` | The evidence behind the plan: tables by down & distance, my coverage vs. their offense, their plays, their formations, and every 15+ yard play allowed with timestamps. | `analyze.py` (automatic) |
 
 Tables are sortable: click a column header. Red shading means the number is good for the offense. The `.md` files next to
-the pages are their source; edit those, not the HTML. GitHub shows HTML files as source code, so open the pages locally
-(or from a clone).
+the pages are their source; edit those, not the HTML. The site (`src/routes/cf26.js`) serves only the two `.html` pages per
+opponent and `index.html`, never the data files. The repo is public, so everything here is also readable on GitHub;
+only the website copy is behind the login.
 
 To check a specific play, `plays.csv` in the opponent folder has every snap with its video file and timestamp. It opens in Excel or Numbers.
 
@@ -34,21 +42,23 @@ Each opponent is fully isolated. Their games, tendencies, report and plan are bu
 ## Adding games
 
 1. **Save the console recording** (screen capture, 720p or 1080p) in the opponent's video folder, set in their
-   `profile.json`. For example, Jason's games go in `../jason-standford` and Mike's in `../mike-iowa`.
+   `profile.json`. Jason's games go in `/Users/allenv/Documents/media/cf26/jason-standford` and Mike's in
+   `/Users/allenv/Documents/media/cf26/mike-iowa`. Videos stay outside the repo.
    - Don't use GoPro or phone footage of the TV.
    - A video in the wrong folder still gets filed correctly, because the opponent is identified by the team on the scoreboard.
 2. **Process it.** Start Claude Code in this repo and run the command:
    ```
-   cd /Users/allenv/Documents/media/cf26/cf26-scouting
+   cd /Users/allenv/Documents/dev/allenvestal.com
    claude
    /scout-new-games            # every opponent
    /scout-new-games mike       # one opponent (id, player, or team)
    ```
    It extracts and reads the video (about 10 minutes per hour of footage), rebuilds that opponent's data and
-   `scouting_report.md`, sanity-checks the numbers, updates their `gameplan.md`, and commits and pushes to GitHub.
-3. **Open `gameplan.html`** (or `index.html`). There's one plan per opponent, covering all their games, and each new game updates it.
+   `scouting_report.md`, sanity-checks the numbers, updates their `gameplan.md`, runs the site's lint and tests, and commits
+   and pushes to `main`. The push auto-deploys, so the live pages update a couple of minutes later.
+3. **Open the game plan** at https://allenvestal.com/cf26/ (or the local `gameplan.html`). There's one plan per opponent, covering all their games, and each new game updates it.
 
-Without Claude, `python3 scripts/process_new.py [--opponent mike] [--dry-run]` does everything except update the game plan.
+Without Claude, `python3 cf26/scripts/process_new.py [--opponent mike] [--dry-run]` does everything except update the game plan.
 
 **New opponent:** ask Claude to add them, or create `opponents/<player>-<team>/profile.json` (copy an existing one)
 and a `videos.json` containing `[]`.
@@ -86,11 +96,11 @@ scripts/
   render_html.py   reports/*.md -> .html for every opponent, plus index.html
   opponents.py     opponent registry helpers
 unassigned.json    processed recordings whose scoreboard matched no opponent (OCR kept in unassigned/)
-.claude/skills/scout-new-games/   the /scout-new-games command
+../.claude/skills/scout-new-games/   the /scout-new-games command (at the allenvestal.com repo root)
 SCHEMA.md          every field in every data file
 ```
 
-To rebuild everything after changing a parser: `python3 scripts/build_plays.py && python3 scripts/analyze.py && python3 scripts/render_html.py`.
+To rebuild everything after changing a parser: `python3 cf26/scripts/build_plays.py && python3 cf26/scripts/analyze.py && python3 cf26/scripts/render_html.py`.
 
 Requirements: macOS (Vision framework for OCR, `swiftc`), `ffmpeg` (`brew install ffmpeg`), Python 3.9+ (standard library only).
 

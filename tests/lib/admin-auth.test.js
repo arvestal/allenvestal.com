@@ -1,4 +1,4 @@
-const { createAdminToken, verifyAdminToken } = require('../../src/lib/admin-auth');
+const { createAdminToken, verifyAdminToken, safeNextPath } = require('../../src/lib/admin-auth');
 
 describe('createAdminToken / verifyAdminToken', () => {
   it('verifies a token it created itself for the matching email', () => {
@@ -29,5 +29,25 @@ describe('createAdminToken / verifyAdminToken', () => {
     const jwt = require('jsonwebtoken');
     const expired = jwt.sign({ email: 'arvestal@gmail.com' }, 'test-secret', { expiresIn: -10 });
     expect(verifyAdminToken(expired, 'test-secret', 'arvestal@gmail.com')).toBeNull();
+  });
+});
+
+describe('safeNextPath', () => {
+  it('accepts same-site absolute paths', () => {
+    expect(safeNextPath('/cf26/')).toBe('/cf26/');
+    expect(safeNextPath('/cf26/opponents/jason-stanford/reports/gameplan.html')).toBe('/cf26/opponents/jason-stanford/reports/gameplan.html');
+  });
+
+  it('rejects anything a browser could treat as another host', () => {
+    expect(safeNextPath('//evil.com')).toBeNull();
+    expect(safeNextPath('/\\evil.com')).toBeNull();
+    expect(safeNextPath('https://evil.com')).toBeNull();
+    expect(safeNextPath('cf26')).toBeNull();
+  });
+
+  it('rejects missing, non-string and overlong values', () => {
+    expect(safeNextPath(undefined)).toBeNull();
+    expect(safeNextPath(['/cf26/'])).toBeNull();
+    expect(safeNextPath(`/${'a'.repeat(600)}`)).toBeNull();
   });
 });

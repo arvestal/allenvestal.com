@@ -1,6 +1,8 @@
 {
  "player": "Jason",
- "teams": ["Stanford"],
- "video_dir": "../jason-standford",
+ "teams": [
+  "Stanford"
+ ],
+ "video_dir": "/Users/allenv/Documents/media/cf26/jason-standford",
  "my_playbook": "3-3-5 Tite"
 }

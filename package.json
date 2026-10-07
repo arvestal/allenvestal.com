@@ -24,10 +24,12 @@
       "src/lib/gallery-store.js",
       "src/lib/gallery-upload.js",
       "src/lib/admin-auth.js",
+      "src/lib/require-admin.js",
       "src/routes/index.js",
       "src/routes/softball.js",
       "src/routes/gallery.js",
       "src/routes/admin.js",
+      "src/routes/cf26.js",
       "scripts/generate-stats.js"
     ],
     "coverageThreshold": {

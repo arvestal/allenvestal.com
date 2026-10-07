@@ -46,7 +46,10 @@ npm run build:stats    # regenerate data/softball/seasons.js from data/gc_files/
   (`GALLERY_DATA_DIR`); the single source of truth for gallery photos at runtime
 - `src/lib/gallery-upload.js` — sharp-only resize/WebP-convert for admin-uploaded photos (no
   `sips`/`mdls` — those are macOS-only, this runs on Railway's Linux container)
-- `src/lib/admin-auth.js` — signs/verifies the admin session JWT
+- `src/lib/admin-auth.js` — signs/verifies the admin session JWT; `safeNextPath` (post-login return path)
+- `src/lib/require-admin.js` — the login-gate middleware shared by `/admin` and `/cf26`
+- `src/routes/cf26.js` — private CF26 scouting pages at `/cf26` (see **CF26 scouting** below)
+- `cf26/` — the CF26 opponent-scouting pipeline (Python) and its generated pages; see `cf26/README.md`
 - `views/*.hbs` — Handlebars templates; `views/layouts/main.hbs` is the shared layout;
   `views/admin/*.hbs` is the admin login/dashboard UI
 - `data/gc_files/*.csv` — raw GameChanger season exports (source of truth for stats)
@@ -155,6 +158,26 @@ data to track, so a full session/user-table layer would be pure overhead.
   is meant to be portable to `website-starter` via a configurable `ADMIN_EMAIL`, so any future
   personal site (Mary/Taylor/Logan's included) can gate its own admin behind exactly one Google
   account without needing a database.
+
+## CF26 scouting (`cf26/`, `/cf26`)
+
+Opponent scouting for EA SPORTS College Football 26: game recordings → per-snap play-by-play → per-opponent
+scouting report + defensive game plan. Merged in 2026-10-07 from the separate `cf26-scouting` repo (history preserved
+via `git subtree add`), so there's one repo. Details in `cf26/README.md` / `cf26/SCHEMA.md`.
+
+- **Pipeline runs on the Mac, not on Railway**: Python 3 stdlib + `ffmpeg` + macOS Vision OCR (`cf26/scripts/ocr.swift`).
+  It writes committed files under `cf26/opponents/<player>-<team>/`. The Node app never runs any of it.
+- **Processing new games**: `/scout-new-games [opponent]` (`.claude/skills/scout-new-games/`) — extracts new recordings
+  from each opponent's `video_dir` (absolute paths outside the repo), rebuilds data + reports, updates the game plan,
+  runs lint/tests, commits, pushes (= deploys).
+- **Serving**: `src/routes/cf26.js` serves only `cf26/index.html` and `cf26/opponents/<id>/reports/{gameplan,scouting_report}.html`,
+  behind `requireAdmin({ returnTo: true })` (same ADMIN_EMAIL Google login as `/admin`; unauthenticated visitors go to
+  `/admin/login?next=…` and land back on the page). Responses are `Cache-Control: private, no-store` + `X-Robots-Tag: noindex`;
+  `/cf26` is also disallowed in `robots.txt`. The pages are self-contained HTML with relative links, so the URL layout
+  mirrors the folder layout and `/cf26` must redirect to `/cf26/`.
+- **Public repo**: the owner is fine with the scouting files being readable on GitHub; only the website copy is gated.
+- **`?next=` safety**: `safeNextPath` only accepts same-site paths (`/x`, not `//x`, `/\x` or absolute URLs), so the login
+  flow can't be used as an open redirect. The value rides in a short-lived `admin_next` cookie across the OAuth round trip.
 
 ## Conventions
 

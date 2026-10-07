@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /cf26
 
 Sitemap: https://allenvestal.com/sitemap.xml

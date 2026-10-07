@@ -1,5 +1,5 @@
 <section class="content-page">
   <h1>Admin Login</h1>
-  <p>Sign in with the authorized Google account to manage the gallery.</p>
-  <a class="btn" href="/admin/auth/google">Sign in with Google</a>
+  <p>Sign in with the authorized Google account{{#if nextParam}} to continue{{else}} to manage the gallery{{/if}}.</p>
+  <a class="btn" href="/admin/auth/google{{#if nextParam}}?next={{nextParam}}{{/if}}">Sign in with Google</a>
 </section>

@@ -58,6 +58,7 @@ app.use('/', require('./routes/index'));
 app.use('/softball', require('./routes/softball'));
 app.use('/gallery', require('./routes/gallery'));
 app.use('/admin', require('./routes/admin'));
+app.use('/cf26', require('./routes/cf26'));
 
 app.use((req, res) => {
   res.status(404).render('error', {
