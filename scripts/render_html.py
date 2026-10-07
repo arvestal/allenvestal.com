@@ -59,6 +59,8 @@ document.querySelectorAll('table').forEach(t=>{
 
 # columns whose cells should never wrap
 NOWRAP = re.compile(r'^\**(personnel)\**$', re.I)
+# columns that stay left-aligned even when a cell is just a number (mixed "11%" / "19% (his #1)" cells)
+LEFT = re.compile(r'^\**(how often)\**$', re.I)
 
 # columns where a higher number is better for the offense (worse for me) -> tint
 HEAT = re.compile(r'^(avg|avg allowed|succ|his success|expl|explosive|yards)$', re.I)
@@ -90,8 +92,8 @@ def table(lines):
     for r in body:
         cells = []
         for i, c in enumerate(r):
-            num = re.match(r'^-?[\d.]+%?$|^–$', c.strip())
             col = head[i] if i < len(head) else ''
+            num = re.match(r'^-?[\d.]+%?$|^–$', c.strip()) and not LEFT.match(col.strip())
             cls = ' class="num"' if num else ' class="nowrap"' if NOWRAP.match(col.strip()) else ''
             cells.append(f'<td{cls}{heat(head[i] if i < len(head) else "", c)}>{inline(c)}</td>')
         out.append('<tr>' + ''.join(cells) + '</tr>')
