@@ -17,19 +17,25 @@ confirmed**. One game is a small sample. Treat everything here as a first read a
 - **Red zone holds up:** 2.2 yds per play and 25% success inside the 10.
 - **65% of his snaps had no banner** (hurry-up: only 21 of 60 showed it). Have a default call ready.
 
+## Pre-snap adjustments
+
+- **Don't play man on his tight ends with linebackers.** That's where his explosive plays come from.
+- **Sticks** on 3rd and medium or long, so zone defenders drop to the first-down marker.
+- Against **3-TE sets**, stay in a base front for the run, but play zone behind it.
+
 ## Pre-snap read → your call
 
 When he picks his play, the **"DEFENSE, PICK A PLAY!"** banner shows his formation and personnel. Find it here and call the
 play in the **Call** column. Play names are from your playbook as they appeared on your screen.
 
-| Banner shows | Personnel | How often | His results | He's run from it (confirmed) | Results vs. your calls | **Call** | Backup |
-|---|---|---|---|---|---|---|---|
-| **Singleback - Wing Pair** | 1 RB, 3 TE, 1 WR | 33% | 2.4 avg, 29% success (you handle it) | HB Stretch | Cover 2 Man: -1 · Cover 3: 0 | **Nickel Double Mug: Cover 3 Sky** — keep the run fits | Nickel 3-3 Over: Cover 2 Man |
-| **Singleback - Wing Tight** | 1 RB, 3 TE, 1 WR | 33% | 9.3 avg | TE Shake | Blitz: 0 · Cover 1: 11 · Cover 2 Man: 14 | **Nickel Double Mug: Cover 3 Seam** — seam defenders carry the TEs | Nickel Double Mug: Cover 3 Sky |
-| **Singleback - Deuce Close** | 1 RB, 2 TE, 2 WR | 14% | 1.3 avg | Flood Trail, Y Stick | Cover 3: 4.0 over 2 · Blitz: -4 | **Nickel Double Mug: Cover 3 Sky** | Nickel 3-3 Over: Cover 4 Palms |
-| **Gun - Ace Slot** | 1 RB, 2 TE, 2 WR | 14% | 0.0 avg | – | Cover 3: 0 | **Nickel Double Mug: Cover 3 Sky** | Nickel 3-3 Over: Cover 4 Palms |
-| **Singleback - Ace** | 1 RB, 2 TE, 2 WR | 5% | 53-yard TD | – (guess: TE Option) | Cover 1: 53-yard TD | **Nickel Double Mug: Cover 3 Seam** — no Cover 1 here | Prevent 3 Deep: Cover 3 on 3rd & long |
-| **No banner (hurry-up)** | – | 65% of snaps | – | – | – | **Nickel Double Mug: Cover 3 Seam** as your default audible | – |
+| Banner shows | Personnel | **Call** | Backup | He's run from it (confirmed) | How often | His results | Results vs. your calls |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Singleback - Wing Pair** | 1 RB, 3 TE, 1 WR | **Nickel Double Mug: Cover 3 Sky** — keep the run fits | Nickel 3-3 Over: Cover 2 Man | HB Stretch | 33% | 2.4 avg, 29% success (you handle it) | Cover 2 Man: -1 · Cover 3: 0 |
+| **Singleback - Wing Tight** | 1 RB, 3 TE, 1 WR | **Nickel Double Mug: Cover 3 Seam** — seam defenders carry the TEs | Nickel Double Mug: Cover 3 Sky | TE Shake | 33% | 9.3 avg | Blitz: 0 · Cover 1: 11 · Cover 2 Man: 14 |
+| **Singleback - Deuce Close** | 1 RB, 2 TE, 2 WR | **Nickel Double Mug: Cover 3 Sky** | Nickel 3-3 Over: Cover 4 Palms | Flood Trail, Y Stick | 14% | 1.3 avg | Cover 3: 4.0 over 2 · Blitz: -4 |
+| **Gun - Ace Slot** | 1 RB, 2 TE, 2 WR | **Nickel Double Mug: Cover 3 Sky** | Nickel 3-3 Over: Cover 4 Palms | – | 14% | 0.0 avg | Cover 3: 0 |
+| **Singleback - Ace** | 1 RB, 2 TE, 2 WR | **Nickel Double Mug: Cover 3 Seam** — no Cover 1 here | Prevent 3 Deep: Cover 3 on 3rd & long | – (guess: TE Option) | 5% | 53-yard TD | Cover 1: 53-yard TD |
+| **No banner (hurry-up)** | – | **Nickel Double Mug: Cover 3 Seam** as your default audible | – | – | 65% of snaps | – | – |
 
 ## Calls by down & distance
 
@@ -41,12 +47,6 @@ play in the **Call** column. Play names are from your playbook as they appeared 
 | **3rd & short** | 9.5 avg | Nickel 3-3 Over: Cover 2 Man, press | – |
 | **3rd & medium / long** | 32.0 and 7.3 avg | **Cover 3 Seam** or **Prevent 3 Deep: Cover 3** on 3rd & 10+ | Cover 1 (53-yard TD on 3rd & 6), Mid Blitz 0 (15 on 3rd & 15) |
 | **Red zone / goal to go** | 2.2 avg, 25% success | Keep doing what you did: Cover 3 / pressure was fine here | – |
-
-## Pre-snap adjustments
-
-- **Don't play man on his tight ends with linebackers.** That's where his explosive plays come from.
-- **Sticks** on 3rd and medium or long, so zone defenders drop to the first-down marker.
-- Against **3-TE sets**, stay in a base front for the run, but play zone behind it.
 
 ## Coach adjustments
 

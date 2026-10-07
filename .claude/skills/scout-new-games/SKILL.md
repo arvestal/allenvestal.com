@@ -35,7 +35,7 @@ Read `README.md` for the layout and `SCHEMA.md` for the data fields.
    - Flag tendencies that changed, such as a new favorite play, a coverage that now works or fails, or a new formation.
    - If the opponent has no `gameplan.md` yet, write one using `opponents/jason-stanford/reports/gameplan.md` as the template. Use only that opponent's data.
    - Be explicit about small sample sizes.
-   - Keep the **"Pre-snap read → your call"** table current. It has one row per formation from the report's "Pre-snap read" section: banner text, personnel, how often, his results, plays confirmed from it, results vs. the user's calls, then a **Call** and a **Backup**. Also keep a row for "No banner (hurry-up)" with a default call.
+   - Keep the **"Pre-snap read → your call"** table current, with one row per formation from the report's "Pre-snap read" section. Keep the columns in this order: Banner shows | Personnel | **Call** | Backup | He's run from it (confirmed) | How often | His results | Results vs. your calls. Also keep a row for "No banner (hurry-up)" with a default call.
      - Calls must be exact plays from the user's playbook, written `Formation: Play` (e.g. `Nickel 3-3 Over: Cover 2 Man`). Take names from `def_candidates` in that opponent's `games/*.json`; the OCR is messy, so clean the names. Never invent a play the user hasn't had on screen.
    - There is **one cumulative plan per opponent**, covering all their games. Update it; don't start a new plan per video.
    - Write it in the Markdown subset `render_html.py` handles: `#` headings, paragraphs, `-` bullets, pipe tables, `**bold**`, `` `code` ``, `[links](x.md)`.
