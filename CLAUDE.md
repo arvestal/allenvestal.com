@@ -176,6 +176,9 @@ via `git subtree add`), so there's one repo. Details in `cf26/README.md` / `cf26
   `/cf26` is also disallowed in `robots.txt`. The pages are self-contained HTML with relative links, so the URL layout
   mirrors the folder layout and `/cf26` must redirect to `/cf26/`.
 - **Public repo**: the owner is fine with the scouting files being readable on GitHub; only the website copy is gated.
+- **Game plans stay structurally identical across opponents**: a layout or format change requested for one
+  opponent's page is applied to every opponent's page (with their own data), and the `/scout-new-games` skill's
+  structure notes are updated to match. Opponent-specific values (calls, settings, numbers) stay per opponent.
 - **`?next=` safety**: `safeNextPath` only accepts same-site paths (`/x`, not `//x`, `/\x` or absolute URLs), so the login
   flow can't be used as an open redirect. The value rides in a short-lived `admin_next` cookie across the OAuth round trip.
 

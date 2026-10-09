@@ -11,6 +11,7 @@ The scouting pipeline lives in `cf26/` inside the allenvestal.com repo. Run ever
 - **Each opponent is isolated** under `cf26/opponents/<id>/`, for example `jason-stanford`.
 - **`profile.json`** in each opponent folder holds the player's name, their team(s), and their video folder (absolute path, outside the repo). `video_dir: null` means no usable recordings yet.
 - **Never mix opponents.** Every report, plan and tendency is per opponent.
+- **Keep every opponent's game plan in the same shape.** When the user asks for a change to one opponent's page (sections, section order, tables, columns, formatting, wording style), make the same change on every other opponent's page in the same pass. Fill it with that opponent's own data, and keep opponent-specific values (settings, calls, numbers) specific to them. Then update this skill's structure notes so future runs keep it.
 - **The pages go live** at `https://allenvestal.com/cf26/`, behind the same Google login (ADMIN_EMAIL only) as `/admin`. They're served from the committed `cf26/**/*.html` files, so a push to `main` (which auto-deploys) is what updates them.
 
 ## Steps
