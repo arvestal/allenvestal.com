@@ -31,6 +31,19 @@ how they've done against him, and spread out so the 6-play freeze doesn't leave 
 | **1 RB, 3 TE** | 1% | Goal line; 1 snap so far | Dime |
 | **No banner** | hurry-up: 47% of snaps | His most common group is 1 RB, 1 TE, 3 WR | – |
 
+## Calls by down & distance
+
+| Situation | His numbers | Call (3-3-5 Tite) | Avoid |
+|---|---|---|---|
+| **1st & 10** | 12.2 avg, 35% explosive | **Cover 2 Man** (press, inside shade) · **Double Bracket** on his top WR · **Cover 6** to the field as a change-up | Cover 3 (19.8 avg), Cover 4 (17.6) |
+| **2nd & short (1-3)** | 9.5 avg, 75% success | Cover 2 Man / Cover 1 Hole, press | Soft zone |
+| **2nd & medium (4-6)** | 11.9 avg | Cover 2 Man; Cover 4 Palms got a -10 sack here | Blitz |
+| **2nd & long (7+)** | 6.6 avg, 44% success | Mix Cover 3 Match / Cover 2 Zone / Cover 6 — he's struggling here, don't gamble | Blitz |
+| **3rd & short (1-3)** | 4.8 avg, 75% success | Cover 1 Hole press, LB spy on the RB (Mtn HB Slip Screen went for 13 on 3rd & 3) | Cover 4 |
+| **3rd & medium (4-6)** | converts 5/5, 18.0 avg | Cover 2 Man press + **Sticks** coverage adjustment | Cover 3 (Snag went for 41) |
+| **3rd & long (7+)** | 15.3 avg, 67% success | Cover 6 / Cover 2 Man, rush 3, **Sticks** adjustment, user the middle LB | Tampa 2 (Drive 34), Double Bracket (Snag 20) |
+| **Red zone / goal to go** | 3.0 avg, 12 TDs on 25 snaps | Cover 2 Man press / Cover 1 Hole press — the short field takes away the deep shots | Cover 6/9 (4 TDs on 6) |
+
 ## What the data says
 
 - **He's averaging 10.3 yards per play with a 70% success rate.** He moves the ball on almost every down.
@@ -54,9 +67,17 @@ how they've done against him, and spread out so the 6-play freeze doesn't leave 
 
 ## Coach adjustments (all plays)
 
-- Zone Drops – Hooks: about 8–10 yards. Zone Drops – Curl Flats: about 7–8 yards. Safety Width: narrower.
-- Safety Midpoint: shift toward the field (he attacks the wide side).
-- Tackling: Conservative. Much of his yardage comes after the catch on short throws.
+Settings move in 5-yard steps.
+
+- **CB Matchups - By Overall.** Your best-rated corner takes his best-rated receiver.
+- **Zone Drops**
+  - **Flats:** Default. His flat routes (the Snag flat, RPO outs, bubbles) are short, and your flat defenders already sit there.
+  - **Curl Flats:** 10 yards. Puts the curl-flat defender under the slant and curl instead of letting the slant run behind him.
+  - **Hooks:** 10 yards. Hook defenders sit in the slant, dig and Snag windows.
+- **Safety Depth - Loose.** With the safeties pinched inside, the extra depth keeps TE Wheel, Seam Divide and Drive from getting over the top.
+- **Safety Width - Pinch.** Safeties start closer to the middle of the field, where he throws slants and Snag.
+- **Safety Midpoint - Field.** Shifts the safeties toward the wide side, where he attacks.
+- **Tackling:** Conservative. Much of his yardage comes after the catch on short throws.
 
 ## Pre-snap read → your call
 
@@ -162,16 +183,3 @@ playbook. The number is its place in **Play rotation**; *sit.* = situational, *p
 | **3-4 Tite** | Cover 1 Hole (*sit.*) | 1 |
 
 If your Favorites list has a limit, favorite rotation plays 1–16 first. They cover every formation he uses.
-
-## Calls by down & distance
-
-| Situation | His numbers | Call (3-3-5 Tite) | Avoid |
-|---|---|---|---|
-| **1st & 10** | 12.2 avg, 35% explosive | **Cover 2 Man** (press, inside shade) · **Double Bracket** on his top WR · **Cover 6** to the field as a change-up | Cover 3 (19.8 avg), Cover 4 (17.6) |
-| **2nd & short (1-3)** | 9.5 avg, 75% success | Cover 2 Man / Cover 1 Hole, press | Soft zone |
-| **2nd & medium (4-6)** | 11.9 avg | Cover 2 Man; Cover 4 Palms got a -10 sack here | Blitz |
-| **2nd & long (7+)** | 6.6 avg, 44% success | Mix Cover 3 Match / Cover 2 Zone / Cover 6 — he's struggling here, don't gamble | Blitz |
-| **3rd & short (1-3)** | 4.8 avg, 75% success | Cover 1 Hole press, LB spy on the RB (Mtn HB Slip Screen went for 13 on 3rd & 3) | Cover 4 |
-| **3rd & medium (4-6)** | converts 5/5, 18.0 avg | Cover 2 Man press + **Sticks** coverage adjustment | Cover 3 (Snag went for 41) |
-| **3rd & long (7+)** | 15.3 avg, 67% success | Cover 6 / Cover 2 Man, rush 3, **Sticks** adjustment, user the middle LB | Tampa 2 (Drive 34), Double Bracket (Snag 20) |
-| **Red zone / goal to go** | 3.0 avg, 12 TDs on 25 snaps | Cover 2 Man press / Cover 1 Hole press — the short field takes away the deep shots | Cover 6/9 (4 TDs on 6) |
