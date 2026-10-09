@@ -25,7 +25,7 @@ confirmed**. One game is a small sample. Treat everything here as a first read a
 
 ## Coach adjustments
 
-- Zone Drops – Hooks: deeper than default (about 8–10 yards), so hook defenders sit in the TE seam and stick windows.
+- **Zone Drops – Hooks:** 10 yards (settings move in 5-yard steps). Hook defenders sit in the TE seam and stick windows.
 - Tackling: Conservative. His explosive plays came after the catch on TE routes.
 - No field/boundary tendency is known yet. Revisit after more games.
 
