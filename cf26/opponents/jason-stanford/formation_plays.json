@@ -21,8 +21,12 @@
  "Shotgun - Doubles": {
   "CURLS SLOT SHAKE": 1
  },
+ "Shotgun - Doubles HB Wk": {
+  "INSIDE ZONE": 1
+ },
  "Shotgun - Flex Y Off Close": {
-  "TE WHEEL": 2
+  "TE WHEEL": 2,
+  "CROSS H DIVIDE": 1
  },
  "Shotgun - Normal Y Off Close": {
   "SNAG": 3,
