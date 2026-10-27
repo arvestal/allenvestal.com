@@ -209,10 +209,24 @@ def build(opp, vid, meta):
     for s in out:
         # possession comes from which side of the scoreboard the ball-spot box is on
         s['offense'] = meta['scout_team'] if s.pop('_side') == meta['scout_side'] else meta['user_team']
-    def same_drive(a, b):
+    # after a takeaway the scoreboard briefly keeps the old down/distance/spot with the ball box flipped;
+    # that echo isn't a real snap (it credited the new offense with the old spot and bogus yards).
+    # 1st & 10 is skipped: two drives can legitimately both start there (e.g. at the 25 after touchbacks).
+    i = 1
+    while i < len(out):
+        a, b = out[i - 1], out[i]
+        if (b['offense'] != a['offense'] and (b['down'], b['dist'], b['ytg'], b['qtr']) == (a['down'], a['dist'], a['ytg'], a['qtr'])
+                and (b['down'], b['dist']) != (1, 10) and b['t'] - a['t'] < 60):
+            echo = out.pop(i)
+            # a PREVIOUS PLAY panel seen during the echo still describes snap a; keep it with the next snap
+            if '_panel' in echo and i < len(out) and '_panel' not in out[i]:
+                out[i]['_panel'], out[i]['_panel_t'] = echo['_panel'], echo['_panel_t']
+            continue
+        i += 1
+    def same_drive(a, b, max_gain=60):
         half = lambda q: 1 if q in ('1ST', '2ND') else 2
         return (a['score'] == b['score'] and half(a['qtr']) == half(b['qtr']) and b['t'] - a['t'] < 150
-                and -20 < a['ytg'] - b['ytg'] < 60)
+                and -20 < a['ytg'] - b['ytg'] < max_gain)
     for _ in range(3):
         for i, s in enumerate(out):
             if s['offense']:
@@ -227,7 +241,8 @@ def build(opp, vid, meta):
         s['result'] = None
         if s.get('off_formation') and SPECIAL.search(s['off_formation']):
             s['special_teams'] = True
-        if nxt and nxt['offense'] == s['offense'] and same_drive(s, nxt):
+        # same offense on the next snap, so a 60+ yard drop is one long play, not a new drive
+        if nxt and nxt['offense'] == s['offense'] and same_drive(s, nxt, max_gain=100):
             s['yards'] = s['ytg'] - nxt['ytg']
             if nxt['down'] == s['down'] and nxt['dist'] != 10 and nxt['dist'] != 'G' and s['yards'] != 0:
                 s['result'] = 'penalty?'

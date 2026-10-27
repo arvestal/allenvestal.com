@@ -847,24 +847,6 @@
   },
   {
    "video_id": "2026-09-25-ou",
-   "t": 1557,
-   "timestamp": "25:57",
-   "qtr": "3RD",
-   "clock": 272,
-   "down": 2,
-   "dist": 10,
-   "ytg": 52,
-   "score": [
-    14,
-    14
-   ],
-   "screen": null,
-   "offense": "Oklahoma",
-   "result": "first_down",
-   "yards": 15
-  },
-  {
-   "video_id": "2026-09-25-ou",
    "t": 1562,
    "timestamp": "26:02",
    "qtr": "3RD",

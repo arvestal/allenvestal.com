@@ -522,27 +522,6 @@
    ],
    "screen": "OFF",
    "offense": "Oklahoma",
-   "result": "turnover?"
-  },
-  {
-   "video_id": "2026-10-11-oklahoma",
-   "t": 1006,
-   "timestamp": "16:46",
-   "qtr": "2ND",
-   "clock": 237,
-   "down": 1,
-   "dist": "G",
-   "ytg": 4,
-   "score": [
-    12,
-    22
-   ],
-   "screen": "DEF",
-   "def_candidates": [
-    "3:5 PENNY: DOUBLE BRACKET",
-    "3-3-5 MINI: 1 DOUBLE WR1"
-   ],
-   "offense": "Stanford",
    "result": "turnover?",
    "off_play": "CURLS SLOT SHAKE",
    "def_play": "DOUBLE BRACKET",

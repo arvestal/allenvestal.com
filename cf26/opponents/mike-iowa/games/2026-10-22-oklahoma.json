@@ -1,0 +1,1970 @@
+{
+ "video": {
+  "id": "2026-10-22-oklahoma",
+  "file": "EA SPORTS\u2122 College Football 26 2026-10-22 20-32-29.mp4",
+  "date": "2026-10-22",
+  "user_team": "Oklahoma",
+  "scout_team": "Iowa",
+  "scout_side": 1,
+  "user_playbook": "3-3-5 Tite"
+ },
+ "snaps": [
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 4,
+   "timestamp": "0:04",
+   "qtr": "1ST",
+   "clock": 283,
+   "down": 2,
+   "dist": 4,
+   "ytg": 69,
+   "score": [
+    null,
+    null
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 34,
+   "timestamp": "0:34",
+   "qtr": "1ST",
+   "clock": 256,
+   "down": 1,
+   "dist": 10,
+   "ytg": 51,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 12
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 57,
+   "timestamp": "0:57",
+   "qtr": "1ST",
+   "clock": 240,
+   "down": 1,
+   "dist": 10,
+   "ytg": 39,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 73,
+   "timestamp": "1:13",
+   "qtr": "1ST",
+   "clock": 226,
+   "down": 2,
+   "dist": 10,
+   "ytg": 39,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 16
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 91,
+   "timestamp": "1:31",
+   "qtr": "1ST",
+   "clock": 219,
+   "down": 1,
+   "dist": 10,
+   "ytg": 23,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "loss",
+   "yards": -5
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 109,
+   "timestamp": "1:49",
+   "qtr": "1ST",
+   "clock": 203,
+   "down": 2,
+   "dist": 15,
+   "ytg": 28,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 3
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 131,
+   "timestamp": "2:11",
+   "qtr": "1ST",
+   "clock": 188,
+   "down": 3,
+   "dist": 13,
+   "ytg": 25,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 149,
+   "timestamp": "2:29",
+   "qtr": "1ST",
+   "clock": 171,
+   "down": 4,
+   "dist": 1,
+   "ytg": 14,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "fourth_down_change"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 170,
+   "timestamp": "2:50",
+   "qtr": "1ST",
+   "clock": 154,
+   "down": 1,
+   "dist": 10,
+   "ytg": 81,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Gun - Irey",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "CKEL DOUBLE MUG: COVER 1 HOLE",
+    "CKEL DOUBLE MUG: MID BLITZ 0",
+    "NICKEL DOUBLE MUG: COVER 3 SKY"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -1
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 191,
+   "timestamp": "3:11",
+   "qtr": "1ST",
+   "clock": 151,
+   "down": 2,
+   "dist": 11,
+   "ytg": 82,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "I Form - Pro",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "SHOW 2: SHOW 3"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 217,
+   "timestamp": "3:37",
+   "qtr": "1ST",
+   "clock": 132,
+   "down": 3,
+   "dist": 11,
+   "ytg": 82,
+   "score": [
+    0,
+    0
+   ],
+   "screen": "DEF",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "KEL DOUBLE MUC: VICKEL OVERLOAD 3",
+    "CKEL DOUBLE MUG: LB BLITZ 3"
+   ],
+   "offense": "Iowa",
+   "result": "opponent_score"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 295,
+   "timestamp": "4:55",
+   "qtr": "1ST",
+   "clock": 125,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -5
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 313,
+   "timestamp": "5:13",
+   "qtr": "1ST",
+   "clock": 121,
+   "down": 2,
+   "dist": 15,
+   "ytg": 80,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "CKEL 3-3 OVER: COVER 3 BUZZ MATCH",
+    "NICKEL 3-3 OVEL: OVER STORM BRAVE",
+    "NICKEL 3-3 OVER: DOUBLE BRACKET"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 343,
+   "timestamp": "5:43",
+   "qtr": "1ST",
+   "clock": 97,
+   "down": 3,
+   "dist": 4,
+   "ytg": 69,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "CKEL 3-3 OVER: COVER 3 BUZZ MATCH",
+    "ICKEL 3-3 OVER: OVERSTORM BRAVE",
+    "NICKEL 3-3 OVER: DOUBLE BRACKET"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 357,
+   "timestamp": "5:57",
+   "qtr": "1ST",
+   "clock": 85,
+   "down": 4,
+   "dist": 4,
+   "ytg": 69,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "1 Form - Pro",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "SHOW 2: SHOW 3"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 24,
+   "off_play": "BENCH",
+   "def_play": "COVER 2 INVERT",
+   "play_source": "panel",
+   "panel_timestamp": "6:33"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 390,
+   "timestamp": "6:30",
+   "qtr": "1ST",
+   "clock": 79,
+   "down": 1,
+   "dist": 10,
+   "ytg": 45,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "l Form - Pro",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "EL DOUBLE MUG: S BLITZ 3",
+    "EL DOUBLE MU: ICKEL DOG 3 BUZ",
+    "NICKEL DOUBLE MUG: TAMPA 2"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 19
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 415,
+   "timestamp": "6:55",
+   "qtr": "1ST",
+   "clock": 59,
+   "down": 1,
+   "dist": 10,
+   "ytg": 26,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "CKEL 3-3 OVER: TAMPA 2",
+    "ICKEL 3-3 0: S WILL BLITZ (",
+    "LICKEL 3-3 OVER: COVER 4 PALMS"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 437,
+   "timestamp": "7:17",
+   "qtr": "1ST",
+   "clock": 39,
+   "down": 2,
+   "dist": 2,
+   "ytg": 19,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "Form - Pro",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "SHOW 2: SHOW 3"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 462,
+   "timestamp": "7:42",
+   "qtr": "1ST",
+   "clock": 19,
+   "down": 3,
+   "dist": 2,
+   "ytg": 19,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "1 Form - Pro",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 498,
+   "timestamp": "8:18",
+   "qtr": "1ST",
+   "clock": 13,
+   "down": 1,
+   "dist": "G",
+   "ytg": 8,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "ICKEL LOAD MUG: COVER 3 MATCH",
+    "CKEL LOAD MUG: NICKEL BLITZ 0",
+    "NICKEL LOAD MUG: HOT BLITZ 3"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 3
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 542,
+   "timestamp": "9:02",
+   "qtr": "2ND",
+   "clock": 296,
+   "down": 2,
+   "dist": "G",
+   "ytg": 5,
+   "score": [
+    7,
+    0
+   ],
+   "screen": "DEF",
+   "off_formation": "singleback - Bunch X Nast",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "CKEL 24 SINGLE MUG: COVER 1 HOLE",
+    "CKEL 2-4 SINGLE MUG: NICKEL BLITZ 3",
+    "NICKEL 2-4 SINGLE MUG: COVER 9"
+   ],
+   "offense": "Iowa",
+   "result": "touchdown",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 602,
+   "timestamp": "10:02",
+   "qtr": "2ND",
+   "clock": 277,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    7,
+    17
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 20
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 621,
+   "timestamp": "10:21",
+   "qtr": "2ND",
+   "clock": 272,
+   "down": 1,
+   "dist": 10,
+   "ytg": 55,
+   "score": [
+    7,
+    17
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 2
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 647,
+   "timestamp": "10:47",
+   "qtr": "2ND",
+   "clock": 257,
+   "down": 2,
+   "dist": 8,
+   "ytg": 53,
+   "score": [
+    7,
+    17
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 667,
+   "timestamp": "11:07",
+   "qtr": "2ND",
+   "clock": 239,
+   "down": 3,
+   "dist": 1,
+   "ytg": 46,
+   "score": [
+    7,
+    17
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "loss",
+   "yards": -10
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 684,
+   "timestamp": "11:24",
+   "qtr": "2ND",
+   "clock": 223,
+   "down": 4,
+   "dist": 11,
+   "ytg": 56,
+   "score": [
+    7,
+    17
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 19
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 719,
+   "timestamp": "11:59",
+   "qtr": "2ND",
+   "clock": 197,
+   "down": 1,
+   "dist": 10,
+   "ytg": 37,
+   "score": [
+    7,
+    17
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "touchdown",
+   "yards": 37
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 772,
+   "timestamp": "12:52",
+   "qtr": "2ND",
+   "clock": 178,
+   "down": 1,
+   "dist": 10,
+   "ytg": 40,
+   "score": [
+    14,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "CKEL 3-3 OVER: COVER 3 BUZZ MATCH",
+    "ICKEL 3-3 OVEI: OVER STORM BRAVE",
+    "NICKEL 3-3 OVER: DOUBLE BRACKET"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 792,
+   "timestamp": "13:12",
+   "qtr": "2ND",
+   "clock": 173,
+   "down": 1,
+   "dist": 10,
+   "ytg": 29,
+   "score": [
+    14,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "ICKEL 3:3 OVER: COVER 3 BUZZ MATCH",
+    "ICKEL 3-3 OVER: OVER STORM BRAVE",
+    "NICKEL 3-3 OVER: DOUBLE BRACKET"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 812,
+   "timestamp": "13:32",
+   "qtr": "2ND",
+   "clock": 155,
+   "down": 2,
+   "dist": 10,
+   "ytg": 29,
+   "score": [
+    14,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "KEL 3-3 OVER: COVER 9 SHOW 2",
+    "ICKEL 3-3 0V: OVERLOAD 3 SEAM"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -1
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 837,
+   "timestamp": "13:57",
+   "qtr": "2ND",
+   "clock": 153,
+   "down": 3,
+   "dist": 11,
+   "ytg": 30,
+   "score": [
+    14,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "TKEL 3-3 OVE: COVER 9 SHOW 2",
+    "LICKEL 3-3 OVE: OVERLOAD 3 SEAN",
+    "ICKEL 3-3 OVER: COVER 6 WILLIE"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 24
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 881,
+   "timestamp": "14:41",
+   "qtr": "2ND",
+   "clock": 126,
+   "down": 1,
+   "dist": "G",
+   "ytg": 6,
+   "score": [
+    14,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "CKEL 3-3 OVER: COVER 1 ROBBER",
+    "ICKEL 3-3 OVER: NICKEL 2 TRAP",
+    "ICKEL 3-3 OVES: :OVER 1 HOLE"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 906,
+   "timestamp": "15:06",
+   "qtr": "2ND",
+   "clock": 116,
+   "down": 2,
+   "dist": "G",
+   "ytg": 1,
+   "score": [
+    14,
+    7
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "CKEL DOUBLE MUG: COVER 1 HOLE",
+    "NICKEL DOUBLE MUG: COVER 3 SKY"
+   ],
+   "offense": "Iowa",
+   "result": "touchdown",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 989,
+   "timestamp": "16:29",
+   "qtr": "2ND",
+   "clock": 98,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 31
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1012,
+   "timestamp": "16:52",
+   "qtr": "2ND",
+   "clock": 91,
+   "down": 1,
+   "dist": 10,
+   "ytg": 44,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 3
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1032,
+   "timestamp": "17:12",
+   "qtr": "2ND",
+   "clock": 80,
+   "down": 2,
+   "dist": 7,
+   "ytg": 41,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1055,
+   "timestamp": "17:35",
+   "qtr": "2ND",
+   "clock": 60,
+   "down": 1,
+   "dist": 10,
+   "ytg": 62,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Iowa",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1072,
+   "timestamp": "17:52",
+   "qtr": "2ND",
+   "clock": 63,
+   "down": 3,
+   "dist": 1,
+   "ytg": 35,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 8
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1088,
+   "timestamp": "18:08",
+   "qtr": "2ND",
+   "clock": 48,
+   "down": 1,
+   "dist": 10,
+   "ytg": 27,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 17
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1106,
+   "timestamp": "18:26",
+   "qtr": "2ND",
+   "clock": 43,
+   "down": 1,
+   "dist": 10,
+   "ytg": 10,
+   "score": [
+    14,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "touchdown",
+   "yards": 10
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1170,
+   "timestamp": "19:30",
+   "qtr": "2ND",
+   "clock": 40,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Doubles",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "DIME NORMAL: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 20
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1193,
+   "timestamp": "19:53",
+   "qtr": "2ND",
+   "clock": 35,
+   "down": 1,
+   "dist": 10,
+   "ytg": 55,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Doubles",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "STUNTS: LEFT EXIT& MAN"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1217,
+   "timestamp": "20:17",
+   "qtr": "2ND",
+   "clock": 28,
+   "down": 2,
+   "dist": 10,
+   "ytg": 55,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Gun - Wing HB Wk Close",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "2-3 ODD: \u0413AMPA 2",
+    "DIME 2-3 ODD: DB FIRE 2",
+    "DIME 23 0DD: COVER 3 BUZZ MATCH"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1241,
+   "timestamp": "20:41",
+   "qtr": "2ND",
+   "clock": 24,
+   "down": 3,
+   "dist": 10,
+   "ytg": 55,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Gun - Doubles YOHf",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 7
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1261,
+   "timestamp": "21:01",
+   "qtr": "2ND",
+   "clock": 16,
+   "down": 4,
+   "dist": 3,
+   "ytg": 48,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1277,
+   "timestamp": "21:17",
+   "qtr": "2ND",
+   "clock": 6,
+   "down": 4,
+   "dist": 5,
+   "ytg": 48,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "l Form - Pro",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "VENT3 DEEP: MAN 3 DEEP",
+    "REVENT3 DEEP: PREVENT",
+    "EVENT 3 DEEP: COVER 3"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1292,
+   "timestamp": "21:32",
+   "qtr": "2ND",
+   "clock": 6,
+   "down": 4,
+   "dist": 3,
+   "ytg": 48,
+   "score": [
+    21,
+    14
+   ],
+   "screen": null,
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1295,
+   "timestamp": "21:35",
+   "qtr": "2ND",
+   "clock": 6,
+   "down": 4,
+   "dist": 5,
+   "ytg": 48,
+   "score": [
+    21,
+    14
+   ],
+   "screen": null,
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1298,
+   "timestamp": "21:38",
+   "qtr": "2ND",
+   "clock": 4,
+   "down": 4,
+   "dist": 3,
+   "ytg": 48,
+   "score": [
+    21,
+    14
+   ],
+   "screen": null,
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 15
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1302,
+   "timestamp": "21:42",
+   "qtr": "2ND",
+   "clock": 2,
+   "down": 1,
+   "dist": 10,
+   "ytg": 33,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Field Goal",
+   "def_candidates": [
+    "SPECIALTEAMS FIELD GOAL BLOCK RIGHT: LOAD BLOCK RIGHT",
+    "SPECIAL TEAMS FIELD: OAL BLOCK LEFT"
+   ],
+   "offense": "Iowa",
+   "result": "end_of_half",
+   "special_teams": true
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1373,
+   "timestamp": "22:53",
+   "qtr": "3RD",
+   "clock": 300,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "OVER: OLB FIRE MAN"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1396,
+   "timestamp": "23:16",
+   "qtr": "3RD",
+   "clock": 297,
+   "down": 2,
+   "dist": 9,
+   "ytg": 74,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Form - Tight",
+   "off_personnel": "2RB 2TE 1WR",
+   "def_candidates": [
+    "DIME NORMAL: COVER 3 CLOUD"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 10,
+   "off_play": "Z SLANT",
+   "def_play": "COVER 3 CLOUD",
+   "play_source": "panel",
+   "panel_timestamp": "23:40"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1417,
+   "timestamp": "23:37",
+   "qtr": "3RD",
+   "clock": 279,
+   "down": 1,
+   "dist": 10,
+   "ytg": 64,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "1 Form - Tight",
+   "off_personnel": "2RB 2TE 1WR",
+   "def_candidates": [
+    "IME NORMAL: COVER 3 BUZZ PRESS",
+    "DIME NORMAL: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1436,
+   "timestamp": "23:56",
+   "qtr": "3RD",
+   "clock": 263,
+   "down": 2,
+   "dist": 9,
+   "ytg": 63,
+   "score": [
+    21,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Doubles",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "DIME NORMAL: COVER 4 PALMS"
+   ],
+   "offense": "Iowa",
+   "result": "opponent_score"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1504,
+   "timestamp": "25:04",
+   "qtr": "3RD",
+   "clock": 236,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "-3 OVER: 1 ROBBER PRESS",
+    "B OVER: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -2
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1525,
+   "timestamp": "25:25",
+   "qtr": "3RD",
+   "clock": 232,
+   "down": 2,
+   "dist": 12,
+   "ytg": 77,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "DIME NORMAL: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 19
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1557,
+   "timestamp": "25:57",
+   "qtr": "3RD",
+   "clock": 209,
+   "down": 1,
+   "dist": 10,
+   "ytg": 58,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "3 OVER: LB STING 1",
+    "3 OVER: COVER 3 SKY"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 2
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1584,
+   "timestamp": "26:24",
+   "qtr": "3RD",
+   "clock": 184,
+   "down": 2,
+   "dist": 8,
+   "ytg": 56,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Gun - Split Pro Near",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "I3 OVER: SAM EDGE 3",
+    "SOVEH: COVER 6"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1603,
+   "timestamp": "26:43",
+   "qtr": "3RD",
+   "clock": 168,
+   "down": 3,
+   "dist": 3,
+   "ytg": 51,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "singleback - Bunch X Nast",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "GOAL LINE 6 2: 60 HALF OUT"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1627,
+   "timestamp": "27:07",
+   "qtr": "3RD",
+   "clock": 149,
+   "down": 1,
+   "dist": 10,
+   "ytg": 46,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "4-3 OVER: OLB FIRE MAN"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 13
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1651,
+   "timestamp": "27:31",
+   "qtr": "3RD",
+   "clock": 126,
+   "down": 1,
+   "dist": 10,
+   "ytg": 33,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "3 OVER: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -2
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1672,
+   "timestamp": "27:52",
+   "qtr": "3RD",
+   "clock": 107,
+   "down": 2,
+   "dist": 12,
+   "ytg": 35,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -4
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1695,
+   "timestamp": "28:15",
+   "qtr": "3RD",
+   "clock": 89,
+   "down": 3,
+   "dist": 16,
+   "ytg": 39,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Gun - Split Pro Near",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "4-3 OVER: THUNDER SMOKE"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 21
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1715,
+   "timestamp": "28:35",
+   "qtr": "3RD",
+   "clock": 73,
+   "down": 1,
+   "dist": 10,
+   "ytg": 18,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "4-3 OVER: THUNDER SMOKE"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -6,
+   "off_play": "HB SLIP SCREEN",
+   "def_play": "THUNDER SMOKE",
+   "play_source": "panel",
+   "panel_timestamp": "29:08"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1734,
+   "timestamp": "28:54",
+   "qtr": "3RD",
+   "clock": 56,
+   "down": 2,
+   "dist": 16,
+   "ytg": 24,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "l Form - Pro",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "CKEL 3:3 STACK: LB BLITZ 1"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1768,
+   "timestamp": "29:28",
+   "qtr": "3RD",
+   "clock": 52,
+   "down": 3,
+   "dist": 16,
+   "ytg": 24,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Singleback - Yiri",
+   "off_personnel": "1RB 1TE 3WR",
+   "def_candidates": [
+    "SHOW 2: SHOW 3"
+   ],
+   "offense": "Iowa",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1791,
+   "timestamp": "29:51",
+   "qtr": "3RD",
+   "clock": 47,
+   "down": 1,
+   "dist": 10,
+   "ytg": 71,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 4
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1810,
+   "timestamp": "30:10",
+   "qtr": "3RD",
+   "clock": 43,
+   "down": 2,
+   "dist": 6,
+   "ytg": 67,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 42
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1834,
+   "timestamp": "30:34",
+   "qtr": "3RD",
+   "clock": 21,
+   "down": 1,
+   "dist": 10,
+   "ytg": 25,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 16
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1857,
+   "timestamp": "30:57",
+   "qtr": "3RD",
+   "clock": 6,
+   "down": 1,
+   "dist": "G",
+   "ytg": 9,
+   "score": [
+    28,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "touchdown",
+   "yards": 9
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1925,
+   "timestamp": "32:05",
+   "qtr": "3RD",
+   "clock": 0,
+   "down": 1,
+   "dist": 10,
+   "ytg": 86,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "OVER: OLB FIRE MAN"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 1
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1950,
+   "timestamp": "32:30",
+   "qtr": "4TH",
+   "clock": 298,
+   "down": 2,
+   "dist": 9,
+   "ytg": 85,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "OVER: OLB FIRE MAN"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 10
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1974,
+   "timestamp": "32:54",
+   "qtr": "4TH",
+   "clock": 291,
+   "down": 1,
+   "dist": 10,
+   "ytg": 75,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "1-3 OVER: 1 ROBBER PRESS",
+    "3 OVER: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 5
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 1998,
+   "timestamp": "33:18",
+   "qtr": "4TH",
+   "clock": 270,
+   "down": 2,
+   "dist": 4,
+   "ytg": 70,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "3 OVER: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2021,
+   "timestamp": "33:41",
+   "qtr": "4TH",
+   "clock": 248,
+   "down": 1,
+   "dist": 10,
+   "ytg": 59,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "3 OVER: LB STING 1",
+    "3 OVER: COVER 3 SKY"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 11,
+   "off_play": "HB LEAD DIVE",
+   "def_play": "COVER 2 HARD FLAT",
+   "play_source": "panel",
+   "panel_timestamp": "34:10"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2045,
+   "timestamp": "34:05",
+   "qtr": "4TH",
+   "clock": 226,
+   "down": 1,
+   "dist": 10,
+   "ytg": 48,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Form - Pro",
+   "off_personnel": "2RB 1TE 2WR",
+   "def_candidates": [
+    "STACK: ER REIZO",
+    "LICKEL 3-3 STACK: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 25
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2066,
+   "timestamp": "34:26",
+   "qtr": "4TH",
+   "clock": 208,
+   "down": 1,
+   "dist": 10,
+   "ytg": 23,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "l Form - Pro",
+   "def_candidates": [
+    "CKEL 3-3 STACK: COVER 2 DROP",
+    "CKEL 3-3 SIACK: NICKEL BLITZ 0",
+    "NICKEL 3-3 STACK: COVER 4 PALMS"
+   ],
+   "offense": "Iowa",
+   "result": "gain",
+   "yards": 8
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2083,
+   "timestamp": "34:43",
+   "qtr": "4TH",
+   "clock": 194,
+   "down": 2,
+   "dist": 2,
+   "ytg": 15,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "L3 STACK: NICKEL 2 TRAP",
+    "NICKEL 3-3 STACK: COVER 4 DROP"
+   ],
+   "offense": "Iowa",
+   "result": "loss",
+   "yards": -2
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2101,
+   "timestamp": "35:01",
+   "qtr": "4TH",
+   "clock": 178,
+   "down": 3,
+   "dist": 4,
+   "ytg": 17,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "IICKEL DOUBLE MUG: NICKEL 2 TRAP",
+    "NICKEL DOUBLE MU: COVER 3 SEAM"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 6
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2125,
+   "timestamp": "35:25",
+   "qtr": "4TH",
+   "clock": 173,
+   "down": 1,
+   "dist": 10,
+   "ytg": 11,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "KEL DOUBLE MUS: VICKEL OVERLOAD 3",
+    "CKEL DOUBLE MUG: LB BLITZ 3",
+    "KEL DOUBLEB: INVERT HARD FLI"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2143,
+   "timestamp": "35:43",
+   "qtr": "4TH",
+   "clock": 159,
+   "down": 2,
+   "dist": 10,
+   "ytg": 11,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2160,
+   "timestamp": "36:00",
+   "qtr": "4TH",
+   "clock": 155,
+   "down": 3,
+   "dist": 10,
+   "ytg": 11,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "off_formation": "Gun - Wing Slot Ollset",
+   "off_personnel": "1RB 2TE 2WR",
+   "def_candidates": [
+    "SHOW 3: SHOW 2"
+   ],
+   "offense": "Iowa",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2248,
+   "timestamp": "37:28",
+   "qtr": "4TH",
+   "clock": 111,
+   "down": 2,
+   "dist": 3,
+   "ytg": 85,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "first_down",
+   "yards": 14
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2266,
+   "timestamp": "37:46",
+   "qtr": "4TH",
+   "clock": 95,
+   "down": 1,
+   "dist": 10,
+   "ytg": 71,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "gain",
+   "yards": 2
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2286,
+   "timestamp": "38:06",
+   "qtr": "4TH",
+   "clock": 85,
+   "down": 2,
+   "dist": 7,
+   "ytg": 69,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "loss",
+   "yards": -3
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2305,
+   "timestamp": "38:25",
+   "qtr": "4TH",
+   "clock": 68,
+   "down": 3,
+   "dist": 11,
+   "ytg": 72,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "turnover?"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2348,
+   "timestamp": "39:08",
+   "qtr": "4TH",
+   "clock": 32,
+   "down": 1,
+   "dist": 10,
+   "ytg": 34,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "INSIDE: CURL"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2369,
+   "timestamp": "39:29",
+   "qtr": "4TH",
+   "clock": 28,
+   "down": 2,
+   "dist": 10,
+   "ytg": 34,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "ME LOAD WEAK: SIM 3 MATCH",
+    "XME LOAD WEAK: PINCH BLITZ",
+    "DIME LOAD WEAK: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2389,
+   "timestamp": "39:49",
+   "qtr": "4TH",
+   "clock": 25,
+   "down": 3,
+   "dist": 10,
+   "ytg": 34,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "DIME LOAD WEAK: SIM 3 MATCH",
+    "XIME LOAD WEAK: PINCH BLITZ",
+    "DIME LOAD WEAK: COVER 4 QUARTERS"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 10
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2405,
+   "timestamp": "40:05",
+   "qtr": "4TH",
+   "clock": 20,
+   "down": 1,
+   "dist": 10,
+   "ytg": 24,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "ME LOAD WEAK: COVER 4 PALMS",
+    "(ME LOAD WEAN: PINCH BLITZ 3",
+    "IME LOAD WEAK: AMPA 2"
+   ],
+   "offense": "Iowa",
+   "result": "first_down",
+   "yards": 13,
+   "off_play": "BENCH",
+   "def_play": "COVER 2 DROP",
+   "play_source": "panel",
+   "panel_timestamp": "41:00"
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2423,
+   "timestamp": "40:23",
+   "qtr": "4TH",
+   "clock": 16,
+   "down": 1,
+   "dist": 10,
+   "ytg": 11,
+   "score": [
+    35,
+    14
+   ],
+   "screen": "DEF",
+   "def_candidates": [
+    "ME LOAD WEAK: SIM PRESSURE 3",
+    "DIME LOAD WEAK: DB BLITZ 1",
+    "DIME LOAD WEAK: COVER 2 DROP"
+   ],
+   "offense": "Iowa",
+   "result": "touchdown",
+   "yards": 11
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2487,
+   "timestamp": "41:27",
+   "qtr": "4TH",
+   "clock": 11,
+   "down": 1,
+   "dist": 10,
+   "ytg": 41,
+   "score": [
+    35,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": "no_gain",
+   "yards": 0
+  },
+  {
+   "video_id": "2026-10-22-oklahoma",
+   "t": 2505,
+   "timestamp": "41:45",
+   "qtr": "4TH",
+   "clock": 5,
+   "down": 2,
+   "dist": 10,
+   "ytg": 41,
+   "score": [
+    35,
+    21
+   ],
+   "screen": "OFF",
+   "offense": "Oklahoma",
+   "result": null
+  }
+ ]
+}

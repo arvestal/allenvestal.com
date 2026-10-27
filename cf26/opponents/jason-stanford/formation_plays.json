@@ -11,8 +11,13 @@
  "Shotgun - Ace Offset": {
   "MTN HB SLIP SCREEN": 1
  },
+ "Shotgun - Box": {
+  "OHIO SPACING": 1,
+  "TRIPLE SLANT": 1
+ },
  "Shotgun - Bunch Open Offset": {
-  "RELOAD Z SHALLOW CROSS": 1
+  "RELOAD Z SHALLOW CROSS": 2,
+  "WR SHORT POST": 1
  },
  "Shotgun - Bunch Spread": {
   "LEVELS DIG": 2,
@@ -36,7 +41,8 @@
   "TE WHEEL": 1
  },
  "Shotgun - Spread Dbl Flex": {
-  "CROSS H DIVIDE": 1
+  "CROSS H DIVIDE": 1,
+  "HITCH CORNERS": 1
  },
  "Shotgun - Spread Y Slot Wk": {
   "SNAG": 1
@@ -49,9 +55,11 @@
  },
  "Shotgun - Trips TE": {
   "HB SLIP SCREEN": 1,
-  "WR SHORT POST": 1
+  "WR SHORT POST": 1,
+  "SNAG": 1
  },
  "Shotgun - Trips Y Slot Wk": {
-  "TRIPLE SLANT": 1
+  "TRIPLE SLANT": 1,
+  "CROSSERS": 1
  }
 }
