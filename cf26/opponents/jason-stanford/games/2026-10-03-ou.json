@@ -171,7 +171,7 @@
    "ytg": 75,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "DEF",
    "off_formation": "shotgun - Bunch Spresi",
@@ -198,7 +198,7 @@
    "ytg": 68,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Doubles HB Wk",
@@ -221,14 +221,14 @@
    "ytg": 78,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "DEF",
    "def_candidates": [
     "13-5 MINT: COVER 6 WILLIE"
    ],
    "offense": "Stanford",
-   "result": "opponent_score"
+   "result": "fourth_down_change"
   },
   {
    "video_id": "2026-10-03-ou",

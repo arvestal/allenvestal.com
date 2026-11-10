@@ -205,6 +205,30 @@ def build(opp, vid, meta):
             snap['_panel_t'] = next(s for s in range(lo, hi) if secs[s].get('panel') == snap['_panel'])
         out.append(snap)
 
+    # scores never go down: keep each side's longest non-decreasing run of snap scores and treat the rest
+    # as OCR misreads. The usual misread is a stray leading "1" (7 -> 17 for whole drives), so drop it when the
+    # result fits between the good values around it; otherwise use the last good value.
+    for k in (0, 1):
+        idx = [i for i, s in enumerate(out) if s['score'][k] is not None]
+        best, prev = [1] * len(idx), [-1] * len(idx)
+        for a in range(len(idx)):
+            for b in range(a):
+                if out[idx[b]]['score'][k] <= out[idx[a]]['score'][k] and best[b] + 1 > best[a]:
+                    best[a], prev[a] = best[b] + 1, b
+        keep = set()
+        a = max(range(len(idx)), key=lambda j: best[j]) if idx else -1
+        while a >= 0:
+            keep.add(idx[a]); a = prev[a]
+        good = None
+        for i, s in enumerate(out):
+            v = s['score'][k]
+            if i in keep:
+                good = v
+            elif v is not None:
+                lo = good if good is not None else 0
+                hi = next((out[j]['score'][k] for j in range(i + 1, len(out)) if j in keep), lo)
+                s['score'][k] = v - 10 if 10 <= v < 20 and lo <= v - 10 <= hi else (good if good is not None else hi)
+
     # 4. possession: screen type says who is calling; fill gaps within a drive
     for s in out:
         # possession comes from which side of the scoreboard the ball-spot box is on

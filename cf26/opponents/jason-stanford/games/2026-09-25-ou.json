@@ -96,7 +96,7 @@
    "ytg": 75,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "DEF",
    "off_formation": "shotgu:",
@@ -120,7 +120,7 @@
    "ytg": 73,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "DEF",
    "off_formation": "shotgun - Normal YOHf Closs",
@@ -149,7 +149,7 @@
    "ytg": 59,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Trips Offset",
@@ -172,7 +172,7 @@
    "ytg": 44,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Bunch Str Ofiset",
@@ -194,7 +194,7 @@
    "ytg": 38,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Bunch Open Offset",
@@ -216,7 +216,7 @@
    "ytg": 19,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "OFF",
    "def_candidates": [
@@ -241,7 +241,7 @@
    "ytg": 2,
    "score": [
     0,
-    17
+    7
    ],
    "screen": "DEF",
    "off_formation": "Shotgun - Normal YOH",

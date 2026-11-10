@@ -1,6 +1,6 @@
 {
  "I Form - Close": {
-  "POWER O": 1
+  "POWER O": 2
  },
  "Pistol - Trips": {
   "SNAG": 1
@@ -13,7 +13,8 @@
  },
  "Shotgun - Box": {
   "OHIO SPACING": 1,
-  "TRIPLE SLANT": 1
+  "TRIPLE SLANT": 1,
+  "SLOT TRAIL": 1
  },
  "Shotgun - Bunch Open Offset": {
   "RELOAD Z SHALLOW CROSS": 2,
@@ -21,13 +22,16 @@
  },
  "Shotgun - Bunch Spread": {
   "LEVELS DIG": 2,
-  "SPEED OPTION": 1
+  "SPEED OPTION": 1,
+  "DRAG UNDER": 1
  },
  "Shotgun - Doubles": {
-  "CURLS SLOT SHAKE": 1
+  "CURLS SLOT SHAKE": 1,
+  "DOUBLE PIVOT": 1
  },
  "Shotgun - Doubles HB Wk": {
-  "INSIDE ZONE": 1
+  "INSIDE ZONE": 1,
+  "01 TRAP": 1
  },
  "Shotgun - Flex Y Off Close": {
   "TE WHEEL": 2,
@@ -49,6 +53,9 @@
  },
  "Shotgun - Spread Y-Flex": {
   "DRIVE": 1
+ },
+ "Shotgun - Trio Rt Open": {
+  "Z UNDER": 1
  },
  "Shotgun - Trips Offset": {
   "RPO ALERT ZONE BUBBLE": 2

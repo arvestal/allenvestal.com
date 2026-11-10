@@ -1,6 +1,6 @@
 # Defensive game plan vs. Jason (Stanford) — 3-3-5 Tite
 
-Built from the [scouting report](scouting_report.md) (6 games, 244 Stanford snaps). Sample sizes per situation are small, so treat
+Built from the [scouting report](scouting_report.md) (7 games, 297 Stanford snaps). Sample sizes per situation are small, so treat
 single-digit rows as hints, not proof. Re-run the pipeline after every game and update this file.
 
 ## In-game call sheet (by personnel)
@@ -16,39 +16,39 @@ Against his Snag / slant formations, lead with a **Cover 6/9** call (see "Snag &
 | **1 RB, 2 TE, 2 WR** | **Nickel 2-4 Load: Cover 2 Man** | Nickel 3-3 Dbl Mug: Cover 2 Invert | 3-3-5 Over Flex: Cover 6 Willie | Nickel 3-3 Dbl Mug: Cover 1 Hole | 3-3-5 Mint: Cover 9 | Dime Rush: Cover 2 Man | 3-3-5 Penny: Cover 6 |
 | **1 RB, 0 TE, 4 WR** | **3-3-5 Over Flex: Cover 6 Willie** | Dime 2-3 Odd: Cover 2 Man | 3-3-5 Mint: Cover 6 Willie | Dime Rush: Cover 2 Man | 3-3-5 Mint: Cover 9 | Dime 2-3 Odd: Cover 6 | – |
 | **Empty / 5 WR** | **Dime Rush: Cover 6** | Dime Rush: Cover 2 Man | Dime 2-3 Odd: Cover 6 | Dime 2-3 Odd: Cover 2 Man | 3-3-5 Mint: Cover 9 | 3-3-5 Over Flex: Cover 6 Willie | – |
-| **2 RB, 1 TE, 2 WR** | **3-4 Tite: Cover 1 Hole** | 3-3-5 Penny: Cover 1 Hole | Nickel 2-4 Load: Cover 2 Man | 3-3-5 Penny: Cover 4 Quarters | Nickel 3-3 Dbl Mug: Cover 1 Hole | 3-3-5 Mint: Cover 2 Man | – |
-| **1 RB, 3 TE** (goal line) | **Goal Line 6-2: MLB Gap A** | 3-4 Tite: Cover 1 Hole | 3-3-5 Penny: Cover 1 Hole | Nickel 2-4 Load: Cover 2 Man | – | – | – |
+| **2 RB, 1 TE, 2 WR** | **3-4 Tite: Cover 1 Hole** | Goal Line 6-2: 60 Pinch | 3-3-5 Penny: Cover 1 Hole | Nickel 2-4 Load: Cover 2 Man | 3-3-5 Penny: Cover 4 Quarters | Nickel 3-3 Dbl Mug: Cover 1 Hole | 3-3-5 Mint: Cover 2 Man |
+| **1 RB, 3 TE** (goal line) | **Goal Line 6-2: MLB Gap A** | Goal Line 6-2: 60 Base | Goal Line 6-2: 60 Pinch | 3-4 Tite: Cover 1 Hole | 3-3-5 Penny: Cover 1 Hole | Nickel 2-4 Load: Cover 2 Man | – |
 | **No banner** | Use the **1 RB, 1 TE, 3 WR** row | | | | | | |
 
 **What each personnel group means:**
 
 | Personnel | How often | What he runs from it | Avoid |
 |---|---|---|---|
-| **1 RB, 1 TE, 3 WR** | 55% · 14.5 avg · 39% explosive | Snag, Crossers, Triple Slant, Hitch Corners, RPO Alert Out, Levels Dig, Reload Z Shallow Cross. If it's **Bunch Spread**, call 3-3-5 Mint: Cover 4 Quarters first. **Box** is his red-zone set (2 TDs on 3 snaps) | Any Cover 3, blitzes, brackets (Snag beat them), Cover 2 Invert vs. Spread Dbl Flex (Hitch Corners 60) |
-| **1 RB, 2 TE, 2 WR** | 27% · 7.8 avg | TE Wheel, Cross H Divide, Inside Zone, Drive, Curls Slot Shake. The banner sometimes reads Flex Y Off Close as 2 RB | Tampa 2 (Drive went for 34) |
-| **1 RB, 0 TE, 4 WR** | 5% · 13.2 avg · 100% success | RPO Alert Zone Bubble (Trips Offset) | Cover 3 (bubble beat it) |
-| **Empty / 5 WR** | 7% · 18.1 avg | Double Slant | Cover 4 (75-yard TD), Cover 3 |
-| **2 RB, 1 TE, 2 WR** | 5% · 8.3 avg | Power O (I Form): 6 vs. Cover 4, 10 vs. Double Bracket; PA Boot (converted 3rd & 1 vs. Saw Blitz 0) | Light boxes (Dime), blitzes |
-| **1 RB, 3 TE** | 2% · 1.0 avg | Goal line run; your goal-line front got −2 on 3rd & 1 | Dime |
+| **1 RB, 1 TE, 3 WR** | 56% · 13.1 avg · 35% explosive | Snag, Crossers, Triple Slant, Hitch Corners, RPO Alert Out, Levels Dig, Reload Z Shallow Cross. If it's **Bunch Spread**, call 3-3-5 Mint: Cover 4 Quarters first. **Box** is his red-zone set (2 TDs on 3 snaps) | Any Cover 3, blitzes, brackets (Snag beat them), Cover 2 Invert vs. Spread Dbl Flex (Hitch Corners 60) |
+| **1 RB, 2 TE, 2 WR** | 27% · 10.7 avg (up from 7.8) | TE Wheel, Cross H Divide, Inside Zone, 01 Trap, Drive, Curls Slot Shake, Double Pivot, Z Under. **Doubles, Ace Offset and Trio Rt Open hit big plays on Nov 9** (55, 57-yard TD, 22). The banner sometimes reads Flex Y Off Close as 2 RB | Tampa 2 (Drive went for 34), Goal Line 6-2: 60 Half Out / GL Man (57-yard TD, Double Pivot 16), Cover 2 Hard Flat (Z Under 22) |
+| **1 RB, 0 TE, 4 WR** | 4% · 13.2 avg · 100% success | RPO Alert Zone Bubble (Trips Offset) | Cover 3 (bubble beat it) |
+| **Empty / 5 WR** | 5% · 18.1 avg | Double Slant | Cover 4 (75-yard TD), Cover 3 |
+| **2 RB, 1 TE, 2 WR** | 5% · 8.8 avg | Power O (I Form): 6 vs. Cover 4, 10 vs. Double Bracket, **4 vs. Goal Line 6-2: 60 Pinch**; a 16-yard I Form TD on Nov 9 (60 Half Out on screen); PA Boot (converted 3rd & 1 vs. Saw Blitz 0) | Light boxes (Dime), blitzes |
+| **1 RB, 3 TE** | 2% · 7.0 avg | Goal line run; your goal-line front got −2 on 3rd & 1. The 19-yard 4th & 11 conversion on Nov 9 was a 3-back Wingbone the banner read as this set | Dime |
 | **No banner** | hurry-up: 50% of snaps | His most common group is 1 RB, 1 TE, 3 WR | – |
 
 ## Calls by down & distance
 
 | Situation | His numbers | Call (3-3-5 Tite) | Avoid |
 |---|---|---|---|
-| **1st & 10** | 13.4 avg, 35% explosive; **10 of his 15 confirmed Snag/slant calls** | **Cover 6/9** vs. his slant formations · **Cover 2 Man** (press, inside shade) · **Penny: Cover 4 Quarters** vs. bunch | Cover 3 (19.6 avg, 64% explosive), Double Bracket (21.1 avg, 4 TD on 12 snaps) |
+| **1st & 10** | 12.4 avg, 33% explosive; **10 of his 15 confirmed Snag/slant calls** | **Cover 6/9** vs. his slant formations · **Cover 2 Man** (press, inside shade) · **Penny: Cover 4 Quarters** vs. bunch | Cover 3 (19.6 avg, 64% explosive), Double Bracket (21.1 avg, 4 TD on 12 snaps) |
 | **2nd & short (1-3)** | 10.2 avg, 76% success | Cover 2 Man press; Cover 1 Hole only vs. I Form | Soft zone, Cover 1 Contain Spy (Z Under went for 27) |
 | **2nd & medium (4-6)** | 18.6 avg, 45% explosive | Cover 2 Man; Cover 4 Palms got a -10 sack here | Blitz, Cover 2 Invert vs. Spread Dbl Flex (Hitch Corners 60) |
-| **2nd & long (7+)** | 10.4 avg, 58% success | Mint: Cover 9 / Cover 2 Man / Cover 6 — no longer his weak spot, so don't relax here | Double Bracket (12.8 avg on 5), blitz |
-| **3rd & short (1-3)** | 9.3 avg, 67% success | Cover 1 Hole press, LB spy on the RB. At the goal line: **Goal Line 6-2: MLB Gap A** with a D-line **Pinch** (−2 on 3rd & 1) | Cover 4, blitz (PA Boot beat Dime Rush: Saw Blitz 0 on 3rd & 1) |
-| **3rd & medium (4-6)** | converts 6/6, 17.5 avg; **Snag both times** (41, 15) | **3-3-5 Mint: Cover 9 / Cover 6 Willie + Sticks**; Cover 2 Man press as the change-up | Cover 3 (Snag went for 41), Double Bracket (Snag went for 15) |
-| **3rd & long (7+)** | 15.3 avg, 67% success; Snag on 3rd & 8 | **Cover 6/9**, rush 3, **Sticks** adjustment, user the hook defender in the Snag window | Tampa 2 (Drive 34), Double Bracket (Snag 20) |
-| **4th & short** | 1 snap: stopped | Nickel 3-3 Dbl Mug (Cover 1 Hole / Cover 2 Invert, man on) — what you had up on the Oct 11 stop | Soft zone |
-| **Red zone / goal to go** | 3.4 avg, 17 TDs on 32 snaps | Cover 2 Man press / Cover 1 Hole press; goal-line front vs. his goal-line set. **Inside the 10, man beats the slant better than Cover 6/9** | Cover 6/9 inside the 10 (4 TDs on 6), Double Bracket (3 TDs on 4) |
+| **2nd & long (7+)** | 11.4 avg, 62% success; the 55-yarder on 2nd & 17 (Nov 9) | Mint: Cover 9 / Cover 2 Man / Cover 6 — no longer his weak spot, so don't relax here | Double Bracket (12.8 avg on 5), blitz |
+| **3rd & short (1-3)** | 8.0 avg, 57% success | **Goal Line 6-2: 60 Pinch** (0 on 3rd & 3, Nov 9) or **MLB Gap A** with a D-line **Pinch** (−2 on 3rd & 1); Cover 1 Hole press, LB spy on the RB | Cover 4, blitz (PA Boot beat Dime Rush: Saw Blitz 0 on 3rd & 1) |
+| **3rd & medium (4-6)** | 80% success, 19.1 avg; **Snag both confirmed times** (41, 15). Nov 9: stopped twice on 3rd & 5, but gave up 29 and a 57-yard TD | **3-3-5 Mint: Cover 9 / Cover 6 Willie + Sticks**; Cover 2 Man press as the change-up | Cover 3 (Snag went for 41), Double Bracket (Snag went for 15) |
+| **3rd & long (7+)** | 14.1 avg, 57% success; Snag on 3rd & 8 | **Cover 6/9**, rush 3, **Sticks** adjustment, user the hook defender in the Snag window | Tampa 2 (Drive 34), Double Bracket (Snag 20) |
+| **4th down** | **Stopped 4 of his last 5 tries**: Oct 11 4th & 2, Nov 9 4th & 5, 4th & 5 and 4th & 3 (the 5th was a 19-yard 4th & 11 vs. Mint Cover 9/6 on screen) | **Goal Line 6-2: 60 Pinch / 60 Base** inside 5 yards to go (goal-line front was on screen for all 3 Nov 9 stops); Nickel 3-3 Dbl Mug: Cover 1 Hole on 4th & 1–2 (Oct 11) | Soft zone |
+| **Red zone / goal to go** | 3.5 avg, 19 TDs on 34 snaps | Cover 2 Man press / Cover 1 Hole press; goal-line front vs. his goal-line set. **Inside the 10, man beats the slant better than Cover 6/9** | Cover 6/9 inside the 10 (4 TDs on 6), Double Bracket (3 TDs on 4) |
 
 ## What the data says
 
-- **He's averaging 11.8 yards per play with a 73% success rate, 39 TDs in 6 games.** He moves the ball on almost every down.
+- **He's averaging 11.5 yards per play with a 71% success rate, 44 TDs in 7 games.** He moves the ball on almost every down.
 
 **Snag & slants.** Snag, Triple Slant and Double Slant are his go-to plays (15 confirmed, about a quarter of every play we've
 seen confirmed). Here's how each of your coverages did against them:
@@ -76,6 +76,17 @@ seen confirmed). Here's how each of your coverages did against them:
 - **Your answer:** you have **8 different Cover 6/9 plays** (Play rotation, calls 1–8). The freeze only locks 6 at a time, so one is
   **always** available, even if you call Cover 6/9 on every snap. Inside the 10, switch to Cover 2 Man press instead (Cover 6/9 has given
   up 4 TDs on 6 goal-to-go snaps).
+- **Nov 9 (you won 51–35):** 53 snaps, 10.0 yds per play, 62% success (his season: 71%). **No Snag or
+  slant was confirmed all game.** What worked:
+  - **You stopped him on 4th down 3 times** (4th & 5, 4th & 5, 4th & 3) and on two 3rd & 5s, and he turned it over on the last drive.
+  - **Your goal-line front as a change-up outside the red zone** (confirmed): Power O vs. **Goal Line 6-2: 60 Pinch** 4, 01 Trap vs.
+    **60 Base** 1, Drag Under vs. **60 Base** a **−10 sack**. With the goal-line front on screen on short yardage: 3rd & 3 for 0 and all three 4th-down stops.
+  - **Sacks:** Inside Switch vs. Cover 3 Hard Flat −8, Angle Smash vs. Cover 1 Contain Spy −7.
+  - **What didn't:** with **Goal Line 6-2: 60 Half Out** on screen he scored 3 TDs (57 on 3rd & 5 from Ace Offset, 16 from I Form, 17), and
+    Double Pivot beat **GL Man** for 16. The goal-line front stops runs and short throws; it can't cover deep. Keep it to short yardage
+    and run sets. Other big plays: 55 on 2nd & 17 (Doubles), 46 (hurry-up), 22 each vs. Cover 2 Hard Flat (Z Under), Cover 4 Drop
+    (Mtn TE Mid Screen) and on 2nd & 1 (Doubles HB Wk).
+  - **Cover 4** (Quarters/Drop): 10, 14, 22 confirmed. Fine on 2nd & 19, not on 1st & 10.
 - **Oct 22 (you won 48–44, offense won it):** he scored 6 TDs on 31 snaps. The confirmed calls show **you went back to
   Cover 3 and pressure, and both got beat:**
   - **Cover 3, 5 times (confirmed): 15.2 yds per play.** Crossers vs. Cover 3 Match 19, Snag vs. Cover 3 Match 28,
@@ -97,16 +108,16 @@ seen confirmed). Here's how each of your coverages did against them:
     wasn't shown). You got the ball back and won it.
 - **Double Bracket has flipped from good to worst.** Before Oct 11: 8.1 yds per play over 7 snaps. Now: **16.3 yds per play,
   30% explosive, 7 TDs over 23 snaps**. He's beating it with Snag and over-the-top shots. Every bracket call is off the plan now.
-- **1st & 10 is where he hurts you:** 130 snaps, 13.4 yds per play, 35% gain 15+.
-- **2nd & long isn't a safe spot anymore:** 10.4 yds per play, 58% success (it was 6.6 and 44% before Oct 11).
-- **Cover 3 is his favorite thing to see:** 22 snaps, 16.2 yds per play, 45% explosive. On 1st down it's 19.6 yds per play
-  and 64% explosive. Snag, Crossers and the HB Wheel all beat it.
-- **Man and two-deep coverage hold up best:** Cover 2 Man allows 7.6 yds per play (18% explosive) and Cover 6/9 5.6 (plus
+- **1st & 10 is where he hurts you:** 156 snaps, 12.4 yds per play, 33% gain 15+.
+- **2nd & long isn't a safe spot anymore:** 11.4 yds per play, 62% success (it was 6.6 and 44% before Oct 11).
+- **Cover 3 is his favorite thing to see:** 24 snaps, 14.5 yds per play, 42% explosive. On 1st down it's 17.7 yds per play
+  and 60% explosive (the Nov 9 −8 sack is the one good Cover 3 snap). Snag, Crossers and the HB Wheel all beat it.
+- **Man and two-deep coverage hold up best:** Cover 2 Man allows 7.6 yds per play (18% explosive) and Cover 6/9 6.7 (plus
   the Oct 11 INT). Cover 2 Zone/Invert is 14.2 over 6, but that's one 60-yard Hitch Corners vs. Spread Dbl Flex; vs. Flex Y Off
   Close it's −1.0.
-- **Blitzing doesn't work:** 86% success for him, 10.7 yds per play. He throws before the pressure arrives.
-- **Cover 1 doesn't work either:** 15.5 yds per play, 75% explosive over 4 snaps. Keep Cover 1 Hole for I Form and goal-line runs only.
-- **Red zone:** 17 TDs on 32 snaps. Cover 6/9 gave up 4 TDs on 6 goal-to-go snaps, Double Bracket 3 on 4.
+- **Blitzing doesn't work:** 80% success for him, 8.5 yds per play. He throws before the pressure arrives. The exception is the goal-line front on short yardage (Nov 9).
+- **Cover 1 doesn't work either:** 11.0 yds per play, 60% explosive over 5 snaps (Contain Spy: a −7 sack Nov 9, but Z Under 27 Oct 22). Keep Cover 1 Hole for I Form and goal-line runs only.
+- **Red zone:** 19 TDs on 34 snaps. Cover 6/9 gave up 4 TDs on 6 goal-to-go snaps, Double Bracket 3 on 4.
 
 ## Pre-snap adjustments (from your Coverage Adjustments menu)
 
@@ -138,22 +149,24 @@ call the play in the **Call** column. Play names are from your playbook as they 
 
 | Banner shows | Personnel | **Call** | Backup | He's run from it (confirmed) | How often | His results | Results vs. your calls |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Shotgun - Normal Y Off Close** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 9** — his Snag formation; picked off Snag on Oct 11 | Nickel 3-3 Over: Cover 2 Man — press, inside shade | Snag (3), RPO Alert Out (2), Double Slant, RPO Peek Spot, TE Wheel | 15% (his #1) | 12.3 avg, 42% explosive, 4 TD | Cover 3: 27.7 over 3 · Cover 4: 22 · Double Bracket: 20 · Cover 2 Man: 8.5 · Cover 6/9: 0.0 over 2 |
-| **Shotgun - Bunch Spread** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 4 Quarters** — one of the few spots Cover 4 works | 3-3-5 Mint: Cover 2 Man | Levels Dig (2), Speed Option | 11% | 7.8 avg | **Cover 4: 2.5 over 4** · Blitz: 17 |
-| **Shotgun - Spread Dbl Flex** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 6 Willie** | Nickel 2-4 Load: Cover 2 Man | Cross H Divide, Hitch Corners | 9% | 19.2 avg, 2 TD (39-yard TD Oct 11, 60-yard Hitch Corners Oct 22) | **Cover 2 Invert: 60** · Cover 6/9: 1 · Cover 1: 20 |
-| **Shotgun - Flex Y Off Close** | 1 RB, 2 TE, 2 WR (sometimes reads 2 RB) | **Nickel 3-3 Dbl Mug: Cover 2 Invert** | Nickel 3-3 Dbl Mug: Cover 1 Hole (the 4th & 2 stop) | TE Wheel (2), Cross H Divide | 8% | 3.4 avg (you handle it) | Cover 2 Zone/Invert: -1.0 over 2 · Double Bracket: 0 · Blitz: 13 |
-| **Shotgun - Trips Y Slot Wk** | 1 RB, 1 TE, 3 WR | **3-3-5 Penny: Cover 9** — Triple Slant formation | 3-3-5 Mint: Cover 2 Man — press, inside shade | Triple Slant (2), Crossers | 7% | 12.9 avg, 50% explosive, 1 TD | Cover 3: 9.5 over 2 (Crossers 19) · Cover 4: 10 |
-| **Shotgun - 5WR** | empty backfield | **Dime Rush: Cover 6** — Double Slant formation | Dime Rush: Cover 2 Man | – | 6% | 19.9 avg | Cover 4: 75-yard TD |
-| **Shotgun - Doubles HB Wk** | 1 RB, 2 TE, 2 WR | **Nickel 2-4 Load: Cover 2 Man** | 3-3-5 Over Flex: Cover 6 Willie | Inside Zone | 5% | 4.0 avg | Cover 2 Invert: 7 |
-| **Shotgun - Trips Offset** | 1 RB, 0 TE, 4 WR | **3-3-5 Over Flex: Cover 6 Willie** — quarters to the trips side, flat defender takes the bubble | Dime 2-3 Odd: Cover 2 Man | RPO Alert Zone Bubble (2) | 5% | 13.2 avg, 100% success | Cover 3: 9.0 over 2 |
-| **Shotgun - Bunch Open Offset** | 1 RB, 1 TE, 3 WR | **3-3-5 Penny: Cover 4 Quarters** | 3-3-5 Mint: Cover 2 Man | Reload Z Shallow Cross (2), WR Short Post | 5% | 12.4 avg | Cover 3: 4.5 over 2 · Cover 2 Man: 5 · **Pressure (Mug DT Loop): 29** |
-| **Shotgun - Spread Y-Flex** | 1 RB, 2 TE, 2 WR | **Dime Rush: Cover 2 Man** | 3-3-5 Mint: Cover 9 | Drive | 4% | 16.6 avg | Tampa 2: 34 |
-| **I Form - Close** | 2 RB, 1 TE, 2 WR | **3-4 Tite: Cover 1 Hole** — run front, 8 in the box | 3-3-5 Penny: Cover 1 Hole | Power O (2) | 4% | 8.4 avg | Cover 4: 6 · Cover 2 Man: 8 · Double Bracket: 10 |
-| **Shotgun - Trips TE** | 1 RB, 1 TE, 3 WR | **Dime 2-3 Odd: Cover 6** — Snag went for 28 vs. Cover 3 here; watch the RB for the slip screen | Dime 2-3 Odd: Cover 2 Man | HB Slip Screen, WR Short Post, Snag | 3% | 18.8 avg | Cover 3: 21.0 over 3 (Snag 28) · Cover 2 Zone: 12 |
+| **Shotgun - Normal Y Off Close** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 9** — his Snag formation; picked off Snag on Oct 11 | Nickel 3-3 Over: Cover 2 Man — press, inside shade | Snag (3), RPO Alert Out (2), Double Slant, RPO Peek Spot, TE Wheel | 15% (his #1) | 11.7 avg, 36% explosive, 4 TD | Cover 3: 27.7 over 3 · Cover 4: 22 · Double Bracket: 20 · Cover 2 Man: 8.5 · Cover 6/9: 0.0 over 2 |
+| **Shotgun - Bunch Spread** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 4 Quarters** — one of the few spots Cover 4 works | 3-3-5 Mint: Cover 2 Man | Levels Dig (2), Speed Option, Drag Under | 11% | 6.2 avg | **Cover 4: 2.5 over 4** · Goal Line 6-2: 60 Base: −10 sack · Blitz: 17 |
+| **Shotgun - Spread Dbl Flex** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 6 Willie** | Nickel 2-4 Load: Cover 2 Man | Cross H Divide, Hitch Corners | 7% | 19.2 avg, 2 TD (39-yard TD Oct 11, 60-yard Hitch Corners Oct 22) | **Cover 2 Invert: 60** · Cover 6/9: 1 · Cover 1: 20 |
+| **Shotgun - Flex Y Off Close** | 1 RB, 2 TE, 2 WR (sometimes reads 2 RB) | **Nickel 3-3 Dbl Mug: Cover 2 Invert** | Nickel 3-3 Dbl Mug: Cover 1 Hole (the 4th & 2 stop) | TE Wheel (2), Cross H Divide | 7% | 3.4 avg (you handle it) | Cover 2 Zone/Invert: -1.0 over 2 · Double Bracket: 0 · Blitz: 13 |
+| **Shotgun - Trips Y Slot Wk** | 1 RB, 1 TE, 3 WR | **3-3-5 Penny: Cover 9** — Triple Slant formation | 3-3-5 Mint: Cover 2 Man — press, inside shade | Triple Slant (2), Crossers | 5% | 12.9 avg, 50% explosive, 1 TD | Cover 3: 9.5 over 2 (Crossers 19) · Cover 4: 10 |
+| **Shotgun - 5WR** | empty backfield | **Dime Rush: Cover 6** — Double Slant formation | Dime Rush: Cover 2 Man | – | 5% | 19.9 avg | Cover 4: 75-yard TD |
+| **Shotgun - Doubles HB Wk** | 1 RB, 2 TE, 2 WR | **Nickel 2-4 Load: Cover 2 Man** | 3-3-5 Over Flex: Cover 6 Willie | Inside Zone, 01 Trap | 6% | 6.1 avg (22 on 2nd & 1, Nov 9) | Cover 2 Invert: 7 · Goal Line 6-2: 60 Base: 1 |
+| **Shotgun - Trips Offset** | 1 RB, 0 TE, 4 WR | **3-3-5 Over Flex: Cover 6 Willie** — quarters to the trips side, flat defender takes the bubble | Dime 2-3 Odd: Cover 2 Man | RPO Alert Zone Bubble (2) | 4% | 13.2 avg, 100% success | Cover 3: 9.0 over 2 |
+| **Shotgun - Bunch Open Offset** | 1 RB, 1 TE, 3 WR | **3-3-5 Penny: Cover 4 Quarters** | 3-3-5 Mint: Cover 2 Man | Reload Z Shallow Cross (2), WR Short Post | 5% | 11.7 avg | Cover 3: 4.5 over 2 · Cover 2 Man: 5 · **Pressure (Mug DT Loop): 29** |
+| **Shotgun - Spread Y-Flex** | 1 RB, 2 TE, 2 WR | **Dime Rush: Cover 2 Man** | 3-3-5 Mint: Cover 9 | Drive | 4% | 14.3 avg | Tampa 2: 34 |
+| **I Form - Close** | 2 RB, 1 TE, 2 WR | **3-4 Tite: Cover 1 Hole** — run front, 8 in the box | Goal Line 6-2: 60 Pinch | Power O (2) | 5% | 8.9 avg, 2 TD | Cover 4: 6 · Cover 2 Man: 8 · Double Bracket: 10 · **Goal Line 6-2: 60 Pinch: 4** · 16-yard TD with 60 Half Out on screen |
+| **Shotgun - Trips TE** | 1 RB, 1 TE, 3 WR | **Dime 2-3 Odd: Cover 6** — Snag went for 28 vs. Cover 3 here; watch the RB for the slip screen | Dime 2-3 Odd: Cover 2 Man | HB Slip Screen, WR Short Post, Snag | 4% | 14.0 avg, 2 TD | Cover 3: 21.0 over 3 (Snag 28) · Cover 2 Zone: 12 |
 | **Shotgun - Bunch TE** | 1 RB, 1 TE, 3 WR | **3-3-5 Penny: Cover 4 Quarters** — bunch rules, like Bunch Spread | Nickel 3-3 Over: Cover 2 Man | – | 2% | 29.3 avg: 54-yard TD, 34-yard gain (Oct 11) | Double Bracket: 34 |
-| **Shotgun - Box** (new) | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 2 Man** — press; it's his red-zone set | Nickel 3-3 Over: Cover 2 Man | Ohio Spacing (14-yard TD), Triple Slant | 2% | 8.7 avg, 2 TD on 3 snaps | Cover 3: 0 (goal line) · Cover 6/9: 12 · "Base": 14 TD |
-| **Shotgun - Doubles** | 1 RB, 2 TE, 2 WR | **3-3-5 Over Flex: Cover 6 Willie** | Nickel 3-3 Dbl Mug: Cover 2 Invert | Curls Slot Shake (2) | 2% | 22.0 avg | Cover 2 Man: 21 · Cover 3: 23 |
-| **Goal Line Offense - Normal** (new) | 1 RB, 3 TE (banner read 2 RB, 3 TE) | **Goal Line 6-2: MLB Gap A** + D-line Pinch | 3-4 Tite: Cover 1 Hole | – | 2% | 1.0 avg | Goal-line front: −2 (3rd & 1, Oct 11) |
+| **Shotgun - Box** | 1 RB, 1 TE, 3 WR | **3-3-5 Mint: Cover 2 Man** — press; it's his red-zone set | Nickel 3-3 Over: Cover 2 Man | Ohio Spacing (14-yard TD), Triple Slant, Slot Trail | 3% | 8.0 avg, 2 TD on 5 snaps | Cover 3: 0 (goal line) · Cover 6/9: 12 · Cover 4 Quarters: 14 (2nd & 19) · "Base": 14 TD |
+| **Shotgun - Doubles** | 1 RB, 2 TE, 2 WR | **3-3-5 Over Flex: Cover 6 Willie** | Nickel 3-3 Dbl Mug: Cover 2 Invert | Curls Slot Shake, Double Pivot | 3% | 24.8 avg, 80% explosive (55 on 2nd & 17, Nov 9) | Cover 2 Man: 21 · Cover 3: 23 · GL Man: 16 |
+| **Shotgun - Trio Rt Open** (new) | 1 RB, 2 TE, 2 WR | **Nickel 2-4 Load: Cover 2 Man** — man under the Z Under | 3-3-5 Penny: Cover 6 | Z Under (2) | 3% | 10.7 avg, 1 TD | Cover 2 Hard Flat: 22 (2nd & 20) · Cover 1 Contain Spy: 27 |
+| **Shotgun - Ace Offset** (new) | 1 RB, 2 TE, 2 WR | **3-3-5 Penny: Cover 6** — keep two deep | Dime Rush: Cover 2 Man | Mtn HB Slip Screen | 2% | 23.3 avg: **57-yard TD on 3rd & 5** (Nov 9, 60 Half Out on screen) | Cover 4: 13 |
+| **Goal Line Offense - Normal** | 1 RB, 3 TE (banner read 2 RB, 3 TE) | **Goal Line 6-2: MLB Gap A** + D-line Pinch | Goal Line 6-2: 60 Base | – | 2% | 7.0 avg (incl. a 19-yard 4th & 11 from a 3-back Wingbone the banner read as this) | Goal-line front: −2 (3rd & 1, Oct 11) |
 | **No banner (hurry-up)** | – | **Use the sample 7-call cycle** (Play rotation below), starting with 3-3-5 Mint: Cover 9 | – | – | 50% of snaps | – | – |
 
 Notes:
@@ -165,11 +178,11 @@ Notes:
 
 ## Play rotation (6-play freeze)
 
-A play you call is frozen for the next 6 snaps, so you need **at least 7 calls you trust**. These 20 plays from your
+A play you call is frozen for the next 6 snaps, so you need **at least 7 calls you trust**. These 22 plays from your
 playbook are grouped by job, all ones you've had on screen against him. When a play is frozen, take the next one in the
 same group.
 
-**Cover 6/9: your Snag / slant answer.** Cover 6/9 allows 5.6 yds per play, the best of any coverage, and got the Oct 11 INT
+**Cover 6/9: your Snag / slant answer.** Cover 6/9 allows 6.7 yds per play, the best of any coverage, and got the Oct 11 INT
 on Snag. There are 8 of them, so **one is always available**. When the banner shows a slant formation (Normal Y Off Close,
 Trips Y Slot Wk, Trips TE, Spread Y Slot Wk, Pistol Trips, 5WR) or it's 3rd & 4–8, take the next unfrozen play here, top to
 bottom. Not inside the 10.
@@ -204,7 +217,9 @@ guessing between your Cover 6/9 calls, and as your red-zone call inside the 10.
 | 15 | **3-3-5 Mint: Cover 4 Quarters** | Bunch Spread (2.5 avg there) |
 | 16 | **Nickel 3-3 Dbl Mug: Cover 2 Invert** | Flex Y Off Close (TE Wheel) only — not vs. Spread Dbl Flex (Hitch Corners 60) |
 
-**Run and short yardage.**
+**Run and short yardage.** The goal-line front worked as a change-up outside the red zone on Nov 9 (Power O 4, Trap 1, a −10 sack,
+plus three 4th-down stops with it on screen). It's 6 or 7 in the box with no deep help, so use it **only on 3rd/4th & 5 or less
+or vs. I Form / Doubles HB Wk**, never on 1st & 10 against his spread sets.
 
 | # | Play | Use it for |
 |---|---|---|
@@ -212,6 +227,8 @@ guessing between your Cover 6/9 calls, and as your red-zone call inside the 10.
 | 18 | **3-4 Tite: Cover 1 Hole** | I Form, 2-back run downs |
 | 19 | **3-3-5 Penny: Cover 1 Hole** | I Form backup |
 | 20 | **Goal Line 6-2: MLB Gap A** | His Goal Line set, 3rd/4th & 1 (−2 on Oct 11) |
+| 21 | **Goal Line 6-2: 60 Base** | 3rd/4th & 1–5, Doubles HB Wk / Bunch Spread runs and quick throws (Trap 1, Drag Under −10 sack on Nov 9) |
+| 22 | **Goal Line 6-2: 60 Pinch** | I Form (Power O 4), 3rd & 3 (0 on Nov 9), 4th down |
 
 **Sample 7-call cycle for a drive** (4 Cover 6/9, 3 man). After call 7, call 1 is available again:
 
@@ -237,10 +254,12 @@ the Cover 6/9 group are spares for exactly this).
 - **Blitzes**, including Dime Rush: Mug DT Loop 1 (29 yards) and Dime Rush: Saw Blitz 0 (PA Boot converted 3rd & 1): 86% success for him.
 - **Cover 1** outside I Form / goal line, including Cover 1 Contain Spy (Z Under 27) and Nickel 3-3 Over: Cover 1 Robber Press.
 - Tampa 2 on 3rd & long (Drive went for 34).
+- **Goal Line 6-2: 60 Half Out** and **GL Man** outside the 10: 3 TDs (57, 16, 17) with 60 Half Out on screen, and Double Pivot beat GL Man for 16 on 1st & 10.
+- Cover 2 Hard Flat (Z Under went for 22 on 2nd & 20).
 
 ## Favorites checklist
 
-Every play this plan calls for (20), grouped by formation so you can favorite them formation by formation in the
+Every play this plan calls for (22), grouped by formation so you can favorite them formation by formation in the
 playbook. The number is its place in **Play rotation**.
 
 | Formation | Plays to favorite | Count |
@@ -254,10 +273,18 @@ playbook. The number is its place in **Play rotation**.
 | **Dime Rush** | Cover 6 (7) · Cover 2 Man (12) | 2 |
 | **Dime 2-3 Odd** | Cover 6 (8) · Cover 2 Man (13) | 2 |
 | **3-4 Tite** | Cover 1 Hole (18) | 1 |
-| **Goal Line 6-2** | MLB Gap A (20) | 1 |
+| **Goal Line 6-2** | MLB Gap A (20) · 60 Base (21) · 60 Pinch (22) | 3 |
 
 If your Favorites list has a limit, favorite rotation plays 1–13 first (all 8 Cover 6/9 plays plus the 5 man calls).
 **Unfavorite** every Double Bracket and 1 Double WR1 / WR2 play, every Cover 3 call and the Dime Rush blitzes.
 
 Calls 4–8 (Penny: Cover 9, Penny: Cover 6, Nickel 3-3 Over: Cover 6, Dime Rush: Cover 6, Dime 2-3 Odd: Cover 6) have been on your
 screen against him but don't have confirmed results yet. They're the same coverage family as Mint: Cover 9 / Cover 6 Willie.
+
+## Open questions (fill in as more games come in)
+
+- **Nov 9 goal-line front:** the panel confirmed 60 Pinch, 60 Base and GL Man. On the three TDs (57, 16, 17) and the 4th & 5 stop at
+  43:38, **Goal Line 6-2: 60 Half Out** was the last play on screen but the pick wasn't confirmed. If you called something else on those, the
+  "don't call 60 Half Out" line may be unfair to it.
+- **No Snag or slant was confirmed on Nov 9.** Either he went away from them, or they came on the snaps the panel didn't show
+  (about 80% of his snaps). One more game will tell.
